@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+ "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="account">
+
+ <!-- 
+ <select id="getList" parameterType="com.wtodel.Account" resultType="list" resultMap="accountMap.accountResultMap">
+   select * from account where username like '%' #{username} '%'
+ </select>
+  -->
+ <select id="getAllAccount" resultType="list" resultMap="accountMap.accountResultMap">
+   select * from account
+ </select>
+  
+ 
+ <!-- accountResultMap是account-resultmap.xml中定义的resultmap -->
+ <select id="get" parameterType="com.wt.model.Account" resultType="com.wt.model.Account" resultMap="accountMap.accountResultMap">
+  <![CDATA[
+   select * from account where id = #{id}
+        ]]>
+ </select>
+ 
+ 
+ <!-- 自动生成id策略 -->
+ <insert id="add" useGeneratedKeys="true" keyProperty="id" parameterType="com.wt.model.Account">
+  insert into account(id, username, password)
+  values(#{id,jdbcType=BIGINT}, #{username}, sha(#{password}))
+<!--将最后插入的逐渐返回到java对象-->
+  <selectKey resultType="int" keyProperty="id">
+   SELECT LAST_INSERT_ID()
+  </selectKey>
+  
+ </insert>
+  
+ <update id="edit" parameterType="com.wt.model.Account">
+  update account set
+  username = #{username},
+  password = #{password}
+  where id = #{id}
+ </update>
+ 
+ <delete id="remove" parameterType="com.wt.model.Account">
+  delete from account where id = #{id}
+ </delete>
+  
+</mapper> 
+

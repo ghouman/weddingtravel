@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+	xmlns:beans="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans  
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd  
+    http://www.springframework.org/schema/security  
+    http://www.springframework.org/schema/security/spring-security-3.0.xsd">
+
+	<!--
+		auto-config = true 则使用from-login. 如果不使用该属性 则默认为http-basic(没有session).
+		access-denied-page:出错后跳转到的错误页面;
+	-->
+	<http auto-config="true" access-denied-page="/common/403.jsp">
+		<!--
+			intercept-url:拦截器,可以设定哪些路径需要哪些权限来访问. filters=none 不使用过滤,也可以理解为忽略
+		-->
+		<intercept-url pattern="/index.jsp" access="ROLE_USER,ROLE_ADMIN" />
+		<intercept-url pattern="/login.jsp" filters="none" />
+		<intercept-url pattern="/common/**" filters="none" />
+		<intercept-url pattern="/script/**" filters="none" />
+		<intercept-url pattern="/admin.jsp" access="ROLE_ADMIN" />
+		<intercept-url pattern="/user.jsp" access="ROLE_USER" />
+
+		<!-- session-management是针对session的管理. 这里可以不配置. 如有需求可以配置. -->
+		<!--
+			id登陆唯一. 后登陆的账号会挤掉第一次登陆的账号 error-if-maximum-exceeded="true" 禁止2次登陆;
+			session-fixation-protection="none" 防止伪造sessionid攻击.
+			用户登录成功后会销毁用户当前的session. 创建新的session,并把用户信息复制到新session中.
+		-->
+		<session-management session-fixation-protection="none">
+			<concurrency-control />
+		</session-management>
+
+		<!--
+			login-page:默认指定的登录页面. authentication-failure-url:出错后跳转页面.
+			default-target-url:成功登陆后跳转页面
+		-->
+		<form-login login-page="/login.jsp"
+			authentication-failure-url="/login.jsp" default-target-url="/index.jsp" />
+		<!-- logout-success-url:成功注销后跳转到的页面; -->
+		<logout logout-success-url="/login.jsp" />
+		<http-basic />
+
+	</http>
+
+
+
+
+	<!-- 权限管理操作 -->
+	<authentication-manager>
+		<authentication-provider>
+			
+			<!-- 使用固定的用户名和密码及权限来做验证.    -->
+
+				<user-service> <user name="admin" password="admin"
+				authorities="ROLE_USER, ROLE_ADMIN" /> <user name="user"
+				password="user" authorities="ROLE_USER" /> </user-service>
+
+
+            <!--
+			<jdbc-user-service data-source-ref="dataSource"
+				users-by-username-query="select username,password,enabled
+                                        from account
+                                        where username=?"
+				authorities-by-username-query="select username,authority
+                                        from authorities
+                                        where username=?" />
+
+			<password-encoder hash="sha"/>
+                -->
+		</authentication-provider>
+	</authentication-manager>
+	<!--
+		<beans:bean id="userDetailsServiceImpl"
+		class="com.demo.test.service.impl.UserDetailsServiceImpl" />
+	-->
+
+
+
+</beans:beans>  
+
