@@ -48,17 +48,14 @@ public class TestAccountService {
 	@Test
 	public void testInsertAccount() {
 
-		// ����һ���ʻ�
 		Account account = new Account();
 		 //account.setAccountId(2);
 		account.setUsername("admin");
 		account.setPassword("admin");
 
-		// ���������ʻ����뵽��ݿ���
 		service.insertAccount(account);
 		// logger.debug("account id: " + account.getAccountId());
 
-		// ����ݿ��ȡ�ղŲ�����ʻ�
 		 //Account accountFromDb = service.getAccountById(account);
 		// assertNotNull(accountFromDb);
 		// assertEquals(account.getAccountId(), accountFromDb.getAccountId());
@@ -66,13 +63,11 @@ public class TestAccountService {
 	@Test
 	public void getAll() {
 
-		// ����һ���ʻ�
 		Account account = new Account();
 		 //account.setAccountId(2);
 		account.setUsername("selina");
 		account.setPassword("123456");
 
-		// ���������ʻ����뵽��ݿ���
 		List<Account> list = service.getAllAccount();
 		String jsonStr="";
 		for (Account account2 : list) {
@@ -92,7 +87,6 @@ public class TestAccountService {
 		System.out.println(jsonStr);
 		// logger.debug("account id: " + account.getAccountId());
 
-		// ����ݿ��ȡ�ղŲ�����ʻ�
 		 //Account accountFromDb = service.getAccountById(account);
 		// assertNotNull(accountFromDb);
 		// assertEquals(account.getAccountId(), accountFromDb.getAccountId());
