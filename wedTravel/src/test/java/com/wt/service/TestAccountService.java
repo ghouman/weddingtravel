@@ -34,17 +34,13 @@ public class TestAccountService {
 	@Test
 	public void remove() {
 
-		// ����һ���ʻ�
 		Account account = new Account();
-		// account.setId(36);
 		account.setUsername("selina");
 		account.setPassword("123456");
 
-		// ���������ʻ����뵽��ݿ���
 		service.remove("22|21|24|26|25");
 		// logger.debug("account id: " + account.getAccountId());
 
-		// ����ݿ��ȡ�ղŲ�����ʻ�
 		 //Account accountFromDb = service.getAccountById(account);
 		// assertNotNull(accountFromDb);
 		// assertEquals(account.getAccountId(), accountFromDb.getAccountId());
