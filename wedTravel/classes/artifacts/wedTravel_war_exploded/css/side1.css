@@ -1,0 +1,92 @@
+﻿
+div.wrapper {
+	width: 890px;
+	margin: 0 auto;
+	/*position: relative;*/
+	border:4px solid #3C9FD0;z-index:0;
+}
+.fn-clear {
+	zoom: 1;
+}
+.box_skitter {
+	position: relative;
+	background: none;
+	z-index:0;
+}
+.box_skitter ul {
+	display: none;z-index:0;
+}
+.box_skitter .container_skitter {
+	overflow: hidden;
+	position: relative;z-index:0;
+}
+.box_skitter .image {
+	overflow: hidden;
+}
+.box_skitter .image img {
+	display: none;
+}
+.box_skitter .box_clone {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100px;
+	overflow: hidden;
+	display: none;
+	z-index: 20;
+}
+.box_skitter .box_clone img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 20;
+}
+.box_skitter .prev_button {
+	position: absolute;
+	top: 50%;
+	left: -5px;
+	z-index: 100;
+	width: 57px;
+	height: 62px;
+	overflow: hidden;
+	text-indent: -9999em;
+	margin-top: -25px;
+	background: url(../images/prev.png) no-repeat left top !important;
+}
+.box_skitter .next_button {
+	position: absolute;
+	top: 50%;
+	right: -5px;
+	z-index: 100;
+	width: 57px;
+	height: 62px;
+	overflow: hidden;
+	text-indent: -9999em;
+	margin-top: -25px;
+	background: url(../images/next.png) no-repeat left top !important;
+}
+.box_skitter .label_skitter {
+	z-index: 150;
+	position: absolute;
+	display: none;
+}
+.loading {
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	z-index: 10000;
+	margin: -16px -16px;
+	color: #fff;
+	text-indent: -9999em;
+	overflow: hidden;
+	background: url(../images/ajax-loader.gif) no-repeat left top;
+	width: 31px;
+	height: 31px;
+}
+#slideshow {
+	width: 890px;
+	height: 340px;
+}
+#slideshow ul {
+	display: none;
+}

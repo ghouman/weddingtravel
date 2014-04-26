@@ -1,349 +1,64 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link media=all href="css/css.css" type="text/css" rel="stylesheet"/>
-<link href="css/side1.css" rel="stylesheet" />
-<title>海岛婚礼</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>海岛婚礼</title>
+
+    <link type="text/css" href="css/style.css" rel="stylesheet">
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.movingboxes.js"></script>
+    <script type="text/javascript" src="js/jq.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#focus').movingBoxes({
+                startPanel: 1,       // 从第一个li开始
+                reducedSize: .5,      // 缩小到原图50%的尺寸
+                wrap: true,   // 无缝循环
+                buildNav: true,	// 显示指示器效果
+                navFormatter: function () {
+                    return "&#9679;";
+                } // 指示器格式，为空即会显示123
+            });
+            menuFix();
+        });
+
+        function menuFix() {
+            var sfEls = document.getElementById("nav").getElementsByTagName("li");
+            for (var i = 0; i < sfEls.length; i++) {
+                sfEls[i].onmouseover = function () {
+                    this.className += (this.className.length > 0 ? " " : "") + "sfhover";
+                }
+                sfEls[i].onMouseDown = function () {
+                    this.className += (this.className.length > 0 ? " " : "") + "sfhover";
+                }
+                sfEls[i].onMouseUp = function () {
+                    this.className += (this.className.length > 0 ? " " : "") + "sfhover";
+                }
+                sfEls[i].onmouseout = function () {
+                    this.className = this.className.replace(new RegExp("( ?|^)sfhover\\b"),
+
+                            "");
+                }
+            }
+        }
+    </script>
+
 </head>
-
 <body>
-<div class="header">
-	<div class="w_m">
-		<div class="logo"></div>
-		<div class="search_con">
-			<select name="">
-				<option value="0">婚礼套餐</option>
-			</select>
-			<input name="" type="text" class="search_input"/>
-			<input name="" type="button" class="search_btn" title="点击查询"/>
-		</div>
-		<div class="clear"></div>
-		<div class="menus">
-		<script type=text/javascript>
-function menuFix() {
-	var sfEls = document.getElementById("nav").getElementsByTagName("li");
-	for (var i=0; i<sfEls.length; i++) {
-		sfEls[i].onmouseover=function() {
-		this.className+=(this.className.length>0? " ": "") + "sfhover";
-		}
-		sfEls[i].onMouseDown=function() {
-		this.className+=(this.className.length>0? " ": "") + "sfhover";
-		}
-		sfEls[i].onMouseUp=function() {
-		this.className+=(this.className.length>0? " ": "") + "sfhover";
-		}
-		sfEls[i].onmouseout=function() {
-		this.className=this.className.replace(new RegExp("( ?|^)sfhover\\b"), 
 
-"");
-		}
-	}
-}
-window.onload=menuFix;
 
-</script>	
-			<ul id="nav">
-				<li><a href="">海岛婚礼套餐</a>
-					<ul>
-						<li class="li_t"></li>
-						<li>
-							<a href="#">东南亚地区</a>
-						</li>
-						<li>
-							<a href="#">地中海地区</a>
-						</li>
-						<li class="li_b"></li>
-					</ul>
-				</li>
-			    <li>
-					<a href="">婚礼婚纱照摄影</a>
-					<ul>
-						<li class="li_t"></li>
-						<li>
-							<a href="#">东南亚地区</a>
-						</li>
-						<li>
-							<a href="#">地中海地区</a>
-						</li>
-						<li class="li_b"></li>
-					</ul>
-				</li>
-				<li>
-					<a href="">岛屿自助酒店</a>
-					<ul>
-						<li class="li_t"></li>
-						<li>
-							<a href="#">东南亚地区</a>
-						</li>
-						<li>
-							<a href="#">地中海地区</a>
-						</li>
-						<li class="li_b"></li>
-					</ul>
-				</li>
-				<li>
-					<a href="">婚礼蜜月自助</a>
-					<ul>
-						<li class="li_t"></li>
-						<li>
-							<a href="#">东南亚地区</a>
-						</li>
-						<li>
-							<a href="#">地中海地区</a>
-						</li>
-						<li class="li_b"></li>
-					</ul>
-				</li>
-				<li>
-					<a href="">婚礼案例</a>
-					<ul>
-						<li class="li_t"></li>
-						<li>
-							<a href="#">东南亚地区</a>
-						</li>
-						<li>
-							<a href="#">地中海地区</a>
-						</li>
-						<li class="li_b"></li>
-					</ul>
-				</li>
-				<li>
-					<a href="">疑难答案</a>
-				</li>
-				<li>
-					<a href="">公司介绍</a>
-				</li>
-				<li class="no_bg">
-					<a href="">订单购物车</a>
-				</li>
-			</ul>
-		</div>
-	</div>
-	<div class="w_m2 m_t15">
-		<div class="banner_l"> 
-			<div class="ranking_div">
-				<ul>
-					<li onclick="" class="li1">
-						<img src="images/popular/01.png" onmouseover="this.src='images/popular/01_h.png'" onmouseout="this.src='images/popular/01.png'"/>
-					</li>
-					<li onclick="" class="li2">
-						<img src="images/popular/02.png" onmouseover="this.src='images/popular/02_h.png'" onmouseout="this.src='images/popular/02.png'"/>
-					</li>
-					<li onclick="" class="li3">
-						<img src="images/popular/03.png" onmouseover="this.src='images/popular/03_h.png'" onmouseout="this.src='images/popular/03.png'"/>
-					</li>
-					<li onclick="" class="li4">
-						<img src="images/popular/04.png" onmouseover="this.src='images/popular/04_h.png'" onmouseout="this.src='images/popular/04.png'"/>
-					</li>
-					<li onclick="" class="li5">
-						<img src="images/popular/05.png" onmouseover="this.src='images/popular/05_h.png'" onmouseout="this.src='images/popular/05.png'"/>
-					</li>
-				</ul>
-				<div class="more_div" onclick="" title="查看更多">
-				<img src="images/popular/more.png"/>
-				</div>
-			</div>
-		</div>
-		<div class="banner_r"> 
-			  <div class="wrapper">
-				<div id="slideshow" class="box_skitter fn-clear">
-				  <ul>
-					<li><a href="#"><img alt="01" class="cubeRandom" src="images/index_side1.jpg" /></a></li>
-					<li><a href="#"><img alt="02" class="cubeRandom" src="images/index_side2.jpg" /></a></li>
-					<li><a href="#"><img alt="03" class="cubeRandom" src="images/index_side3.jpg" /></a></li>
-				  </ul>
-				</div>
-				<script type="text/javascript" src="js/side1.js"></script>
-			  </div>
-		</div>
-	</div>
-	<div class="w_m m_t20">
-	<div class="index_con_div">
-		 <div class="titles2 dz_title"><h2></h2><h3>一对一的服务，让你满意...</h3></div>
-		 <div class="con_div dz_con_div">
-		 	<ul>
-				<li>
-					<h5>您希望去的</h5>
-					<h2>婚礼国家
-					<select name="">
-					  <option value="0">请选择</option>
-					</select>
-					</h2>
-				</li>
-				<li>
-					<h5>您希望去的</h5>
-					<h2>婚礼地区
-					<select name="">
-					  <option value="0">请选择</option>
-					</select>
-					</h2>
-				</li>
-				<li>
-					<h5>您从国内的</h5>
-					<h2>何地出发
-					<select name="">
-					  <option value="0">请选择</option>
-					</select>
-					</h2>
-				</li>
-				<li>
-					<h5>您筹备的</h5>
-					<h2>婚礼预算
-					<select name="">
-					  <option value="0">请选择</option>
-					</select>
-					</h2>
-				</li>
-				<li>
-					<h5>您预计的</h5>
-					<h2>婚礼人数
-					<select name="">
-					  <option value="0">请选择</option>
-					</select>
-					</h2>
-				</li>
-				<li class="ok_li">
-					<input name="" type="button" value="确定" class="index_ok_btn"/>
-				</li>
-			</ul>
-		 </div>
-	</div>
-	</div>
-</div>
-<div class="w_m">
-	<div class="index_con_div">
-		<div class="index_zx_left">
-			<div class="titles2 zx_title"><h2></h2><span onclick="" title="查看更多"><img src="images/more.gif"/><span></div>
-			<div class="con_div zx_con_div">
-				<table width="100%" border="0" cellspacing="0" cellpadding="0">
-				  <tr>
-					<td width="160" valign="middle">
-						<img src="images/xz_nr.png"/>
-					</td>
-					<td valign="top">
-						<ul>
-							<li>
-								<a href="" class="grey_a">马尔代夫婚礼现场..</a>
-								<span><img src="images/new.png"/>14/01/22</span>
-							</li>
-							<li>
-								<a href="" class="grey_a">马尔代夫婚礼现场..</a>
-								<span>14/01/22</span>
-							</li>
-							<li>
-								<a href="" class="grey_a">马尔代夫婚礼现场..</a>
-								<span>14/01/22</span>
-							</li>
-							<li>
-								<a href="" class="grey_a">马尔代夫婚礼现场..</a>
-								<span>14/01/22</span>
-							</li>
-						</ul>
-					</td>
-				  </tr>
-				</table>
-			</div>
-		</div>
-		<div class="index_zx_right">
-			<div class="titles2 zx_title"><h2></h2><span onclick="" title="查看更多"><img src="images/more.gif"/><span></div>
-			<div class="con_div zx_con_div">
-				<table width="100%" border="0" cellspacing="0" cellpadding="0">
-				  <tr>
-					<td width="160" valign="middle">
-						<img src="images/xz_nr.png"/>
-					</td>
-					<td valign="top">
-						<ul>
-							<li>
-								<a href="" class="grey_a">马尔代夫婚礼现场..</a>
-								<span><img src="images/new.png"/>14/01/22</span>
-							</li>
-							<li>
-								<a href="" class="grey_a">马尔代夫婚礼现场..</a>
-								<span>14/01/22</span>
-							</li>
-							<li>
-								<a href="" class="grey_a">马尔代夫婚礼现场..</a>
-								<span>14/01/22</span>
-							</li>
-							<li>
-								<a href="" class="grey_a">马尔代夫婚礼现场..</a>
-								<span>14/01/22</span>
-							</li>
-						</ul>
-					</td>
-				  </tr>
-				</table>
-			</div>
-		</div>
-	</div>
-	<div class="index_con_div m_t20 show_pics">
-		<div class="show_pics_l">
-		</div>
-		<div class="show_pics_m">
-			<ul>
-				<li>
-					<img src="images/01.jpg"/>
-				</li>
-				<li>
-					<img src="images/01.jpg"/>
-				</li>
-				<li>
-					<img src="images/01.jpg"/>
-				</li>
-				<li class="lim">
-					<div class="lim_left"></div>
-					<div class="lim_m">
-						<img src="images/01.jpg"/>
-						<span>塞班岛的婚礼策划</span>
-					</div>
-					<div class="lim_right"></div>
-				</li>
-				<li>
-					<img src="images/01.jpg"/>
-				</li>
-				<li>
-					<img src="images/01.jpg"/>
-				</li>
-				<li>
-					<img src="images/01.jpg"/>
-				</li>
-			</ul>
-		</div>
-		<div class="show_pics_r">
-		</div>
-	</div>
-</div>
-<div class="bottom">
-	<div class="w_m">
-		<div class="link_con">
-			<div class="titles1 link_title"><h2>友情链接</h2></div>
-			<div class="link_m">
-				<a href="#" class="b_a">官方微博</a>&nbsp;|&nbsp;<a href="#" class="b_a">官方微博</a>&nbsp;|&nbsp;<a href="#" class="b_a">官方微博</a>&nbsp;|&nbsp;<a href="#" class="b_a">官方微博</a>&nbsp;|&nbsp;<a href="#" class="b_a">官方微博</a>&nbsp;|&nbsp;<a href="#" class="b_a">官方微博</a>&nbsp;|&nbsp;<a href="#" class="b_a">官方微博</a>&nbsp;|&nbsp;<a href="#" class="b_a">官方微博</a>&nbsp;|&nbsp;<a href="#" class="b_a">官方微博</a>&nbsp;|&nbsp;<a href="#" class="b_a">官方微博</a>&nbsp;|&nbsp;
-			</div>
-		</div>
-		<div class="contact_con m_t30">
-			<div class="titles1 contact_title"><h2>联系我们</h2></div>
-			<div class="contact_c">
-				<h2>13564829537</h2>
-				<h3>全国统一客服电话</h3>
-			</div>
-			<div class="contact_m">
-				<ul>
-					<li class="li1" title="QQ"></li>
-					<li class="li2" title="微博"></li>
-					<li class="li3" title="微信"></li>
-				</ul>
-			</div>
-		</div>
-		<div class="address_con m_t15">
-			<div class="titles1 addr_title">
-				<h2>联系地址</h2>
-				<h2>上海市静安区北京西路1000号</h2>
-			</div>
-		</div>
-	</div>
-</div>
+
+    <!-- 代码开始 -->
+    <ul id="focus">
+        <li><a href="#" target="_blank"><img src="images/01.jpg"></a></li>
+        <li><a href="#" target="_blank"><img src="images/01.jpg"></a></li>
+        <li><a href="#" target="_blank"><img src="images/01.jpg"></a></li>
+        <li><a href="#" target="_blank"><img src="images/01.jpg"></a></li>
+        <li><a href="#" target="_blank"><img src="images/01.jpg"></a></li>
+    </ul>
+    <!-- 代码结束 -->
+
 </body>
 </html>
