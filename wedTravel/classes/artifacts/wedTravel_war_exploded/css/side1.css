@@ -1,9 +1,17 @@
-﻿
-div.wrapper {
-	width: 890px;
+﻿.wrapper {
 	margin: 0 auto;
 	/*position: relative;*/
 	border:4px solid #3C9FD0;z-index:0;
+	-moz-border-radius: 5px;      /* Gecko browsers */
+    -webkit-border-radius: 5px;   /* Webkit browsers */
+    border-radius:5px;            /* W3C syntax */
+}
+.banner_r .wrapper {
+	width: 890px;
+}
+.banner .wrapper {
+	width: 1246px;
+	border:0;
 }
 .fn-clear {
 	zoom: 1;
@@ -83,9 +91,13 @@ div.wrapper {
 	width: 31px;
 	height: 31px;
 }
-#slideshow {
+.banner_r #slideshow {
 	width: 890px;
 	height: 340px;
+}
+.banner #slideshow {
+	width: 1246px;
+	height: 556px;
 }
 #slideshow ul {
 	display: none;

@@ -1,64 +1,121 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>海岛婚礼</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link media=all href="css/css.css" type="text/css" rel="stylesheet"/>
+<link href="css/side1.css" rel="stylesheet" />
+<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="js/index.js" charset="utf-8"></script>
 
-    <link type="text/css" href="css/style.css" rel="stylesheet">
-
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/jquery.movingboxes.js"></script>
-    <script type="text/javascript" src="js/jq.js"></script>
-    <script type="text/javascript">
-        $(function () {
-            $('#focus').movingBoxes({
-                startPanel: 1,       // 从第一个li开始
-                reducedSize: .5,      // 缩小到原图50%的尺寸
-                wrap: true,   // 无缝循环
-                buildNav: true,	// 显示指示器效果
-                navFormatter: function () {
-                    return "&#9679;";
-                } // 指示器格式，为空即会显示123
-            });
-            menuFix();
-        });
-
-        function menuFix() {
-            var sfEls = document.getElementById("nav").getElementsByTagName("li");
-            for (var i = 0; i < sfEls.length; i++) {
-                sfEls[i].onmouseover = function () {
-                    this.className += (this.className.length > 0 ? " " : "") + "sfhover";
-                }
-                sfEls[i].onMouseDown = function () {
-                    this.className += (this.className.length > 0 ? " " : "") + "sfhover";
-                }
-                sfEls[i].onMouseUp = function () {
-                    this.className += (this.className.length > 0 ? " " : "") + "sfhover";
-                }
-                sfEls[i].onmouseout = function () {
-                    this.className = this.className.replace(new RegExp("( ?|^)sfhover\\b"),
-
-                            "");
-                }
-            }
-        }
-    </script>
-
+<title>婚庆网站首页</title>
 </head>
+
 <body>
-
-
-
-    <!-- 代码开始 -->
-    <ul id="focus">
-        <li><a href="#" target="_blank"><img src="images/01.jpg"></a></li>
-        <li><a href="#" target="_blank"><img src="images/01.jpg"></a></li>
-        <li><a href="#" target="_blank"><img src="images/01.jpg"></a></li>
-        <li><a href="#" target="_blank"><img src="images/01.jpg"></a></li>
-        <li><a href="#" target="_blank"><img src="images/01.jpg"></a></li>
-    </ul>
-    <!-- 代码结束 -->
-
+ <iframe src="head_index.htm" scrolling="no" width="100%" height="680" frameborder="0"></iframe>
+<div class="w_m">
+	<div class="index_con_div">
+		<div class="index_zx_left">
+			<div class="titles2 zx_title"><h2></h2><span title="查看更多" onclick="location.href='list1.html'"><img src="images/more.gif"/></span></div>
+			<div class="con_div zx_con_div">
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				  <tr>
+					<td width="160" valign="middle">
+						<img src="images/xz_nr.png"/>
+					</td>
+					<td valign="top">
+						<ul>
+							<li>
+								<a href="" class="grey_a">马尔代夫婚礼现场..</a>
+								<span><img src="images/new.png"/>14/01/22</span>
+							</li>
+							<li>
+								<a href="" class="grey_a">马尔代夫婚礼现场..</a>
+								<span>14/01/22</span>
+							</li>
+							<li>
+								<a href="" class="grey_a">马尔代夫婚礼现场..</a>
+								<span>14/01/22</span>
+							</li>
+							<li>
+								<a href="" class="grey_a">马尔代夫婚礼现场..</a>
+								<span>14/01/22</span>
+							</li>
+						</ul>
+					</td>
+				  </tr>
+				</table>
+			</div>
+		</div>
+		<div class="index_zx_right">
+			<div class="titles2 zx_title"><h2></h2><span title="查看更多" onclick="location.href='list1.html'"><img src="images/more.gif"/></span></div>
+			<div class="con_div zx_con_div">
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				  <tr>
+					<td width="160" valign="middle">
+						<img src="images/xz_nr.png"/>
+					</td>
+					<td valign="top">
+						<ul>
+							<li>
+								<a href="" class="grey_a">马尔代夫婚礼现场..</a>
+								<span><img src="images/new.png"/>14/01/22</span>
+							</li>
+							<li>
+								<a href="" class="grey_a">马尔代夫婚礼现场..</a>
+								<span>14/01/22</span>
+							</li>
+							<li>
+								<a href="" class="grey_a">马尔代夫婚礼现场..</a>
+								<span>14/01/22</span>
+							</li>
+							<li>
+								<a href="" class="grey_a">马尔代夫婚礼现场..</a>
+								<span>14/01/22</span>
+							</li>
+						</ul>
+					</td>
+				  </tr>
+				</table>
+			</div>
+		</div>
+	</div>
+	<div class="index_con_div m_t20 show_pics">
+		<div class="show_pics_l">
+		</div>
+		<div class="show_pics_m">
+			<ul>
+				<li>
+					<img src="images/01.jpg"/>
+				</li>
+				<li>
+					<img src="images/02.jpg"/>
+				</li>
+				<li>
+					<img src="images/01.jpg"/>
+				</li>
+				<li class="lim">
+					<div class="lim_left" onclick="csleft()"></div>
+					<div class="lim_m">
+						<img src="images/02.jpg"/>
+						<span>塞班岛的婚礼策划</span>
+					</div>
+					<div class="lim_right" onclick="csright()"></div>
+				</li>
+				<li>
+					<img src="images/01.jpg"/>
+				</li>
+				<li>
+					<img src="images/02.jpg"/>
+				</li>
+				<li>
+					<img src="images/01.jpg"/>
+				</li>
+			</ul>
+		</div>
+		<div class="show_pics_r">
+		</div>
+	</div>
+</div>
+ <iframe src="bottom.htm" scrolling="no" width="100%" height="240" frameborder="0"></iframe>
 </body>
 </html>

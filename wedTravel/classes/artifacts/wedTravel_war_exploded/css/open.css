@@ -1,0 +1,26 @@
+#diceng{width:300px;height:100px;background:#CF3;z-index:1;}
+.popup{width:100%; display:none; border:10px solid #ccc; position:absolute;padding:0;margin:0;z-index:1001;overflow:hidden;}
+#shade, #shade0, #shade1, #shade2, #shade3, #shade4{width:100%;height:100%;background:#000;display:none;position:absolute;top:0;left:0;opacity:0.3; filter:alpha(opacity:30);z-index:1000;}
+.popup .top1{width:100%;background:#a6c9e1; height:10px;opacity:0.5; filter:alpha(opacity:50);overflow:hidden;}
+
+.popup .center{width:100%;overflow:hidden;}
+.popup .center .left{float:left;width:10px;background:#a6c9e1;opacity:0.5;filter:alpha(opacity:50);overflow:hidden;}
+
+.popup .center .content{float:left;	width:100%;background:#FFF;overflow:hidden;border:1px solid #a6c9e1; position:relative;}
+
+.popup .center .content .content1{ width: 100%; margin: 0 auto;padding:0; overflow:hidden;}
+.center .content .content1 .c_left{ float: left; text-align:right; width: 100px; margin-top: 30px; margin-left:70px;}
+.center .content .content1 .c_left .a1{display: block; height: 26px;font-size: 12px; font-weight: bold;  }
+.center .content .content1 .c_left .a2{ display: block; height: 26px; font-size: 12px; font-weight: bold;}
+.center .content .content1 .c_left .xh{ color: #F00;}
+.center .content .content1 .c_right{ float: left; width: 110px;margin-top: 20px; height: 100px;}
+.center .content .content1 .c_right input{ margin-top:5px;}
+.center .content .content1 .c_bottom{text-align:center;height:30px; line-height:30px; padding:4px 0; background:#f9f9f9; border-top:1px solid #e8e6e6; width:100%; position:absolute; bottom:0; left:0;}
+
+.popup_drag{width:100%;height:30px; background:url(../images/tipbg.png) top repeat-x;acursor:move; cursor:move;overflow:hidden;line-height:30px;color:#666;font-size:12px; border-bottom:1px solid #a6c9e1;}
+.popup_drag .title{float:left;width:100px;padding-left:1em;font-size:14px;font-weight:bold;}
+.popup_drag .popup_exit
+{padding-right:10px; width:50px; height:30px; padding-top:0px;float:right;cursor:pointer;background:url(../images/tipbg.png) 0 -40px;}
+.mainlist{padding:0 4px; overflow:hidden;  overflow:hidden; overflow-y:auto;}
+
+

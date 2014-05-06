@@ -1,0 +1,57 @@
+
+.tag_scroll{ width:100%; overflow:hidden; height:160px; position:relative; }
+.tag_scroll_inner{ height:160px; overflow:hidden; margin-left:6px;}
+.tag_scroll ul{ width:700px; margin-top:6px; float:left; overflow:hidden; }
+.tag_scroll .pic{ width:154px; margin:0 0 0 10px; overflow:hidden;float:left;background:url(../images/dotline3.png) no-repeat right; padding-right:10px;}
+.tag_scroll .pic img{width:148px; height:110px; border:3px solid #fff;}
+.tag_scroll .pic:hover img{border:3px solid #ccc;}
+.tag_scroll .piclist_p1{ color:#000; padding-left:10px; font-weight:bold; line-height:22px;}
+.tag_scroll .piclist_p2{ color:#666;padding-left:10px; line-height:18px;}
+
+.tag_scroll .btn_l, .tag_scroll .btn_r{ display:block; width:15px;
+	height:180px; background:url(../images/left_right.png) no-repeat 0 0; position:absolute; top:0px; cursor:pointer; z-index:100;}
+.tag_scroll .btn_l{ left:0;}
+.tag_scroll .btn_r{ background:url(../images/left_right.png) no-repeat right 0; right:0;}
+
+
+.area_scroll{ width:100%; overflow:hidden; height:80px; position:relative; }
+.area_scroll_inner{ height:70px; overflow:hidden; margin-left:7px; }
+.area_scroll ul{ width:261px; margin-top:6px; float:left; overflow:hidden; }
+.area_scroll .pic{ width:84px; margin:0 3px 0 0; float:left;}
+.area_scroll .pic img{ width:83px; height:62px; border:1px solid #fff; overflow:hidden;}
+.area_scroll .pic:hover img{border:1px solid #79AED9;}
+.area_scroll .btn_l, .area_scroll .btn_r{ display:block; width:20px;
+	height:70px; background:url(../images/left_right2.png) no-repeat 0 0; position:absolute; top:0px; cursor:pointer; z-index:100;}
+.area_scroll .btn_l{ left:0;}
+.area_scroll .btn_r{ background:url(../images/left_right2.png) no-repeat right 0; right:0;}
+
+.area_scroll2{ width:100%; overflow:hidden; height:80px; position:relative; background:url(../images/area_scroll2_bg.png) no-repeat center;}
+.area_scroll2 p{ margin:7px 0 0 34px; padding:0; line-height:18px; font-size:12px;}
+.area_scroll2_inner{ height:70px; margin-top:-8px; overflow:hidden; margin-left:34px; }
+.area_scroll2 ul{ width:248px; margin-top:6px; float:left; overflow:hidden; }
+.area_scroll2 .pic{ width:55px; margin:0 7px 0 0; float:left;}
+.area_scroll2 .pic img{ width:55px; height:40px; border:1px solid #fff; overflow:hidden;}
+.area_scroll2 .pic:hover img{border:1px solid #79AED9;}
+.area_scroll2 .btn_l, .area_scroll2 .btn_r{ display:block; width:20px;
+	height:70px; background:url(../images/left_right3.png) no-repeat 0 0; position:absolute; top:4px; cursor:pointer; z-index:100;}
+.area_scroll2 .btn_l{ left:10px;}
+.area_scroll2 .btn_r{ background:url(../images/left_right3.png) no-repeat right 0; right:10px;}
+
+.map_scroll{ width:100%; overflow:hidden; height:470px; position:relative; }
+.map_scroll_inner{ height:470px; overflow:hidden; margin-left:6px;}
+.map_scroll ul{ width:700px; margin-top:6px; float:left; overflow:hidden; }
+.map_scroll .pic{ width:700px; margin:0; overflow:hidden;float:left; padding-right:0px; position:relative;}
+.map_scroll .pic img{width:700px; height:470px; border:0px solid #fff;}
+.map_scroll .pic .map_img{ position:absolute; top:0; left:0;}
+.map_scroll .pic:hover img{border:0px solid #ccc;}
+.map_scroll .piclist_p1{ color:#000; padding-left:10px; font-weight:bold; line-height:22px;}
+.map_scroll .piclist_p2{ color:#666;padding-left:10px; line-height:18px;}
+
+.map_scroll .btn_l, .map_scroll .btn_r{ display:block; width:15px;
+	height:180px; background:none; position:absolute; top:0px; cursor:pointer; z-index:100;}
+.map_scroll .btn_l{ left:0;}
+.map_scroll .btn_r{ background:none; right:0;}
+
+
+
+

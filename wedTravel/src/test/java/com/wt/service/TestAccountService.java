@@ -54,11 +54,7 @@ public class TestAccountService {
 		account.setPassword("admin");
 
 		service.insertAccount(account);
-		// logger.debug("account id: " + account.getAccountId());
 
-		 //Account accountFromDb = service.getAccountById(account);
-		// assertNotNull(accountFromDb);
-		// assertEquals(account.getAccountId(), accountFromDb.getAccountId());
 	}
 	@Test
 	public void getAll() {

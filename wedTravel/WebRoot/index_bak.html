@@ -7,9 +7,10 @@
 <title>婚庆网站首页</title>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src='js/jquery.slider.js'></script>
+<script type="text/javascript" src='js/index.js'></script>
 	<script>
 		$(function(){
-			$('.show_pics').mySlider({  //参数可选,以下为默认参数
+			/*$('.show_pics').mySlider({  //参数可选,以下为默认参数
 					speed: 300,
 					direction: 'left', //  运动方向 可选 left,top
 					prevClass: 'lim_left',
@@ -17,7 +18,7 @@
 					prevClass: 'lim_left',
 					wrapperClass: 'show_pics_m',
 					moveClass: 'slider-move'
-			});
+			});*/
 		});
 	</script>
 </head>
@@ -308,12 +309,12 @@ window.onload=menuFix;
 					<img src="ico/3.jpg"/>
 				</li>
 				<li class="lim">
-					<div class="lim_left"></div>
+					<div class="lim_left" onclick="csleft()"></div>
 					<div class="lim_m">
 						<img src="ico/4.jpg"/>
 						<span>塞班岛的婚礼策划</span>
 					</div>
-					<div class="lim_right"></div>
+					<div class="lim_right" onclick="csright()"></div>
 				</li>
 				<li>
 					<img src="ico/5.jpg"/>

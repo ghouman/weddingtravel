@@ -5,17 +5,40 @@
     <ignored path="Permissions.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/../IWT/.idea/workspace.xml" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1397402597527" ignored="false" />
-    <file path="/jdbc.properties" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1397400726076" ignored="false" />
-    <file path="/a.dummy" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1397486208045" ignored="false" />
+    <file path="/jdbc.properties" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399302738401" ignored="false" />
+    <file path="/a.dummy" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399298717371" ignored="false" />
     <file path="/applicationContext.xml" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1397486257012" ignored="false" />
-    <file path="/web.xml" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1397489254592" ignored="false" />
-    <file path="/index.html" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1398178735486" ignored="false" />
+    <file path="/web.xml" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399387971860" ignored="false" />
+    <file path="/index.html" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1398870075060" ignored="false" />
     <file path="/log4j.properties" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1397489686607" ignored="false" />
     <file path="/user.js" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1397490525711" ignored="false" />
-    <file path="/fragment.java" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1397657713295" ignored="false" />
+    <file path="/fragment.java" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399304586176" ignored="false" />
     <file path="/CommonDao.java" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1397657898036" ignored="false" />
     <file path="/index_bak.html" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1398353834732" ignored="false" />
     <file path="/jquery.slider.js" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1398353496287" ignored="false" />
+    <file path="/index.js" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399217592241" ignored="false" />
+    <file path="/index.jsp" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399396764583" ignored="false" />
+    <file path="/head_index.jsp" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399391500474" ignored="false" />
+    <file path="D:/myWorkSpace/weigaoSys/src/main/resources/org/mybatis/weigao/persistence/CustomerSurveyMapper.xml" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399301567841" ignored="false" />
+    <file path="D:/myWorkSpace/weigaoSys/WebContent/WEB-INF/jsp/weigao/addCustomerSurvey.jsp" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399299384347" ignored="false" />
+    <file path="/addCustomerSurvey.jsp" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399299377430" ignored="false" />
+    <file path="D:/myWorkSpace/weigaoSys/WebContent/WEB-INF/jsp/weigao/updateCustomerSurvey.jsp" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399299420338" ignored="false" />
+    <file path="/updateCustomerSurvey.jsp" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399299415123" ignored="false" />
+    <file path="/Recommend.java" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399386145641" ignored="false" />
+    <file path="/RecommendService.java" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399386383628" ignored="false" />
+    <file path="/RecommendDao.java" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399391920088" ignored="false" />
+    <file path="/RecommendAction.java" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399390264465" ignored="false" />
+    <file path="/struts.xml" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399390835267" ignored="false" />
+    <file path="/welcome.jsp" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399387979994" ignored="false" />
+    <file path="E:/test_workspace/springibatis/src/com/us/jack/action/SBookAction.java" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399389913714" ignored="false" />
+    <file path="E:/test_workspace/springibatis/src/com/us/jack/action/sbookAction.xml" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399389913714" ignored="false" />
+    <file path="E:/test_workspace/springibatis/src/com/us/jack/config/applicationContext-services.xml" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399389913714" ignored="false" />
+    <file path="E:/test_workspace/springibatis/src/com/us/jack/config/applicationContext.xml" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399389913714" ignored="false" />
+    <file path="E:/test_workspace/springibatis/src/com/us/jack/config/dataAccessContext.xml" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399389913714" ignored="false" />
+    <file path="E:/test_workspace/springibatis/src/struts.properties" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399389914074" ignored="false" />
+    <file path="E:/test_workspace/springibatis/src/struts.xml" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399389913714" ignored="false" />
+    <file path="E:/test_workspace/springibatis/src/com/us/jack/config/sqlMapConfig.xml" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399389913714" ignored="false" />
+    <file path="E:/test_workspace/springibatis/src/com/us/jack/dao/impl/maps/SBook.xml" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399389913714" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,24 +53,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/test/java/com/wt/service/TestAccountService.java" line="81" class="com.wt.service.TestAccountService" package="com.wt.service">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -82,6 +87,52 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/test/java/com/wt/service/TestAccountService.java" line="77" class="com.wt.service.TestAccountService" package="com.wt.service">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/wt/action/RecommendAction.java" line="36" class="com.wt.action.RecommendAction" package="com.wt.action">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/wt/action/RecommendAction.java" line="38" class="com.wt.action.RecommendAction" package="com.wt.action">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
+    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -92,27 +143,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index_bak.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebRoot/index_bak.html">
+      <file leaf-file-name="index.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="310" column="52" selection-start="7926" selection-end="7954" vertical-scroll-proportion="0.0">
+            <state line="95" column="51" selection-start="4131" selection-end="4131" vertical-scroll-proportion="0.36599424">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="side1.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebRoot/js/side1.js">
+      <file leaf-file-name="head_index.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/head_index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="49" selection-start="2460" selection-end="2460" vertical-scroll-proportion="0.0">
+            <state line="178" column="43" selection-start="4826" selection-end="4830" vertical-scroll-proportion="-4.967742">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RecommendDao.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/dao/RecommendDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="27" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0">
               <folding>
-                <marker date="1398345870853" expanded="false" signature="30203:30234" placeholder="..." />
-                <marker date="1398345870853" expanded="false" signature="32426:32436" placeholder="..." />
-                <marker date="1398345870853" expanded="false" signature="32527:32558" placeholder="..." />
-                <marker date="1398345870853" expanded="false" signature="151072:151165" placeholder="..." />
-                <marker date="1398345870853" expanded="false" signature="151198:151291" placeholder="..." />
-                <marker date="1398345870853" expanded="false" signature="171332:171344" placeholder="..." />
+                <element signature="e#715#726#0" expanded="true" />
+                <element signature="e#4549#4579#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="head_1.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/head_1.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="221" column="7" selection-start="8230" selection-end="8230" vertical-scroll-proportion="-109.064514">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="head.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/head.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="128" column="17" selection-start="4663" selection-end="4663" vertical-scroll-proportion="-73.548386">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bottom.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/bottom.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="14" selection-start="74" selection-end="74" vertical-scroll-proportion="1.4193548">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -120,48 +203,35 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebRoot/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="70" selection-start="349" selection-end="408" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="4.2580647">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.movingboxes.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebRoot/js/jquery.movingboxes.js">
+      <file leaf-file-name="RecommendAction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/action/RecommendAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="510" column="76" selection-start="19224" selection-end="19224" vertical-scroll-proportion="0.0">
+            <state line="39" column="45" selection-start="1278" selection-end="1278" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.slider.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebRoot/js/jquery.slider.js">
+      <file leaf-file-name="RecommendService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/service/RecommendService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="22" selection-start="1137" selection-end="1137" vertical-scroll-proportion="0.0">
+            <state line="26" column="38" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestAccountService.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/wt/service/TestAccountService.java">
+      <file leaf-file-name="Recommend.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/model/Recommend.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="113" selection-start="1647" selection-end="1647" vertical-scroll-proportion="0.66978925">
+            <state line="16" column="25" selection-start="368" selection-end="375" vertical-scroll-proportion="0.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery_1.7.1.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebRoot/js/jquery_1.7.1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1337047350000" expanded="false" signature="34236:34267" placeholder="..." />
-                <marker date="1337047350000" expanded="false" signature="41238:41269" placeholder="..." />
-                <marker date="1337047350000" expanded="false" signature="42316:42326" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -173,24 +243,28 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/index.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-        <option value="$USER_HOME$/.IntelliJIdea12/system/tomcat/Unnamed_WedTravel/conf/web.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/wt/service/TestAccountService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext-security.xml" />
-        <option value="$PROJECT_DIR$/WebRoot/joy.html" />
-        <option value="$PROJECT_DIR$/WebRoot/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/WebRoot/js/user.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wt/action/AccountAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wt/dao/CommonDao.java" />
-        <option value="$PROJECT_DIR$/WebRoot/index.html" />
+        <option value="$PROJECT_DIR$/WebRoot/index.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/head_index.jsp" />
         <option value="$PROJECT_DIR$/WebRoot/js/side1.js" />
-        <option value="$PROJECT_DIR$/WebRoot/js/jquery.slider.js" />
-        <option value="$PROJECT_DIR$/WebRoot/index_bak.html" />
+        <option value="$PROJECT_DIR$/WebRoot/js/index.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wt/dao/AccountDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wt/model/Recommend.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wt/service/RecommendService.java" />
+        <option value="$PROJECT_DIR$/WebRoot/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/WebRoot/welcome.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/struts.xml" />
+        <option value="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/head.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/head_index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wt/dao/RecommendDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wt/action/RecommendAction.java" />
+        <option value="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/index.jsp" />
       </list>
     </option>
   </component>
@@ -207,6 +281,28 @@
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>BadExpressionStatementJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -234,8 +330,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -300,7 +396,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -318,7 +418,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ico" />
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jstl.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WedTravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wedTravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebRoot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -339,6 +469,14 @@
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -357,43 +495,223 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WedTravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wedTravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WedTravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wedTravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WedTravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wedTravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WedTravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wedTravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WedTravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wedTravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WedTravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wedTravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="action" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.29782084" />
     <property name="options.lastSelected" value="File.Encoding" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/test_workspace/springibatis" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.wt.dao" />
+      <recent name="com.wt.action" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ghm\Documents\GitHub\weddingtravel\wedTravel\WebRoot\ico" />
+      <recent name="C:\Users\ghm\Documents\GitHub\weddingtravel\wedTravel\WebRoot\WEB-INF\lib" />
+      <recent name="C:\Users\ghm\Documents\GitHub\weddingtravel\wedTravel\WebRoot\WEB-INF\jsp" />
       <recent name="C:\Users\ghm\Documents\GitHub\weddingtravel\wedTravel\WebRoot\js" />
-      <recent name="C:\Users\ghm\Documents\GitHub\weddingtravel\wedTravel\WebRoot" />
-      <recent name="C:\Users\ghm\Documents\GitHub\weddingtravel\wedTravel\WebRoot\images" />
       <recent name="C:\Users\ghm\Documents\GitHub\weddingtravel\wedTravel\WebRoot\css" />
+      <recent name="C:\Users\ghm\Documents\GitHub\weddingtravel\wedTravel\WebRoot\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ghm\Documents\GitHub\weddingtravel\wedTravel\WebRoot\WEB-INF\jsp" />
+      <recent name="C:\Users\ghm\Documents\GitHub\weddingtravel\wedTravel\WebRoot" />
       <recent name="C:\Users\ghm\Documents\GitHub\weddingtravel\wedTravel\WebRoot\js\bootstrap" />
       <recent name="D:\myWorkSpace\wedTravel\WebRoot\js" />
     </key>
@@ -711,32 +1029,32 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6974359" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43589744" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16410257" sideWeight="0.49772727" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44273505" sideWeight="0.5037879" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25075758" sideWeight="0.12991454" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41880342" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11794872" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.56742424" sideWeight="0.83589745" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16410257" sideWeight="0.4969697" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25075758" sideWeight="0.75213677" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24786325" sideWeight="0.4909091" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.51623935" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41880342" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -801,107 +1119,120 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/service/AccountService.java">
+    <entry file="file://$PROJECT_DIR$/WebRoot/welcome.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/model/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wt/model/account-mapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="32" selection-start="510" selection-end="510" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/dao/AccountDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="257" selection-end="268" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/dao/CommonDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="5" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/css/side1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/js/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/js/jquery.movingboxes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="510" column="76" selection-start="19224" selection-end="19224" vertical-scroll-proportion="0.0">
+        <state line="2" column="19" selection-start="117" selection-end="117" vertical-scroll-proportion="-1.4193548">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/ico/7.jpg">
-      <provider selected="true" editor-type-id="images">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/xwork-core-2.2.3.jar!/com/opensymphony/xwork2/DefaultActionInvocation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="31" selection-start="4245" selection-end="4245" vertical-scroll-proportion="0.4082569">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="21.12">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="73" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/bottom.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="14" selection-start="74" selection-end="74" vertical-scroll-proportion="1.4193548">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/head_1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="221" column="7" selection-start="8230" selection-end="8230" vertical-scroll-proportion="-109.064514">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/head.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="128" column="17" selection-start="4663" selection-end="4663" vertical-scroll-proportion="-73.548386">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/model/Recommend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="25" selection-start="368" selection-end="375" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/head_index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="178" column="43" selection-start="4826" selection-end="4830" vertical-scroll-proportion="-4.967742">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/service/RecommendService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="38" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/dao/RecommendDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="27" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#715#726#0" expanded="true" />
+            <element signature="e#4549#4579#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebRoot/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="70" selection-start="349" selection-end="408" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="4.2580647">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/index_bak.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/action/RecommendAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="310" column="52" selection-start="7926" selection-end="7954" vertical-scroll-proportion="0.0">
+        <state line="39" column="45" selection-start="1278" selection-end="1278" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/js/side1.js">
+    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="49" selection-start="2460" selection-end="2460" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1398345870853" expanded="false" signature="30203:30234" placeholder="..." />
-            <marker date="1398345870853" expanded="false" signature="32426:32436" placeholder="..." />
-            <marker date="1398345870853" expanded="false" signature="32527:32558" placeholder="..." />
-            <marker date="1398345870853" expanded="false" signature="151072:151165" placeholder="..." />
-            <marker date="1398345870853" expanded="false" signature="151198:151291" placeholder="..." />
-            <marker date="1398345870853" expanded="false" signature="171332:171344" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/js/jquery_1.7.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1337047350000" expanded="false" signature="34236:34267" placeholder="..." />
-            <marker date="1337047350000" expanded="false" signature="41238:41269" placeholder="..." />
-            <marker date="1337047350000" expanded="false" signature="42316:42326" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/js/jquery.slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="22" selection-start="1137" selection-end="1137" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wt/service/TestAccountService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="113" selection-start="1647" selection-end="1647" vertical-scroll-proportion="0.66978925">
+        <state line="95" column="51" selection-start="4131" selection-end="4131" vertical-scroll-proportion="0.36599424">
           <folding />
         </state>
       </provider>
@@ -925,7 +1256,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web (wedTravel)|Web</last-edited>
+          <last-edited>Struts 2 (wedTravel)|Struts 2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
