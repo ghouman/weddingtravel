@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
-	xmlns:context="http://www.springframework.org/schema/context"
-	xmlns:jee="http://www.springframework.org/schema/jee" xmlns:tx="http://www.springframework.org/schema/tx"
-	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:jee="http://www.springframework.org/schema/jee" xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
    			http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
    			http://www.springframework.org/schema/context 
    			http://www.springframework.org/schema/context/spring-context-2.5.xsd
@@ -12,52 +12,60 @@
    			http://www.springframework.org/schema/tx 
    			http://www.springframework.org/schema/tx/spring-tx-2.5.xsd">
 
-	<bean
-		class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator" />
+    <bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"/>
 
-	<bean
-		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
-		<property name="locations">
-			<value>classpath:jdbc.properties</value>
-		</property>
-	</bean>
-	
-	<bean id="dataSource"
-		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-		<property name="driverClassName" value="${jdbc.driverClassName}" />
-		<property name="url"
-			value="${jdbc.url}" />
-		<property name="username" value="${jdbc.username}" />
-		<property name="password" value="${jdbc.password}" />
-	</bean>
+    <bean
+            class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <value>classpath:jdbc.properties</value>
+        </property>
+    </bean>
 
-	<!--
-		配置事务管理器，注意这里的dataSource和SqlSessionFactoryBean的dataSource要一致，不然事务就没有作用了
-	-->
-	<bean id="transactionManager"
-		class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
-		<property name="dataSource" ref="dataSource" />
-	</bean>
+    <bean id="dataSource"
+          class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="${jdbc.driverClassName}"/>
+        <property name="url"
+                  value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
 
-	<tx:annotation-driven transaction-manager="transactionManager" />
-	<!-- myBatis文件 -->
+    <!--
+        配置事务管理器，注意这里的dataSource和SqlSessionFactoryBean的dataSource要一致，不然事务就没有作用了
+    -->
+    <bean id="transactionManager"
+          class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
 
-	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
-		<property name="configLocation" value="classpath:mybatis.xml" />
-		<property name="mapperLocations" value="classpath*:com/wt/model/*.xml" />
-		<property name="dataSource" ref="dataSource" />
-	</bean>
-<!-- 
-	<bean id="accountDao" class="com.wtao.AccountDao">
-		<property name="sessionFactory" ref="sqlSessionFactory" />
-	</bean>
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+    <!-- myBatis文件 -->
 
-	<bean id="accountService" class="com.wtervice.AccountService">
-		<property name="accountDao" ref="accountDao" />
-	</bean>
- -->
-	<context:annotation-config />
-	<context:component-scan base-package="com.wt" />
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+                <property name="configLocation" value="classpath:mybatis.xml" />
+                <property name="mapperLocations" value="classpath*:com/wt/model/*.xml" />
+                <property name="dataSource" ref="dataSource" />
+            </bean>
+
+
+
+    <!-- scan for mappers and let them be autowired -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.wt.mapping"/>
+    </bean>
+    <!--
+        <bean id="accountDao" class="com.wtao.AccountDao">
+            <property name="sessionFactory" ref="sqlSessionFactory" />
+        </bean>
+
+        <bean id="accountService" class="com.wtervice.AccountService">
+            <property name="accountDao" ref="accountDao" />
+        </bean>
+     -->
+    <!-- enable component scanning (beware that this does not enable mapper scanning!) -->
+    <context:component-scan base-package="com.wt"/>
+    <!-- enable autowire -->
+    <context:annotation-config/>
 
 
 </beans>

@@ -7,7 +7,7 @@
     <file path="$PROJECT_DIR$/../IWT/.idea/workspace.xml" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1397402597527" ignored="false" />
     <file path="/jdbc.properties" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399302738401" ignored="false" />
     <file path="/a.dummy" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399298717371" ignored="false" />
-    <file path="/applicationContext.xml" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1397486257012" ignored="false" />
+    <file path="/applicationContext.xml" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399476365156" ignored="false" />
     <file path="/web.xml" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399387971860" ignored="false" />
     <file path="/index.html" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1398870075060" ignored="false" />
     <file path="/log4j.properties" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1397489686607" ignored="false" />
@@ -17,17 +17,17 @@
     <file path="/index_bak.html" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1398353834732" ignored="false" />
     <file path="/jquery.slider.js" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1398353496287" ignored="false" />
     <file path="/index.js" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399217592241" ignored="false" />
-    <file path="/index.jsp" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399396764583" ignored="false" />
-    <file path="/head_index.jsp" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399391500474" ignored="false" />
+    <file path="/index.jsp" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399478600019" ignored="false" />
+    <file path="/head_index.jsp" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399477810333" ignored="false" />
     <file path="D:/myWorkSpace/weigaoSys/src/main/resources/org/mybatis/weigao/persistence/CustomerSurveyMapper.xml" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399301567841" ignored="false" />
     <file path="D:/myWorkSpace/weigaoSys/WebContent/WEB-INF/jsp/weigao/addCustomerSurvey.jsp" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399299384347" ignored="false" />
     <file path="/addCustomerSurvey.jsp" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399299377430" ignored="false" />
     <file path="D:/myWorkSpace/weigaoSys/WebContent/WEB-INF/jsp/weigao/updateCustomerSurvey.jsp" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399299420338" ignored="false" />
     <file path="/updateCustomerSurvey.jsp" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399299415123" ignored="false" />
     <file path="/Recommend.java" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399386145641" ignored="false" />
-    <file path="/RecommendService.java" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399386383628" ignored="false" />
-    <file path="/RecommendDao.java" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399391920088" ignored="false" />
-    <file path="/RecommendAction.java" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399390264465" ignored="false" />
+    <file path="/RecommendService.java" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399474041921" ignored="false" />
+    <file path="/RecommendDao.java" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399473597162" ignored="false" />
+    <file path="/RecommendAction.java" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399474145901" ignored="false" />
     <file path="/struts.xml" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399390835267" ignored="false" />
     <file path="/welcome.jsp" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399387979994" ignored="false" />
     <file path="E:/test_workspace/springibatis/src/com/us/jack/action/SBookAction.java" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399389913714" ignored="false" />
@@ -39,6 +39,10 @@
     <file path="E:/test_workspace/springibatis/src/struts.xml" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399389913714" ignored="false" />
     <file path="E:/test_workspace/springibatis/src/com/us/jack/config/sqlMapConfig.xml" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399389913714" ignored="false" />
     <file path="E:/test_workspace/springibatis/src/com/us/jack/dao/impl/maps/SBook.xml" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399389913714" ignored="false" />
+    <file path="/list1.html" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399465309578" ignored="false" />
+    <file path="/test.sql" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399471029626" ignored="false" />
+    <file path="/RecommendMapper.java" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399473228633" ignored="false" />
+    <file path="/RecommendDaoImpl.java" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399475107396" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +57,79 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/test/java/com/wt/service/TestAccountService.java" line="77" class="com.wt.service.TestAccountService" package="com.wt.service">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/wt/action/RecommendAction.java" line="30" class="com.wt.action.RecommendAction" package="com.wt.action">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/wt/action/RecommendAction.java" line="34" class="com.wt.action.RecommendAction" package="com.wt.action">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/wt/action/RecommendAction.java" line="2" class="RecommendAction.java" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/wt/daoImpl/RecommendDaoImpl.java" line="25" class="com.wt.daoImpl.RecommendDaoImpl" package="com.wt.daoImpl">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -87,51 +164,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/test/java/com/wt/service/TestAccountService.java" line="77" class="com.wt.service.TestAccountService" package="com.wt.service">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/wt/action/RecommendAction.java" line="36" class="com.wt.action.RecommendAction" package="com.wt.action">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/wt/action/RecommendAction.java" line="38" class="com.wt.action.RecommendAction" package="com.wt.action">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
-    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
@@ -143,10 +175,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.jsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/index.jsp">
+      <file leaf-file-name="RecommendDaoImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/daoImpl/RecommendDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="51" selection-start="4131" selection-end="4131" vertical-scroll-proportion="0.36599424">
+            <state line="25" column="0" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="65" column="48" selection-start="2963" selection-end="2963" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultActionInvocation.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/xwork-core-2.2.3.jar!/com/opensymphony/xwork2/DefaultActionInvocation.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="71" column="28" selection-start="3744" selection-end="3744" vertical-scroll-proportion="-4.12">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RecommendMapper.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/wt/model/RecommendMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="23" selection-start="3517" selection-end="3517" vertical-scroll-proportion="-8.04">
               <folding />
             </state>
           </provider>
@@ -155,56 +216,49 @@
       <file leaf-file-name="head_index.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/head_index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="178" column="43" selection-start="4826" selection-end="4830" vertical-scroll-proportion="-4.967742">
+            <state line="102" column="72" selection-start="3822" selection-end="3822" vertical-scroll-proportion="-4.16129">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RecommendDao.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/dao/RecommendDao.java">
+      <file leaf-file-name="Recommend.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/bean/table/Recommend.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="27" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0">
+            <state line="45" column="30" selection-start="690" selection-end="700" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="84" column="58" selection-start="4042" selection-end="4042" vertical-scroll-proportion="0.3317757">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.sql" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/test.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="309" selection-start="2346" selection-end="2357" vertical-scroll-proportion="-2.6052632">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RecommendMapper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/mapping/RecommendMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="0" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#715#726#0" expanded="true" />
-                <element signature="e#4549#4579#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="head_1.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/head_1.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="221" column="7" selection-start="8230" selection-end="8230" vertical-scroll-proportion="-109.064514">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="head.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/head.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="128" column="17" selection-start="4663" selection-end="4663" vertical-scroll-proportion="-73.548386">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bottom.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/bottom.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="14" selection-start="74" selection-end="74" vertical-scroll-proportion="1.4193548">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebRoot/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="4.2580647">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -212,26 +266,10 @@
       <file leaf-file-name="RecommendAction.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/action/RecommendAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="45" selection-start="1278" selection-end="1278" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RecommendService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/service/RecommendService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="38" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Recommend.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/model/Recommend.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="25" selection-start="368" selection-end="375" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="30" column="0" selection-start="913" selection-end="913" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -249,21 +287,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/WebRoot/index.jsp" />
-        <option value="$PROJECT_DIR$/WebRoot/head_index.jsp" />
-        <option value="$PROJECT_DIR$/WebRoot/js/side1.js" />
-        <option value="$PROJECT_DIR$/WebRoot/js/index.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wt/dao/AccountDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wt/model/Recommend.java" />
+        <option value="$PROJECT_DIR$/WebRoot/list2.html" />
+        <option value="$PROJECT_DIR$/WebRoot/list3.html" />
+        <option value="$PROJECT_DIR$/WebRoot/公司介绍区.html" />
+        <option value="$PROJECT_DIR$/WebRoot/疑难解答.html" />
+        <option value="$PROJECT_DIR$/WebRoot/订单区.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wt/dao/RecommendDaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wt/service/RecommendService.java" />
-        <option value="$PROJECT_DIR$/WebRoot/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/WebRoot/welcome.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/struts.xml" />
-        <option value="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/head.jsp" />
-        <option value="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/head_index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wt/dao/RecommendDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wt/action/RecommendAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wt/dao/RecommendDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wt/daoImpl/RecommendDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wt/mapping/RecommendMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/wt/model/RecommendMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/test.sql" />
+        <option value="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/head_index.jsp" />
         <option value="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/index.jsp" />
       </list>
     </option>
@@ -330,8 +368,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -380,54 +416,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WedTravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wedTravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebRoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WedTravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wedTravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebRoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jstl.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -611,6 +599,40 @@
               <option name="myItemId" value="wt" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mapping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WedTravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wedTravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="daoImpl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -668,17 +690,50 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="table" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WedTravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wedTravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="action" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Project" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.29782084" />
     <property name="options.lastSelected" value="File.Encoding" />
@@ -693,9 +748,9 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -703,11 +758,11 @@
       <recent name="com.wt.action" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ghm\Documents\GitHub\weddingtravel\wedTravel\src\main\resources\com\wt\model" />
+      <recent name="C:\Users\ghm\Documents\GitHub\weddingtravel\wedTravel\src\main\java\com\wt" />
       <recent name="C:\Users\ghm\Documents\GitHub\weddingtravel\wedTravel\WebRoot\WEB-INF\lib" />
       <recent name="C:\Users\ghm\Documents\GitHub\weddingtravel\wedTravel\WebRoot\WEB-INF\jsp" />
       <recent name="C:\Users\ghm\Documents\GitHub\weddingtravel\wedTravel\WebRoot\js" />
-      <recent name="C:\Users\ghm\Documents\GitHub\weddingtravel\wedTravel\WebRoot\css" />
-      <recent name="C:\Users\ghm\Documents\GitHub\weddingtravel\wedTravel\WebRoot\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ghm\Documents\GitHub\weddingtravel\wedTravel\WebRoot\WEB-INF\jsp" />
@@ -978,12 +1033,7 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
-      <method>
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="wedTravel:war exploded" />
-        </option>
-      </method>
+      <method />
     </configuration>
     <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7" />
@@ -1035,26 +1085,26 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.51623935" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43589744" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30769232" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44273505" sideWeight="0.5037879" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25075758" sideWeight="0.12991454" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41880342" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26495728" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11794872" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25075758" sideWeight="0.75213677" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24786325" sideWeight="0.4909091" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22954546" sideWeight="0.8683761" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13162394" sideWeight="0.4909091" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.51623935" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1119,44 +1169,46 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WebRoot/welcome.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/dao/RecommendDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="19" selection-start="117" selection-end="117" vertical-scroll-proportion="-1.4193548">
+        <state line="67" column="67" selection-start="2961" selection-end="2974" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/dao/AccountDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="11" column="0" selection-start="257" selection-end="268" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/xwork-core-2.2.3.jar!/com/opensymphony/xwork2/DefaultActionInvocation.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/service/AccountService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="31" selection-start="4245" selection-end="4245" vertical-scroll-proportion="0.4082569">
+        <state line="11" column="13" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/service/RecommendService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="19" column="4" selection-start="428" selection-end="452" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/dao/RecommendDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="21.12">
-          <folding />
+        <state line="17" column="0" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="73" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="30.461538">
           <folding />
         </state>
       </provider>
@@ -1164,75 +1216,81 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/bottom.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/action/RecommendAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="14" selection-start="74" selection-end="74" vertical-scroll-proportion="1.4193548">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/head_1.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="221" column="7" selection-start="8230" selection-end="8230" vertical-scroll-proportion="-109.064514">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/head.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="17" selection-start="4663" selection-end="4663" vertical-scroll-proportion="-73.548386">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/model/Recommend.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="25" selection-start="368" selection-end="375" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/head_index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="178" column="43" selection-start="4826" selection-end="4830" vertical-scroll-proportion="-4.967742">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/service/RecommendService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="38" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/dao/RecommendDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="27" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0">
+        <state line="30" column="0" selection-start="913" selection-end="913" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#715#726#0" expanded="true" />
-            <element signature="e#4549#4579#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/daoImpl/RecommendDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="4.2580647">
+        <state line="25" column="0" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/xwork-core-2.2.3.jar!/com/opensymphony/xwork2/DefaultActionInvocation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="28" selection-start="3744" selection-end="3744" vertical-scroll-proportion="-4.12">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/action/RecommendAction.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/mapping/RecommendMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="45" selection-start="1278" selection-end="1278" vertical-scroll-proportion="0.0">
+        <state line="20" column="0" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="48" selection-start="2963" selection-end="2963" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wt/model/RecommendMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="23" selection-start="3517" selection-end="3517" vertical-scroll-proportion="-8.04">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/test.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="309" selection-start="2346" selection-end="2357" vertical-scroll-proportion="-2.6052632">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/head_index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="72" selection-start="3822" selection-end="3822" vertical-scroll-proportion="-4.16129">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/bean/table/Recommend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="30" selection-start="690" selection-end="700" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="51" selection-start="4131" selection-end="4131" vertical-scroll-proportion="0.36599424">
+        <state line="84" column="58" selection-start="4042" selection-end="4042" vertical-scroll-proportion="0.3317757">
           <folding />
         </state>
       </provider>

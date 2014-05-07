@@ -30,6 +30,23 @@
                         </td>
                         <td valign="top">
                             <ul>
+                                <s:iterator value="#request.list3" status="u">
+                                    <c:set value="${u.index}" var='l'></c:set>
+                                    <c:if test="${l<4}">
+                                        <li>
+                                            <a href="" class="grey_a"><s:property value="title"/></a>
+                                        <span>
+                                            <c:if test="${imgUrl!=null}">
+                                                <img src="${imgUrl}"/><s:property value="createTime"/></span>
+                                            </c:if>
+                                            <c:if test="${imgUrl==null}">
+                                                <s:property value="createTime"/></span>
+                                            </c:if>
+                                        </li>
+                                    </c:if>
+
+                                </s:iterator>
+                                <!--
                                 <li>
                                     <a href="" class="grey_a">马尔代夫婚礼现场..</a>
                                     <span><img src="images/new.png"/>14/01/22</span>
@@ -45,7 +62,7 @@
                                 <li>
                                     <a href="" class="grey_a">马尔代夫婚礼现场..</a>
                                     <span>14/01/22</span>
-                                </li>
+                                </li> -->
                             </ul>
                         </td>
                     </tr>
@@ -63,22 +80,23 @@
                         </td>
                         <td valign="top">
                             <ul>
-                                <li>
-                                    <a href="" class="grey_a">马尔代夫婚礼现场..</a>
-                                    <span><img src="images/new.png"/>14/01/22</span>
-                                </li>
-                                <li>
-                                    <a href="" class="grey_a">马尔代夫婚礼现场..</a>
-                                    <span>14/01/22</span>
-                                </li>
-                                <li>
-                                    <a href="" class="grey_a">马尔代夫婚礼现场..</a>
-                                    <span>14/01/22</span>
-                                </li>
-                                <li>
-                                    <a href="" class="grey_a">马尔代夫婚礼现场..</a>
-                                    <span>14/01/22</span>
-                                </li>
+                                <s:iterator value="#request.list3" status="u">
+                                    <c:set value="${u.index}" var='l'></c:set>
+                                    <c:if test="${l>3&&l<9}">
+                                        <li>
+                                            <a href="" class="grey_a"><s:property value="title"/></a>
+                                                                        <span>
+                                                                            <c:if test="${imgUrl!=null}">
+                                                                                <img src="${imgUrl}"/><s:property
+                                                                                value="createTime"/></span>
+                                            </c:if>
+                                            <c:if test="${imgUrl==null}">
+                                                <s:property value="createTime"/></span>
+                                            </c:if>
+                                        </li>
+                                    </c:if>
+
+                                </s:iterator>
                             </ul>
                         </td>
                     </tr>
@@ -91,20 +109,20 @@
         </div>
         <div class="show_pics_m">
             <ul>
-                <s:iterator value="#request.list2" status="u">
+                <s:iterator value="#request.list4" status="u">
                     <c:set value="${u.index}" var='l'></c:set>
                     <c:if test="${l==3}">
-                    <li class="lim">
-                        <div class="lim_left" onclick="csleft()"></div>
-                        <div class="lim_m">
-                            <img src='<s:property value="imgUrl"/>'/>
-                            <span>塞班岛的婚礼策划</span>
-                        </div>
-                        <div class="lim_right" onclick="csright()"></div>
-                    </li>
+                        <li class="lim">
+                            <div class="lim_left" onclick="csleft()"></div>
+                            <div class="lim_m">
+                                <img src='<s:property value="imgUrl"/>'/>
+                                <!--<span>塞班岛的婚礼策划</span>-->
+                            </div>
+                            <div class="lim_right" onclick="csright()"></div>
+                        </li>
                     </c:if>
                     <c:if test="${l!=3}">
-                    <li><img src='<s:property value="imgUrl"/>'/></li>
+                        <li><img src='<s:property value="imgUrl"/>'/></li>
                     </c:if>
                     <!--<li><img src='<s:property value="imgUrl"/>'/></li> -->
                 </s:iterator>
