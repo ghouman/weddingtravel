@@ -44,9 +44,9 @@ function initPic(){
     var htmlLi = '';
 
     //for(var i=0;i<picSrcList.length;i++){
-        htmlLi += '<ul><li><a href="list2.html"><img alt="01" class="cubeRandom" src="images/index_side1.jpg" /></a></li>' +
-            '<li><a href="list2.html"><img alt="01" class="cubeRandom" src="images/index_side2.jpg" /></a></li>' +
-            '<li><a href="list2.html"><img alt="01" class="cubeRandom" src="images/index_side3.jpg" /></a></li></ul>'
+        htmlLi += '<ul><li><a href="list2.jsp"><img alt="01" class="cubeRandom" src="images/index_side1.jpg" /></a></li>' +
+            '<li><a href="list2.jsp"><img alt="01" class="cubeRandom" src="images/index_side2.jpg" /></a></li>' +
+            '<li><a href="list2.jsp"><img alt="01" class="cubeRandom" src="images/index_side3.jpg" /></a></li></ul>'
     //}
     $("#slideshow").append(htmlLi);
 }

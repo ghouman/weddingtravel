@@ -111,18 +111,20 @@
             <ul>
                 <s:iterator value="#request.list4" status="u">
                     <c:set value="${u.index}" var='l'></c:set>
-                    <c:if test="${l==3}">
-                        <li class="lim">
-                            <div class="lim_left" onclick="csleft()"></div>
-                            <div class="lim_m">
-                                <img src='<s:property value="imgUrl"/>'/>
-                                <!--<span>塞班岛的婚礼策划</span>-->
-                            </div>
-                            <div class="lim_right" onclick="csright()"></div>
-                        </li>
-                    </c:if>
-                    <c:if test="${l!=3}">
-                        <li><img src='<s:property value="imgUrl"/>'/></li>
+                    <c:if test="${l<8}">
+                        <c:if test="${l==3}">
+                            <li class="lim">
+                                <div class="lim_left" onclick="csleft()"></div>
+                                <div class="lim_m">
+                                    <img src='<s:property value="imgUrl"/>'/>
+                                    <!--<span>塞班岛的婚礼策划</span>-->
+                                </div>
+                                <div class="lim_right" onclick="csright()"></div>
+                            </li>
+                        </c:if>
+                        <c:if test="${l!=3}">
+                            <li><img src='<s:property value="imgUrl"/>'/></li>
+                        </c:if>
                     </c:if>
                     <!--<li><img src='<s:property value="imgUrl"/>'/></li> -->
                 </s:iterator>

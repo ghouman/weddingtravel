@@ -1,7 +1,8 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>side</title>
 <LINK media=all href="css/scroll1.css" type=text/css rel=stylesheet>
 <SCRIPT src="js/scroll1.js" type=text/javascript></SCRIPT>
@@ -19,7 +20,7 @@
 			eleNext.addClass('gray');
 			function prev(){
 			if (elePrev.hasClass('gray')) {
-			//alert('ÒÑ¾­ÊÇµÚÒ»ÕÅÁË');
+			//alert('å·²ç»æ˜¯ç¬¬ä¸€å¼ äº†');
 			return;
 			}
 			p.animate({
@@ -34,7 +35,7 @@
 			}
 			function next(){
 			if (eleNext.hasClass('gray')) {
-			//alert('ÒÑ¾­ÊÇ×îºóÒ»ÕÅÁË');
+			//alert('å·²ç»æ˜¯æœ€åä¸€å¼ äº†');
 			return;
 			}
 			//p.css('margin-left',-(++i) * w);
@@ -88,21 +89,21 @@
 <body marginwidth="0" marginheight="0">
  <div id="container">
  	<DIV class="slide-pic" id="slidePic">
-				<A class="gray" id="prev" hideFocus href="javascript:;">Ç°ÒÆ</A> 
+				<A class="gray" id="prev" hideFocus href="javascript:;">å‰ç§»</A> 
 				<DIV class="pic-container">
 					<UL>
-					  <LI title="Õâ¼ÒDUSIT¾ÆµêÊôÓÚºÀ»ª5*¹ú¼Ê¾ÆµêµÄ¼¶±ğÁË£¬µÍµ÷Éİ»ª¡£¾Æµê¸úÔÃ´ºÒ»¸öÇøÓò£¬Í¬ÊôÓÚLAGUNA¾ÆµêÇøÓò¡£"><img src="images/01.jpg"/></LI>
-					  <LI title="Õâ¼ÒDUSIT¾ÆµêÊôÓÚºÀ»ª5*¹ú¼Ê¾ÆµêµÄ¼¶±ğÁË£¬µÍµ÷Éİ»ª¡£¾Æµê¸úÔÃ´ºÒ»¸öÇøÓò£¬Í¬ÊôÓÚLAGUNA¾ÆµêÇøÓò¡£"><img src="images/01.jpg"/></LI>
-					  <LI title="Õâ¼ÒDUSIT¾ÆµêÊôÓÚºÀ»ª5*¹ú¼Ê¾ÆµêµÄ¼¶±ğÁË£¬µÍµ÷Éİ»ª¡£¾Æµê¸úÔÃ´ºÒ»¸öÇøÓò£¬Í¬ÊôÓÚLAGUNA¾ÆµêÇøÓò¡£"><img src="images/01.jpg"/></LI>
-					  <LI title="Õâ¼ÒDUSIT¾ÆµêÊôÓÚºÀ»ª5*¹ú¼Ê¾ÆµêµÄ¼¶±ğÁË£¬µÍµ÷Éİ»ª¡£¾Æµê¸úÔÃ´ºÒ»¸öÇøÓò£¬Í¬ÊôÓÚLAGUNA¾ÆµêÇøÓò¡£"><img src="images/01.jpg"/></LI>
-					  <LI title="Õâ¼ÒDUSIT¾ÆµêÊôÓÚºÀ»ª5*¹ú¼Ê¾ÆµêµÄ¼¶±ğÁË£¬µÍµ÷Éİ»ª¡£¾Æµê¸úÔÃ´ºÒ»¸öÇøÓò£¬Í¬ÊôÓÚLAGUNA¾ÆµêÇøÓò¡£"><img src="images/01.jpg"/></LI>
-					  <LI title="Õâ¼ÒDUSIT¾ÆµêÊôÓÚºÀ»ª5*¹ú¼Ê¾ÆµêµÄ¼¶±ğÁË£¬µÍµ÷Éİ»ª¡£¾Æµê¸úÔÃ´ºÒ»¸öÇøÓò£¬Í¬ÊôÓÚLAGUNA¾ÆµêÇøÓò¡£"><img src="images/01.jpg"/></LI>
+					  <LI title="è¿™å®¶DUSITé…’åº—å±äºè±ªå5*å›½é™…é…’åº—çš„çº§åˆ«äº†ï¼Œä½è°ƒå¥¢åã€‚é…’åº—è·Ÿæ‚¦æ˜¥ä¸€ä¸ªåŒºåŸŸï¼ŒåŒå±äºLAGUNAé…’åº—åŒºåŸŸã€‚"><img src="images/01.jpg"/></LI>
+					  <LI title="è¿™å®¶DUSITé…’åº—å±äºè±ªå5*å›½é™…é…’åº—çš„çº§åˆ«äº†ï¼Œä½è°ƒå¥¢åã€‚é…’åº—è·Ÿæ‚¦æ˜¥ä¸€ä¸ªåŒºåŸŸï¼ŒåŒå±äºLAGUNAé…’åº—åŒºåŸŸã€‚"><img src="images/01.jpg"/></LI>
+					  <LI title="è¿™å®¶DUSITé…’åº—å±äºè±ªå5*å›½é™…é…’åº—çš„çº§åˆ«äº†ï¼Œä½è°ƒå¥¢åã€‚é…’åº—è·Ÿæ‚¦æ˜¥ä¸€ä¸ªåŒºåŸŸï¼ŒåŒå±äºLAGUNAé…’åº—åŒºåŸŸã€‚"><img src="images/01.jpg"/></LI>
+					  <LI title="è¿™å®¶DUSITé…’åº—å±äºè±ªå5*å›½é™…é…’åº—çš„çº§åˆ«äº†ï¼Œä½è°ƒå¥¢åã€‚é…’åº—è·Ÿæ‚¦æ˜¥ä¸€ä¸ªåŒºåŸŸï¼ŒåŒå±äºLAGUNAé…’åº—åŒºåŸŸã€‚"><img src="images/01.jpg"/></LI>
+					  <LI title="è¿™å®¶DUSITé…’åº—å±äºè±ªå5*å›½é™…é…’åº—çš„çº§åˆ«äº†ï¼Œä½è°ƒå¥¢åã€‚é…’åº—è·Ÿæ‚¦æ˜¥ä¸€ä¸ªåŒºåŸŸï¼ŒåŒå±äºLAGUNAé…’åº—åŒºåŸŸã€‚"><img src="images/01.jpg"/></LI>
+					  <LI title="è¿™å®¶DUSITé…’åº—å±äºè±ªå5*å›½é™…é…’åº—çš„çº§åˆ«äº†ï¼Œä½è°ƒå¥¢åã€‚é…’åº—è·Ÿæ‚¦æ˜¥ä¸€ä¸ªåŒºåŸŸï¼ŒåŒå±äºLAGUNAé…’åº—åŒºåŸŸã€‚"><img src="images/01.jpg"/></LI>
 					</UL>
 				</DIV>
-				 <A id="next" hideFocus href="javascript:;">ºóÒÆ</A>
+				 <A id="next" hideFocus href="javascript:;">åç§»</A>
 			</DIV>
-	<p class="buoy_price"><a href="#">£¤100000</a></p>
-	<p>Æğ</p>
+	<p class="buoy_price"><a href="#">ï¿¥100000</a></p>
+	<p>èµ·</p>
  </div>
 </body>
 </html>

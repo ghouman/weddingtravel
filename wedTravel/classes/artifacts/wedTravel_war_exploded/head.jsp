@@ -1,19 +1,25 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<%--
+  Created by IntelliJ IDEA.
+  User: ghm
+  Date: 14-5-3
+  Time: 下午8:31
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>首页top</title>
+    <title>内页top</title>
     <link media="all" href="css/css.css" type="text/css" rel="stylesheet"/>
     <link href="css/side1.css" rel="stylesheet"/>
     <script src="js/jquery-1.8.2.min.js"></script>
     <script src="js/common.js"></script>
 </head>
-
 <body>
-<div class="index_header">
+<div class="header">
 <div class="w_m top_con">
-    <div class="logo" onclick="location.href='index.html'" title="返回首页"></div>
+    <div class="logo" onclick="location.href='index.html'" title="返回首页">
+    </div>
     <div class="search_con">
         <div class="search_box">
             <span class="left l_bg"></span>
@@ -39,9 +45,18 @@
             </div>
         </div>
     </div>
-    <div class="clear"></div>
+    <!-- <div class="search_con">
+         <select name="">
+             <option value="0">婚礼套餐</option>
+         </select>
+         <input name="" type="text" class="search_input" />
+         <input name="" type="button" class="search_btn" title="点击查询" />
+     </div>-->
+    <div class="clear">
+    </div>
     <div class="menus">
-        <script type=text/javascript>
+
+        <script type="text/javascript">
             function menuFix() {
                 var sfEls = document.getElementById("nav").getElementsByTagName("li");
                 for (var i = 0; i < sfEls.length; i++) {
@@ -64,29 +79,30 @@
             window.onload = menuFix;
 
         </script>
+
         <ul id="nav">
             <li><a href="recommend.action">网站首页</a></li>
-            <li><a href="list1.html">海岛婚礼套餐</a>
+            <li><a href="list1.jsp">海岛婚礼套餐</a>
                 <ul>
                     <li class="li_t"></li>
                     <li>
-                        <a href="list1.html">东南亚地区</a>
+                        <a href="list1.jsp">东南亚地区</a>
                     </li>
                     <li>
-                        <a href="list1.html">地中海地区</a>
+                        <a href="list1.jsp">地中海地区</a>
                     </li>
                     <li class="li_b"></li>
                 </ul>
             </li>
             <li>
-                <a href="list2.jsp">婚礼婚纱照摄影</a>
+                <a href="list2_1.jsp">婚礼婚纱照摄影</a>
                 <ul>
                     <li class="li_t"></li>
                     <li>
-                        <a href="list2.jsp">东南亚地区</a>
+                        <a href="list2_1.jsp">东南亚地区</a>
                     </li>
                     <li>
-                        <a href="list2.jsp">地中海地区</a>
+                        <a href="list2_1.jsp">地中海地区</a>
                     </li>
                     <li class="li_b"></li>
                 </ul>
@@ -131,107 +147,105 @@
                 </ul>
             </li>
             <li>
-                <a href="help.html">疑难答案</a>
+                <a href="help.jsp">疑难答案</a>
             </li>
             <li>
-                <a href="company.html">公司介绍</a>
+                <a href="company.jsp">公司介绍</a>
             </li>
             <li class="no_bg">
-                <a href="order.html">订单购物车</a>
+                <a href="order.jsp">订单购物车</a>
             </li>
         </ul>
     </div>
 </div>
-<div class="w_m2">
-    <div class="banner_l">
-        <div class="ranking_div">
+<div class="banner">
+    <div class="wrapper">
+        <div id="slideshow" class="box_skitter fn-clear">
             <ul>
-                <li onclick="" class="li1">
-                    <img src="images/popular/01.png" onmouseover="this.src='images/popular/01_h.png'"
-                         onmouseout="this.src='images/popular/01.png'"/>
-                </li>
-                <li onclick="" class="li2">
-                    <img src="images/popular/02.png" onmouseover="this.src='images/popular/02_h.png'"
-                         onmouseout="this.src='images/popular/02.png'"/>
-                </li>
-                <li onclick="" class="li3">
-                    <img src="images/popular/03.png" onmouseover="this.src='images/popular/03_h.png'"
-                         onmouseout="this.src='images/popular/03.png'"/>
-                </li>
-                <li onclick="" class="li4">
-                    <img src="images/popular/04.png" onmouseover="this.src='images/popular/04_h.png'"
-                         onmouseout="this.src='images/popular/04.png'"/>
-                </li>
-                <li onclick="" class="li5">
-                    <img src="images/popular/05.png" onmouseover="this.src='images/popular/05_h.png'"
-                         onmouseout="this.src='images/popular/05.png'"/>
-                </li>
+                <li><a href="list2.jsp"><img alt="01" class="cubeRandom" src="images/index_side1.jpg"/></a></li>
+                <li><a href="list2.jsp"><img alt="02" class="cubeRandom" src="images/index_side2.jpg"/></a></li>
+                <li><a href="list2.jsp"><img alt="03" class="cubeRandom" src="images/index_side3.jpg"/></a></li>
             </ul>
-            <div class="more_div" onclick="" title="查看更多">
-                <img src="images/popular/more.png"/>
-            </div>
         </div>
+        <script type="text/javascript" src="js/side1.js"></script>
     </div>
-    <div class="banner_r">
-        <div class="wrapper">
-            <div id="slideshow" class="box_skitter fn-clear">
-                <ul>
-                    <li><a href="list2.jsp"><img alt="01" class="cubeRandom" src="images/index_side1.jpg"/></a></li>
-                    <li><a href="list2.jsp"><img alt="02" class="cubeRandom" src="images/index_side2.jpg"/></a></li>
-                    <li><a href="list2.jsp"><img alt="03" class="cubeRandom" src="images/index_side3.jpg"/></a></li>
-                </ul>
-            </div>
-            <script type="text/javascript" src="js/side1.js"></script>
+</div>
+<div class="new_hot" onclick="location.href='list2.html'">
+    <div class="hot_con">
+        <h1>
+            巴厘岛<span>2014/6</span></h1>
+
+        <h2>
+            2014年6月开始巴厘岛悦榕庄豪华酒店</h2>
+
+        <div class="price1">
+            ￥<span>18888</span></div>
+        <div class="price2">
+            起/人
         </div>
     </div>
 </div>
-<div class="w_m">
+<div class="w_m page_dz page_dzs">
     <div class="index_con_div">
-        <div class="titles2 dz_title"><h2></h2>
+        <div class="titles2 dz_title">
+            <h2>
+            </h2>
 
-            <h3>一对一的服务，让你满意...</h3></div>
+            <h3>
+                一对一的服务，让你满意...</h3>
+        </div>
         <div class="con_div dz_con_div">
             <ul>
                 <li>
-                    <h5>您希望去的</h5>
+                    <h5>
+                        您希望去的</h5>
 
-                    <h2>婚礼国家
+                    <h2>
+                        婚礼国家
                         <select name="">
                             <option value="0">请选择</option>
                         </select>
                     </h2>
                 </li>
                 <li>
-                    <h5>您希望去的</h5>
+                    <h5>
+                        您希望去的</h5>
 
-                    <h2>婚礼地区
+                    <h2>
+                        婚礼地区
                         <select name="">
                             <option value="0">请选择</option>
                         </select>
                     </h2>
                 </li>
                 <li>
-                    <h5>您从国内的</h5>
+                    <h5>
+                        您从国内的</h5>
 
-                    <h2>何地出发
+                    <h2>
+                        何地出发
                         <select name="">
                             <option value="0">请选择</option>
                         </select>
                     </h2>
                 </li>
                 <li>
-                    <h5>您筹备的</h5>
+                    <h5>
+                        您筹备的</h5>
 
-                    <h2>婚礼预算
+                    <h2>
+                        婚礼预算
                         <select name="">
                             <option value="0">请选择</option>
                         </select>
                     </h2>
                 </li>
                 <li>
-                    <h5>您预计的</h5>
+                    <h5>
+                        您预计的</h5>
 
-                    <h2>婚礼人数
+                    <h2>
+                        婚礼人数
                         <select name="">
                             <option value="0">请选择</option>
                         </select>

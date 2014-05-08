@@ -1,7 +1,8 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <link media="all" href="css/css.css" type="text/css" rel="stylesheet" />
     <link href="css/side1.css" rel="stylesheet" />
 
@@ -14,19 +15,19 @@
     <script src="js/productlist_roll.js" type="text/javascript"></script>
     
     <script src="js/main.js" type="text/javascript"></script>
-	<title>ªÈ¿ÒÃ◊≤Õ«¯</title>
+	<title>Â©öÁ§ºÂ•óÈ§êÂå∫</title>
 
     <script type="text/javascript">
 		
 function selectTag(showContent,selfObj){
-	// ≤Ÿ◊˜±Í«©
+	// Êìç‰ΩúÊ†áÁ≠æ
 	var tag = document.getElementById("tags2").getElementsByTagName("li");
 	var taglength = tag.length;
 	for(i=0; i<taglength; i++){
 		tag[i].className = "";
 	}
 	selfObj.parentNode.className = "selectTag";
-	// ≤Ÿ◊˜ƒ⁄»›
+	// Êìç‰ΩúÂÜÖÂÆπ
 	for(i=0; j=document.getElementById("pic_con"+i); i++){
 		j.style.display = "none";
 	}
@@ -38,393 +39,23 @@ function selectTag(showContent,selfObj){
 
 </head>
 <body>
-    <div class="header">
-        <div class="w_m top_con">
-            <div class="logo" onclick="location.href='index.html'" title="∑µªÿ ◊“≥">
-            </div>
-            <div class="search_con">
-                <select name="">
-                    <option value="0">ªÈ¿ÒÃ◊≤Õ</option>
-                </select>
-                <input name="" type="text" class="search_input" />
-                <input name="" type="button" class="search_btn" title="µ„ª˜≤È—Ø" />
-            </div>
-            <div class="clear">
-            </div>
-            <div class="menus">
-
-                <script type="text/javascript">
-function menuFix() {
-	var sfEls = document.getElementById("nav").getElementsByTagName("li");
-	for (var i=0; i<sfEls.length; i++) {
-		sfEls[i].onmouseover=function() {
-		this.className+=(this.className.length>0? " ": "") + "sfhover";
-		}
-		sfEls[i].onMouseDown=function() {
-		this.className+=(this.className.length>0? " ": "") + "sfhover";
-		}
-		sfEls[i].onMouseUp=function() {
-		this.className+=(this.className.length>0? " ": "") + "sfhover";
-		}
-		sfEls[i].onmouseout=function() {
-		this.className=this.className.replace(new RegExp("( ?|^)sfhover\\b"), 
-
-"");
-		}
-	}
-}
-window.onload=menuFix;
-
-                </script>
-
-                <ul id="nav">
-                    <li><a href="list1.html">∫£µ∫ªÈ¿ÒÃ◊≤Õ</a>
-                        <ul>
-                            <li class="li_t"></li>
-                            <li><a href="list1.html">∂´ƒœ—«µÿ«¯</a> </li>
-                            <li><a href="list1.html">µÿ÷–∫£µÿ«¯</a> </li>
-                            <li class="li_b"></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">ªÈ¿ÒªÈ…¥’’…„”∞</a>
-                        <ul>
-                            <li class="li_t"></li>
-                            <li><a href="#">∂´ƒœ—«µÿ«¯</a> </li>
-                            <li><a href="#">µÿ÷–∫£µÿ«¯</a> </li>
-                            <li class="li_b"></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">µ∫”Ï◊‘÷˙æ∆µÍ</a>
-                        <ul>
-                            <li class="li_t"></li>
-                            <li><a href="#">∂´ƒœ—«µÿ«¯</a> </li>
-                            <li><a href="#">µÿ÷–∫£µÿ«¯</a> </li>
-                            <li class="li_b"></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">ªÈ¿Ò√€‘¬◊‘÷˙</a>
-                        <ul>
-                            <li class="li_t"></li>
-                            <li><a href="#">∂´ƒœ—«µÿ«¯</a> </li>
-                            <li><a href="#">µÿ÷–∫£µÿ«¯</a> </li>
-                            <li class="li_b"></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">ªÈ¿Ò∞∏¿˝</a>
-                        <ul>
-                            <li class="li_t"></li>
-                            <li><a href="#">∂´ƒœ—«µÿ«¯</a> </li>
-                            <li><a href="#">µÿ÷–∫£µÿ«¯</a> </li>
-                            <li class="li_b"></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">“…ƒ—¥∞∏</a> </li>
-                    <li><a href="#">π´ÀæΩÈ…‹</a> </li>
-                    <li class="no_bg"><a href="#">∂©µ•π∫ŒÔ≥µ</a> </li>
-                </ul>
-            </div>
-        </div>
-        <div class="banner">
-            <div class="wrapper">
-				<div id="slideshow" class="box_skitter fn-clear">
-				  <ul>
-					<li><a href="list2.jsp"><img alt="01" class="cubeRandom" src="images/index_side1.jpg" /></a></li>
-					<li><a href="list2.jsp"><img alt="02" class="cubeRandom" src="images/index_side2.jpg" /></a></li>
-					<li><a href="list2.jsp"><img alt="03" class="cubeRandom" src="images/index_side3.jpg" /></a></li>
-				  </ul>
-				</div>
-				<script type="text/javascript" src="js/side1.js"></script>
-			  </div>
-        </div>
-        <div class="new_hot" onclick="location.href='list2.html'">
-            <div class="hot_con">
-                <h1>
-                    ∞Õ¿Âµ∫<span>2014/6</span></h1>
-                <h2>
-                    2014ƒÍ6‘¬ø™ º∞Õ¿Âµ∫‘√È≈◊Ø∫¿ª™æ∆µÍ</h2>
-                <div class="price1">
-                    £§<span>18888</span></div>
-                <div class="price2">
-                    ∆/»À</div>
-            </div>
-        </div>
-        <div class="w_m page_dz page_dzs">
-            <div class="index_con_div">
-                <div class="titles2 dz_title">
-                    <h2>
-                    </h2>
-                    <h3>
-                        “ª∂‘“ªµƒ∑˛ŒÒ£¨»√ƒ„¬˙“‚...</h3>
-                </div>
-                <div class="con_div dz_con_div">
-                    <ul>
-                        <li>
-                            <h5>
-                                ƒ˙œ£Õ˚»•µƒ</h5>
-                            <h2>
-                                ªÈ¿Òπ˙º“
-                                <select name="">
-                                    <option value="0">«Î—°‘Ò</option>
-                                </select>
-                            </h2>
-                        </li>
-                        <li>
-                            <h5>
-                                ƒ˙œ£Õ˚»•µƒ</h5>
-                            <h2>
-                                ªÈ¿Òµÿ«¯
-                                <select name="">
-                                    <option value="0">«Î—°‘Ò</option>
-                                </select>
-                            </h2>
-                        </li>
-                        <li>
-                            <h5>
-                                ƒ˙¥”π˙ƒ⁄µƒ</h5>
-                            <h2>
-                                ∫Œµÿ≥ˆ∑¢
-                                <select name="">
-                                    <option value="0">«Î—°‘Ò</option>
-                                </select>
-                            </h2>
-                        </li>
-                        <li>
-                            <h5>
-                                ƒ˙≥Ô±∏µƒ</h5>
-                            <h2>
-                                ªÈ¿Ò‘§À„
-                                <select name="">
-                                    <option value="0">«Î—°‘Ò</option>
-                                </select>
-                            </h2>
-                        </li>
-                        <li>
-                            <h5>
-                                ƒ˙‘§º∆µƒ</h5>
-                            <h2>
-                                ªÈ¿Ò»À ˝
-                                <select name="">
-                                    <option value="0">«Î—°‘Ò</option>
-                                </select>
-                            </h2>
-                        </li>
-                        <li class="ok_li">
-                            <input name="" type="button" value="»∑∂®" class="index_ok_btn" />
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
+<jsp:include page="head.jsp"></jsp:include>
     <div class="w_m page_dz">
         <div class="index_con_div in_con_div">
-            <div class="titles2 hltc_title">
-                <h2>
+            <div class="titles2 hltc_title yahei">
+                <h2>Â©öÁ§ºÂ•óÈ§ê
                 </h2>
                 <h3>
-                    »√ƒ˙µƒªÈ¿Ò”Î∫£µ∫µƒ∑Áæ∞ÕÍ√¿Ω·∫œ£¨‘⁄ƒ˙µƒªÈ¿Ò÷–”Î÷⁄≤ªÕ¨</h3>
+                    ËÆ©ÊÇ®ÁöÑÂ©öÁ§º‰∏éÊµ∑Â≤õÁöÑÈ£éÊôØÂÆåÁæéÁªìÂêàÔºåÂú®ÊÇ®ÁöÑÂ©öÁ§º‰∏≠‰∏é‰ºó‰∏çÂêå</h3>
             </div>
             <div class="left_con">
-                <div class="titles3 mlsy">
-                </div>
-                <div class="content mlsy_con">
-                    <h2>
-                        ∂´ƒœ—«µÿ«¯</h2>
-                    <ul>
-                        <li>
-                            <div>
-                                <a href="" class="b_a">∞Õ¿Âµ∫</a></div>
-                            <ul>
-                                <li><a href="" class="grey_a">ΩÃÃ√ªÈ¿Ò</a> </li>
-                                <li><a href="" class="grey_a">ÀÆ÷–ªÈ¿Ò</a> </li>
-                                <li><a href="" class="grey_a">æ∆µÍªÈ¿Ò</a> </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <div>
-                                <a href="" class="b_a">¬Ì∂˚¥˙∑Ú</a></div>
-                            <ul>
-                                <li><a href="" class="grey_a">ΩÃÃ√ªÈ¿Ò</a> </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <div>
-                                <a href="" class="b_a">Àπ¿Ô¿ºø®</a></div>
-                        </li>
-                        <li>
-                            <div>
-                                <a href="" class="b_a">≥§Ã≤</a></div>
-                        </li>
-                        <li>
-                            <div>
-                                <a href="" class="b_a">∆’º™µ∫</a></div>
-                        </li>
-                        <li>
-                            <div>
-                                <a href="" class="b_a">¿ºø®Õ˛</a></div>
-                        </li>
-                        <li>
-                            <div>
-                                <a href="" class="b_a">…≥∞Õ</a></div>
-                        </li>
-                    </ul>
-                    <h2>
-                        —«÷ﬁµÿ«¯</h2>
-                    <ul>
-                        <li>
-                            <div>
-                                <a href="" class="b_a">º√÷›µ∫</a></div>
-                        </li>
-                        <li>
-                            <div>
-                                <a href="" class="b_a">≥Â…˛</a></div>
-                        </li>
-                    </ul>
-                    <h2>
-                        ¥Û—Û÷ﬁµÿ«¯</h2>
-                    <ul>
-                        <li>
-                            <div>
-                                <a href="" class="b_a">Ï≥º√</a></div>
-                        </li>
-                        <li>
-                            <div>
-                                <a href="" class="b_a">¥Ûœ™µÿ</a></div>
-                        </li>
-                        <li>
-                            <div>
-                                <a href="" class="b_a">√´¿Ô«ÛÀπ</a></div>
-                        </li>
-                        <li>
-                            <div>
-                                <a href="" class="b_a">»˚…‡∂˚</a></div>
-                        </li>
-                        <li>
-                            <div>
-                                <a href="" class="b_a">πÿµ∫</a></div>
-                        </li>
-                        <li>
-                            <div>
-                                <a href="" class="b_a">»˚∞‡</a></div>
-                        </li>
-                        <li>
-                            <div>
-                                <a href="" class="b_a">œƒÕ˛“ƒ</a></div>
-                        </li>
-                    </ul>
-                    <h2>
-                        µÿ÷–∫£µÿ«¯</h2>
-                    <ul>
-                        <li>
-                            <div>
-                                <a href="" class="b_a"> •Õ–¿Ôƒ·</a></div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="titles3 fwbj">
-                </div>
-                <div class="content fwbj_con">
-                    <ul>
-                        <li onclick="">
-                            <dl>
-                                <dt>
-                                    <img src="images/01.jpg" /></dt>
-                                <dd>
-                                    <h3>
-                                        ∫£…œµÓÃ√>>></h3>
-                                    <h2>
-                                        69989</h2>
-                                    <h5>
-                                        ∆</h5>
-                                </dd>
-                            </dl>
-                        </li>
-                        <li onclick="">
-                            <dl>
-                                <dt>
-                                    <img src="images/01.jpg" /></dt>
-                                <dd>
-                                    <h3>
-                                        ∫£…œµÓÃ√>>></h3>
-                                    <h2>
-                                        69989</h2>
-                                    <h5>
-                                        ∆</h5>
-                                </dd>
-                            </dl>
-                        </li>
-                        <li onclick="">
-                            <dl>
-                                <dt>
-                                    <img src="images/01.jpg" /></dt>
-                                <dd>
-                                    <h3>
-                                        ∫£…œµÓÃ√>>></h3>
-                                    <h2>
-                                        69989</h2>
-                                    <h5>
-                                        ∆</h5>
-                                </dd>
-                            </dl>
-                        </li>
-                    </ul>
-                </div>
-                <div class="titles3 zp">
-                </div>
-                <div class="content zp_con">
-                    <ul>
-                        <li onclick="">
-                            <img src="images/01.jpg" />
-                            <p>
-                                TIME£∫2014-5-20</p>
-                            <h2>
-                                ∞Õ¿Ôµ∫…„”∞</h2>
-                        </li>
-                        <li onclick="">
-                            <img src="images/01.jpg" />
-                            <p>
-                                TIME£∫2014-5-20</p>
-                            <h2>
-                                ∞Õ¿Ôµ∫…„”∞</h2>
-                        </li>
-                    </ul>
-                </div>
-                <div class="titles3 zx">
-                </div>
-                <div class="content zx_con">
-                    <ul>
-                        <li><a href="" class="blue_a">∞Õ¿Âµ∫‘√È≈◊ØªÈ¿ÒÃ◊≤Õ</a></li>
-                        <li><a href="" class="blue_a">∞Õ¿Âµ∫‘√È≈◊ØªÈ¿ÒÃ◊≤Õ</a></li>
-                        <li><a href="" class="blue_a">∞Õ¿Âµ∫‘√È≈◊ØªÈ¿ÒÃ◊≤Õ</a></li>
-                        <li><a href="" class="blue_a">∞Õ¿Âµ∫‘√È≈◊ØªÈ¿ÒÃ◊≤Õ</a></li>
-                        <li><a href="" class="blue_a">∞Õ¿Âµ∫‘√È≈◊ØªÈ¿ÒÃ◊≤Õ</a></li>
-                        <li><a href="" class="blue_a">∞Õ¿Âµ∫‘√È≈◊ØªÈ¿ÒÃ◊≤Õ</a></li>
-                    </ul>
-                </div>
-                <div class="titles3 lxwm">
-                </div>
-                <div class="content lxwm_con">
-                    <ul>
-                        <li class="lxwm_p1">13564829537</li>
-                        <li class="lxwm_p2">FAX:021-62784878</li>
-                        <li class="lxwm_p3">
-                            <img src="images/lxxx.png" /></li>
-                        <li class="lxwm_p4">
-                            <div class="wx_icon" title="Œ¢–≈">
-                            </div>
-                            <div class="wb_icon" title="Œ¢≤©">
-                            </div>
-                            <div class="qq_icon" title="QQ">
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+                <iframe src="left.htm" scrolling="no" width="100%" height="1860" frameborder="0"></iframe>
             </div>
             <div class="main_con2">
                 <div class="current_page">
-                	<a href="index.html" class="cur_a">ªÈ¿ÒÃ◊≤Õ</a>&nbsp;>>>&nbsp;
-                    <a href="list1.html" class="cur_a">∂´ƒœ—«µÿ«¯</a>&nbsp;>>>&nbsp;
-                    ∞Õ¿Âµ∫
+                	<a href="index.html" class="cur_a">Â©öÁ§ºÂ•óÈ§ê</a>&nbsp;>>>&nbsp;
+                    <a href="list1.html" class="cur_a">‰∏úÂçó‰∫öÂú∞Âå∫</a>&nbsp;>>>&nbsp;
+                    Â∑¥ÂéòÂ≤õ
                 </div>
                 <div class="map_con">
                 	 <div class="map_scroll clearfix">
@@ -454,19 +85,19 @@ window.onload=menuFix;
                                         <script>
 											<!--//--><![CDATA[//><!--
 											var scrollPic_03 = new ScrollPic();
-											scrollPic_03.scrollContId   = "map_scroll0"; //ƒ⁄»›»›∆˜ID
-											scrollPic_03.arrLeftId      = "mbtn_l0";//◊Ûº˝Õ∑ID
-											scrollPic_03.arrRightId     = "mbtn_r0"; //”“º˝Õ∑ID
+											scrollPic_03.scrollContId   = "map_scroll0"; //ÂÜÖÂÆπÂÆπÂô®ID
+											scrollPic_03.arrLeftId      = "mbtn_l0";//Â∑¶ÁÆ≠Â§¥ID
+											scrollPic_03.arrRightId     = "mbtn_r0"; //Âè≥ÁÆ≠Â§¥ID
 											
-											scrollPic_03.frameWidth     = 700;//œ‘ æøÚøÌ∂»
-											scrollPic_03.pageWidth      = 700; //∑≠“≥øÌ∂»
+											scrollPic_03.frameWidth     = 700;//ÊòæÁ§∫Ê°ÜÂÆΩÂ∫¶
+											scrollPic_03.pageWidth      = 700; //ÁøªÈ°µÂÆΩÂ∫¶
 											
-											scrollPic_03.speed          = 10; //“∆∂ØÀŸ∂»(µ•Œª∫¡√Î£¨‘Ω–°‘ΩøÏ)
-											scrollPic_03.space          = 10; //√ø¥Œ“∆∂ØœÒÀÿ(µ•Œªpx£¨‘Ω¥Û‘ΩøÏ)
-											scrollPic_03.autoPlay       = true; //◊‘∂Ø≤•∑≈
-											scrollPic_03.autoPlayTime   = 3; //◊‘∂Ø≤•∑≈º‰∏Ù ±º‰(√Î)
+											scrollPic_03.speed          = 10; //ÁßªÂä®ÈÄüÂ∫¶(Âçï‰ΩçÊØ´ÁßíÔºåË∂äÂ∞èË∂äÂø´)
+											scrollPic_03.space          = 10; //ÊØèÊ¨°ÁßªÂä®ÂÉèÁ¥†(Âçï‰ΩçpxÔºåË∂äÂ§ßË∂äÂø´)
+											scrollPic_03.autoPlay       = true; //Ëá™Âä®Êí≠Êîæ
+											scrollPic_03.autoPlayTime   = 3; //Ëá™Âä®Êí≠ÊîæÈó¥ÈöîÊó∂Èó¥(Áßí)
 											
-											scrollPic_03.initialize(); //≥ı ºªØ
+											scrollPic_03.initialize(); //ÂàùÂßãÂåñ
 																		
 													//--><!]]>
                                         </script>
@@ -475,16 +106,16 @@ window.onload=menuFix;
                 	<div id="con2">
                         <ul id="tags2">
                             <li class="selectTag">
-                            	<a onclick="selectTag('pic_con0',this)" href="javascript:void(0)">»´≤ø</a>
+                            	<a onclick="selectTag('pic_con0',this)" href="javascript:void(0)">ÂÖ®ÈÉ®</a>
                             </li>
                             <li>
-                            	<a onclick="selectTag('pic_con1',this)" href="javascript:void(0)">∫£…œªÈ¿Ò</a>
+                            	<a onclick="selectTag('pic_con1',this)" href="javascript:void(0)">Êµ∑‰∏äÂ©öÁ§º</a>
                             </li>
                             <li>
-                            	<a onclick="selectTag('pic_con2',this)" href="javascript:void(0)">æ∆µÍªÈ¿Ò</a>
+                            	<a onclick="selectTag('pic_con2',this)" href="javascript:void(0)">ÈÖíÂ∫óÂ©öÁ§º</a>
                             </li>
                             <li>
-                            	<a onclick="selectTag('pic_con3',this)" href="javascript:void(0)">ΩÃÃ√ªÈ¿Ò</a>
+                            	<a onclick="selectTag('pic_con3',this)" href="javascript:void(0)">ÊïôÂ†ÇÂ©öÁ§º</a>
                             </li>
                         </ul>
                         <div id="pic_con">
@@ -495,10 +126,10 @@ window.onload=menuFix;
                                             <img src="images/02.jpg"/>
                                             <div>
                                                 <p class="info_name">
-                                                    ∞Õ¿Âµ∫∏€¿ˆŒﬁœﬁΩÃÃ√
+                                                    Â∑¥ÂéòÂ≤õÊ∏Ø‰∏ΩÊó†ÈôêÊïôÂ†Ç
                                                 </p>
                                                 <p class="info_price">
-                                                    £§10000
+                                                    Ôø•10000
                                                 </p>
                                             </div>
                                         </div>
@@ -507,10 +138,10 @@ window.onload=menuFix;
                                     	<div class="pic_div" onclick="location.href='list3.html'">
                                             <img src="images/02.jpg"/>
                                             <div>
-                                                <p class="info_name">∞Õ¿Âµ∫∏€¿ˆŒﬁœﬁΩÃÃ√
+                                                <p class="info_name">Â∑¥ÂéòÂ≤õÊ∏Ø‰∏ΩÊó†ÈôêÊïôÂ†Ç
                                                 </p>
                                                 <p class="info_price">
-                                                    £§10000
+                                                    Ôø•10000
                                                 </p>
                                             </div>
                                         </div>
@@ -518,10 +149,10 @@ window.onload=menuFix;
                                     <li><div class="pic_div" onclick="location.href='list3.html'">
                                             <img src="images/02.jpg"/>
                                             <div>
-                                                <p class="info_name">∞Õ¿Âµ∫∏€¿ˆŒﬁœﬁΩÃÃ√
+                                                <p class="info_name">Â∑¥ÂéòÂ≤õÊ∏Ø‰∏ΩÊó†ÈôêÊïôÂ†Ç
                                                 </p>
                                                 <p class="info_price">
-                                                    £§10000
+                                                    Ôø•10000
                                                 </p>
                                             </div>
                                         </div>
@@ -529,10 +160,10 @@ window.onload=menuFix;
                                     <li><div class="pic_div" onclick="location.href='list3.html'">
                                             <img src="images/02.jpg"/>
                                             <div>
-                                                <p class="info_name">∞Õ¿Âµ∫∏€¿ˆŒﬁœﬁΩÃÃ√
+                                                <p class="info_name">Â∑¥ÂéòÂ≤õÊ∏Ø‰∏ΩÊó†ÈôêÊïôÂ†Ç
                                                 </p>
                                                 <p class="info_price">
-                                                    £§10000
+                                                    Ôø•10000
                                                 </p>
                                             </div>
                                         </div>
@@ -540,10 +171,10 @@ window.onload=menuFix;
                                     <li><div class="pic_div" onclick="location.href='list3.html'">
                                             <img src="images/02.jpg"/>
                                             <div>
-                                                <p class="info_name">∞Õ¿Âµ∫∏€¿ˆŒﬁœﬁΩÃÃ√
+                                                <p class="info_name">Â∑¥ÂéòÂ≤õÊ∏Ø‰∏ΩÊó†ÈôêÊïôÂ†Ç
                                                 </p>
                                                 <p class="info_price">
-                                                    £§10000
+                                                    Ôø•10000
                                                 </p>
                                             </div>
                                         </div>
@@ -551,10 +182,10 @@ window.onload=menuFix;
                                     <li><div class="pic_div" onclick="location.href='list3.html'">
                                             <img src="images/02.jpg"/>
                                             <div>
-                                                <p class="info_name">∞Õ¿Âµ∫∏€¿ˆŒﬁœﬁΩÃÃ√
+                                                <p class="info_name">Â∑¥ÂéòÂ≤õÊ∏Ø‰∏ΩÊó†ÈôêÊïôÂ†Ç
                                                 </p>
                                                 <p class="info_price">
-                                                    £§10000
+                                                    Ôø•10000
                                                 </p>
                                             </div>
                                         </div>
@@ -562,10 +193,10 @@ window.onload=menuFix;
                                      <li><div class="pic_div" onclick="location.href='list3.html'">
                                             <img src="images/02.jpg"/>
                                             <div>
-                                                <p class="info_name">∞Õ¿Âµ∫∏€¿ˆŒﬁœﬁΩÃÃ√
+                                                <p class="info_name">Â∑¥ÂéòÂ≤õÊ∏Ø‰∏ΩÊó†ÈôêÊïôÂ†Ç
                                                 </p>
                                                 <p class="info_price">
-                                                    £§10000
+                                                    Ôø•10000
                                                 </p>
                                             </div>
                                         </div>
@@ -573,10 +204,10 @@ window.onload=menuFix;
                                     <li><div class="pic_div" onclick="location.href='list3.html'">
                                             <img src="images/02.jpg"/>
                                             <div>
-                                                <p class="info_name">∞Õ¿Âµ∫∏€¿ˆŒﬁœﬁΩÃÃ√
+                                                <p class="info_name">Â∑¥ÂéòÂ≤õÊ∏Ø‰∏ΩÊó†ÈôêÊïôÂ†Ç
                                                 </p>
                                                 <p class="info_price">
-                                                    £§10000
+                                                    Ôø•10000
                                                 </p>
                                             </div>
                                         </div>
@@ -584,10 +215,10 @@ window.onload=menuFix;
                                     <li><div class="pic_div" onclick="location.href='list3.html'">
                                             <img src="images/02.jpg"/>
                                             <div>
-                                                <p class="info_name">∞Õ¿Âµ∫∏€¿ˆŒﬁœﬁΩÃÃ√
+                                                <p class="info_name">Â∑¥ÂéòÂ≤õÊ∏Ø‰∏ΩÊó†ÈôêÊïôÂ†Ç
                                                 </p>
                                                 <p class="info_price">
-                                                    £§10000
+                                                    Ôø•10000
                                                 </p>
                                             </div>
                                         </div>
@@ -599,10 +230,10 @@ window.onload=menuFix;
                                     <li><div class="pic_div" onclick="location.href='list3.html'">
                                             <img src="images/01.jpg"/>
                                             <div>
-                                                <p class="info_name">∞Õ¿Âµ∫∏€¿ˆŒﬁœﬁΩÃÃ√
+                                                <p class="info_name">Â∑¥ÂéòÂ≤õÊ∏Ø‰∏ΩÊó†ÈôêÊïôÂ†Ç
                                                 </p>
                                                 <p class="info_price">
-                                                    £§10000
+                                                    Ôø•10000
                                                 </p>
                                             </div>
                                         </div>
@@ -610,10 +241,10 @@ window.onload=menuFix;
                                     <li><div class="pic_div" onclick="location.href='list3.html'">
                                             <img src="images/01.jpg"/>
                                             <div>
-                                                <p class="info_name">∞Õ¿Âµ∫∏€¿ˆŒﬁœﬁΩÃÃ√
+                                                <p class="info_name">Â∑¥ÂéòÂ≤õÊ∏Ø‰∏ΩÊó†ÈôêÊïôÂ†Ç
                                                 </p>
                                                 <p class="info_price">
-                                                    £§10000
+                                                    Ôø•10000
                                                 </p>
                                             </div>
                                         </div>
@@ -621,10 +252,10 @@ window.onload=menuFix;
                                     <li><div class="pic_div" onclick="location.href='list3.html'">
                                             <img src="images/01.jpg"/>
                                             <div>
-                                                <p class="info_name">∞Õ¿Âµ∫∏€¿ˆŒﬁœﬁΩÃÃ√
+                                                <p class="info_name">Â∑¥ÂéòÂ≤õÊ∏Ø‰∏ΩÊó†ÈôêÊïôÂ†Ç
                                                 </p>
                                                 <p class="info_price">
-                                                    £§10000
+                                                    Ôø•10000
                                                 </p>
                                             </div>
                                         </div>
@@ -632,10 +263,10 @@ window.onload=menuFix;
                                     <li><div class="pic_div" onclick="location.href='list3.html'">
                                             <img src="images/01.jpg"/>
                                             <div>
-                                                <p class="info_name">∞Õ¿Âµ∫∏€¿ˆŒﬁœﬁΩÃÃ√
+                                                <p class="info_name">Â∑¥ÂéòÂ≤õÊ∏Ø‰∏ΩÊó†ÈôêÊïôÂ†Ç
                                                 </p>
                                                 <p class="info_price">
-                                                    £§10000
+                                                    Ôø•10000
                                                 </p>
                                             </div>
                                         </div>
@@ -643,10 +274,10 @@ window.onload=menuFix;
                                     <li><div class="pic_div" onclick="location.href='list3.html'">
                                             <img src="images/01.jpg"/>
                                             <div>
-                                                <p class="info_name">∞Õ¿Âµ∫∏€¿ˆŒﬁœﬁΩÃÃ√
+                                                <p class="info_name">Â∑¥ÂéòÂ≤õÊ∏Ø‰∏ΩÊó†ÈôêÊïôÂ†Ç
                                                 </p>
                                                 <p class="info_price">
-                                                    £§10000
+                                                    Ôø•10000
                                                 </p>
                                             </div>
                                         </div>
@@ -654,10 +285,10 @@ window.onload=menuFix;
                                     <li><div class="pic_div" onclick="location.href='list3.html'">
                                             <img src="images/01.jpg"/>
                                             <div>
-                                                <p class="info_name">∞Õ¿Âµ∫∏€¿ˆŒﬁœﬁΩÃÃ√
+                                                <p class="info_name">Â∑¥ÂéòÂ≤õÊ∏Ø‰∏ΩÊó†ÈôêÊïôÂ†Ç
                                                 </p>
                                                 <p class="info_price">
-                                                    £§10000
+                                                    Ôø•10000
                                                 </p>
                                             </div>
                                         </div>
@@ -665,10 +296,10 @@ window.onload=menuFix;
                                      <li><div class="pic_div" onclick="location.href='list3.html'">
                                             <img src="images/01.jpg"/>
                                             <div>
-                                                <p class="info_name">∞Õ¿Âµ∫∏€¿ˆŒﬁœﬁΩÃÃ√
+                                                <p class="info_name">Â∑¥ÂéòÂ≤õÊ∏Ø‰∏ΩÊó†ÈôêÊïôÂ†Ç
                                                 </p>
                                                 <p class="info_price">
-                                                    £§10000
+                                                    Ôø•10000
                                                 </p>
                                             </div>
                                         </div>
@@ -676,10 +307,10 @@ window.onload=menuFix;
                                     <li><div class="pic_div" onclick="location.href='list3.html'">
                                             <img src="images/01.jpg"/>
                                             <div>
-                                                <p class="info_name">∞Õ¿Âµ∫∏€¿ˆŒﬁœﬁΩÃÃ√
+                                                <p class="info_name">Â∑¥ÂéòÂ≤õÊ∏Ø‰∏ΩÊó†ÈôêÊïôÂ†Ç
                                                 </p>
                                                 <p class="info_price">
-                                                    £§10000
+                                                    Ôø•10000
                                                 </p>
                                             </div>
                                         </div>
@@ -687,10 +318,10 @@ window.onload=menuFix;
                                     <li><div class="pic_div" onclick="location.href='list3.html'">
                                             <img src="images/01.jpg"/>
                                             <div>
-                                                <p class="info_name">∞Õ¿Âµ∫∏€¿ˆŒﬁœﬁΩÃÃ√
+                                                <p class="info_name">Â∑¥ÂéòÂ≤õÊ∏Ø‰∏ΩÊó†ÈôêÊïôÂ†Ç
                                                 </p>
                                                 <p class="info_price">
-                                                    £§10000
+                                                    Ôø•10000
                                                 </p>
                                             </div>
                                         </div>
@@ -702,10 +333,10 @@ window.onload=menuFix;
                                     <li><div class="pic_div" onclick="location.href='list3.html'">
                                             <img src="images/02.jpg"/>
                                             <div>
-                                                <p class="info_name">∞Õ¿Âµ∫∏€¿ˆŒﬁœﬁΩÃÃ√
+                                                <p class="info_name">Â∑¥ÂéòÂ≤õÊ∏Ø‰∏ΩÊó†ÈôêÊïôÂ†Ç
                                                 </p>
                                                 <p class="info_price">
-                                                    £§10000
+                                                    Ôø•10000
                                                 </p>
                                             </div>
                                         </div>
@@ -713,10 +344,10 @@ window.onload=menuFix;
                                     <li><div class="pic_div" onclick="location.href='list3.html'">
                                             <img src="images/02.jpg"/>
                                             <div>
-                                                <p class="info_name">∞Õ¿Âµ∫∏€¿ˆŒﬁœﬁΩÃÃ√
+                                                <p class="info_name">Â∑¥ÂéòÂ≤õÊ∏Ø‰∏ΩÊó†ÈôêÊïôÂ†Ç
                                                 </p>
                                                 <p class="info_price">
-                                                    £§10000
+                                                    Ôø•10000
                                                 </p>
                                             </div>
                                         </div>
@@ -724,10 +355,10 @@ window.onload=menuFix;
                                     <li><div class="pic_div" onclick="location.href='list3.html'">
                                             <img src="images/02.jpg"/>
                                             <div>
-                                                <p class="info_name">∞Õ¿Âµ∫∏€¿ˆŒﬁœﬁΩÃÃ√
+                                                <p class="info_name">Â∑¥ÂéòÂ≤õÊ∏Ø‰∏ΩÊó†ÈôêÊïôÂ†Ç
                                                 </p>
                                                 <p class="info_price">
-                                                    £§10000
+                                                    Ôø•10000
                                                 </p>
                                             </div>
                                         </div>
@@ -735,10 +366,10 @@ window.onload=menuFix;
                                     <li><div class="pic_div" onclick="location.href='list3.html'">
                                             <img src="images/02.jpg"/>
                                             <div>
-                                                <p class="info_name">∞Õ¿Âµ∫∏€¿ˆŒﬁœﬁΩÃÃ√
+                                                <p class="info_name">Â∑¥ÂéòÂ≤õÊ∏Ø‰∏ΩÊó†ÈôêÊïôÂ†Ç
                                                 </p>
                                                 <p class="info_price">
-                                                    £§10000
+                                                    Ôø•10000
                                                 </p>
                                             </div>
                                         </div>
@@ -746,10 +377,10 @@ window.onload=menuFix;
                                     <li><div class="pic_div" onclick="location.href='list3.html'">
                                             <img src="images/02.jpg"/>
                                             <div>
-                                                <p class="info_name">∞Õ¿Âµ∫∏€¿ˆŒﬁœﬁΩÃÃ√
+                                                <p class="info_name">Â∑¥ÂéòÂ≤õÊ∏Ø‰∏ΩÊó†ÈôêÊïôÂ†Ç
                                                 </p>
                                                 <p class="info_price">
-                                                    £§10000
+                                                    Ôø•10000
                                                 </p>
                                             </div>
                                         </div>
@@ -757,10 +388,10 @@ window.onload=menuFix;
                                     <li><div class="pic_div" onclick="location.href='list3.html'">
                                             <img src="images/02.jpg"/>
                                             <div>
-                                                <p class="info_name">∞Õ¿Âµ∫∏€¿ˆŒﬁœﬁΩÃÃ√
+                                                <p class="info_name">Â∑¥ÂéòÂ≤õÊ∏Ø‰∏ΩÊó†ÈôêÊïôÂ†Ç
                                                 </p>
                                                 <p class="info_price">
-                                                    £§10000
+                                                    Ôø•10000
                                                 </p>
                                             </div>
                                         </div>
@@ -768,10 +399,10 @@ window.onload=menuFix;
                                      <li><div class="pic_div" onclick="location.href='list3.html'">
                                             <img src="images/02.jpg"/>
                                             <div>
-                                                <p class="info_name">∞Õ¿Âµ∫∏€¿ˆŒﬁœﬁΩÃÃ√
+                                                <p class="info_name">Â∑¥ÂéòÂ≤õÊ∏Ø‰∏ΩÊó†ÈôêÊïôÂ†Ç
                                                 </p>
                                                 <p class="info_price">
-                                                    £§10000
+                                                    Ôø•10000
                                                 </p>
                                             </div>
                                         </div>
@@ -779,10 +410,10 @@ window.onload=menuFix;
                                     <li><div class="pic_div" onclick="location.href='list3.html'">
                                             <img src="images/02.jpg"/>
                                             <div>
-                                                <p class="info_name">∞Õ¿Âµ∫∏€¿ˆŒﬁœﬁΩÃÃ√
+                                                <p class="info_name">Â∑¥ÂéòÂ≤õÊ∏Ø‰∏ΩÊó†ÈôêÊïôÂ†Ç
                                                 </p>
                                                 <p class="info_price">
-                                                    £§10000
+                                                    Ôø•10000
                                                 </p>
                                             </div>
                                         </div>
@@ -790,10 +421,10 @@ window.onload=menuFix;
                                     <li><div class="pic_div" onclick="location.href='list3.html'">
                                             <img src="images/02.jpg"/>
                                             <div>
-                                                <p class="info_name">∞Õ¿Âµ∫∏€¿ˆŒﬁœﬁΩÃÃ√
+                                                <p class="info_name">Â∑¥ÂéòÂ≤õÊ∏Ø‰∏ΩÊó†ÈôêÊïôÂ†Ç
                                                 </p>
                                                 <p class="info_price">
-                                                    £§10000
+                                                    Ôø•10000
                                                 </p>
                                             </div>
                                         </div>
@@ -805,10 +436,10 @@ window.onload=menuFix;
                                     <li><div class="pic_div" onclick="location.href='list3.html'">
                                             <img src="images/01.jpg"/>
                                             <div>
-                                                <p class="info_name">∞Õ¿Âµ∫∏€¿ˆŒﬁœﬁΩÃÃ√
+                                                <p class="info_name">Â∑¥ÂéòÂ≤õÊ∏Ø‰∏ΩÊó†ÈôêÊïôÂ†Ç
                                                 </p>
                                                 <p class="info_price">
-                                                    £§10000
+                                                    Ôø•10000
                                                 </p>
                                             </div>
                                         </div>
@@ -816,10 +447,10 @@ window.onload=menuFix;
                                     <li><div class="pic_div" onclick="location.href='list3.html'">
                                             <img src="images/01.jpg"/>
                                             <div>
-                                                <p class="info_name">∞Õ¿Âµ∫∏€¿ˆŒﬁœﬁΩÃÃ√
+                                                <p class="info_name">Â∑¥ÂéòÂ≤õÊ∏Ø‰∏ΩÊó†ÈôêÊïôÂ†Ç
                                                 </p>
                                                 <p class="info_price">
-                                                    £§10000
+                                                    Ôø•10000
                                                 </p>
                                             </div>
                                         </div>
@@ -827,10 +458,10 @@ window.onload=menuFix;
                                     <li><div class="pic_div" onclick="location.href='list3.html'">
                                             <img src="images/01.jpg"/>
                                             <div>
-                                                <p class="info_name">∞Õ¿Âµ∫∏€¿ˆŒﬁœﬁΩÃÃ√
+                                                <p class="info_name">Â∑¥ÂéòÂ≤õÊ∏Ø‰∏ΩÊó†ÈôêÊïôÂ†Ç
                                                 </p>
                                                 <p class="info_price">
-                                                    £§10000
+                                                    Ôø•10000
                                                 </p>
                                             </div>
                                         </div>
@@ -838,10 +469,10 @@ window.onload=menuFix;
                                     <li><div class="pic_div" onclick="location.href='list3.html'">
                                             <img src="images/01.jpg"/>
                                             <div>
-                                                <p class="info_name">∞Õ¿Âµ∫∏€¿ˆŒﬁœﬁΩÃÃ√
+                                                <p class="info_name">Â∑¥ÂéòÂ≤õÊ∏Ø‰∏ΩÊó†ÈôêÊïôÂ†Ç
                                                 </p>
                                                 <p class="info_price">
-                                                    £§10000
+                                                    Ôø•10000
                                                 </p>
                                             </div>
                                         </div>
@@ -849,10 +480,10 @@ window.onload=menuFix;
                                     <li><div class="pic_div" onclick="location.href='list3.html'">
                                             <img src="images/01.jpg"/>
                                             <div>
-                                                <p class="info_name">∞Õ¿Âµ∫∏€¿ˆŒﬁœﬁΩÃÃ√
+                                                <p class="info_name">Â∑¥ÂéòÂ≤õÊ∏Ø‰∏ΩÊó†ÈôêÊïôÂ†Ç
                                                 </p>
                                                 <p class="info_price">
-                                                    £§10000
+                                                    Ôø•10000
                                                 </p>
                                             </div>
                                         </div>
@@ -860,10 +491,10 @@ window.onload=menuFix;
                                     <li><div class="pic_div" onclick="location.href='list3.html'">
                                             <img src="images/01.jpg"/>
                                             <div>
-                                                <p class="info_name">∞Õ¿Âµ∫∏€¿ˆŒﬁœﬁΩÃÃ√
+                                                <p class="info_name">Â∑¥ÂéòÂ≤õÊ∏Ø‰∏ΩÊó†ÈôêÊïôÂ†Ç
                                                 </p>
                                                 <p class="info_price">
-                                                    £§10000
+                                                    Ôø•10000
                                                 </p>
                                             </div>
                                         </div>
@@ -871,10 +502,10 @@ window.onload=menuFix;
                                      <li><div class="pic_div" onclick="location.href='list3.html'">
                                             <img src="images/01.jpg"/>
                                             <div>
-                                                <p class="info_name">∞Õ¿Âµ∫∏€¿ˆŒﬁœﬁΩÃÃ√
+                                                <p class="info_name">Â∑¥ÂéòÂ≤õÊ∏Ø‰∏ΩÊó†ÈôêÊïôÂ†Ç
                                                 </p>
                                                 <p class="info_price">
-                                                    £§10000
+                                                    Ôø•10000
                                                 </p>
                                             </div>
                                         </div>
@@ -882,10 +513,10 @@ window.onload=menuFix;
                                     <li><div class="pic_div" onclick="location.href='list3.html'">
                                             <img src="images/01.jpg"/>
                                             <div>
-                                                <p class="info_name">∞Õ¿Âµ∫∏€¿ˆŒﬁœﬁΩÃÃ√
+                                                <p class="info_name">Â∑¥ÂéòÂ≤õÊ∏Ø‰∏ΩÊó†ÈôêÊïôÂ†Ç
                                                 </p>
                                                 <p class="info_price">
-                                                    £§10000
+                                                    Ôø•10000
                                                 </p>
                                             </div>
                                         </div>
@@ -893,10 +524,10 @@ window.onload=menuFix;
                                     <li><div class="pic_div" onclick="location.href='list3.html'">
                                             <img src="images/02.jpg"/>
                                             <div>
-                                                <p class="info_name">∞Õ¿Âµ∫∏€¿ˆŒﬁœﬁΩÃÃ√
+                                                <p class="info_name">Â∑¥ÂéòÂ≤õÊ∏Ø‰∏ΩÊó†ÈôêÊïôÂ†Ç
                                                 </p>
                                                 <p class="info_price">
-                                                    £§10000
+                                                    Ôø•10000
                                                 </p>
                                             </div>
                                         </div>
@@ -917,61 +548,13 @@ window.onload=menuFix;
             </div>
         </div>
     </div>
-    <div class="bottom m_t20">
-        <div class="w_m">
-            <div class="link_con">
-                <div class="titles1 link_title">
-                    <h2>
-                        ”—«È¡¥Ω”</h2>
-                </div>
-                <div class="link_m">
-                    <a href="#" class="b_a">πŸ∑ΩŒ¢≤©</a>&nbsp;|&nbsp;
-                    <a href="#" class="b_a">πŸ∑ΩŒ¢≤©</a>&nbsp;|&nbsp;
-                    <a href="#" class="b_a">πŸ∑ΩŒ¢≤©</a>&nbsp;|&nbsp;
-                    <a href="#" class="b_a">πŸ∑ΩŒ¢≤©</a>&nbsp;|&nbsp;
-                    <a href="#" class="b_a">πŸ∑ΩŒ¢≤©</a>&nbsp;|&nbsp;
-                    <a href="#" class="b_a">πŸ∑ΩŒ¢≤©</a>&nbsp;|&nbsp;
-                    <a href="#" class="b_a">πŸ∑ΩŒ¢≤©</a>&nbsp;|&nbsp;
-                    <a href="#" class="b_a">πŸ∑ΩŒ¢≤©</a>&nbsp;|&nbsp;
-                    <a href="#" class="b_a">πŸ∑ΩŒ¢≤©</a>&nbsp;|&nbsp;
-                    <a href="#" class="b_a">πŸ∑ΩŒ¢≤©</a>&nbsp;|&nbsp;
-                </div>
-            </div>
-            <div class="contact_con m_t30">
-                <div class="titles1 contact_title">
-                    <h2>
-                        ¡™œµŒ“√«</h2>
-                </div>
-                <div class="contact_c">
-                    <h2>
-                        13564829537</h2>
-                    <h3>
-                        »´π˙Õ≥“ªøÕ∑˛µÁª∞</h3>
-                </div>
-                <div class="contact_m">
-                    <ul>
-                        <li class="li1" title="QQ"></li>
-                        <li class="li2" title="Œ¢≤©"></li>
-                        <li class="li3" title="Œ¢–≈"></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="address_con m_t15">
-                <div class="titles1 addr_title">
-                    <h2>
-                        ¡™œµµÿ÷∑</h2>
-                    <h2>
-                        …œ∫£ –æ≤∞≤«¯±±æ©Œ˜¬∑1000∫≈</h2>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--≤‡±ﬂπ„∏Ê-->
+    <iframe src="bottom.htm" scrolling="no" width="100%" height="240" frameborder="0"></iframe>
+    <!--‰æßËæπÂπøÂëä-->
     <div id="buoy" style="position: fixed; top: 150px;">
         <iframe id="cproIframe1" src="side1.jsp" width="102" height="380" align="center,center"
             marginwidth="0" marginheight="0" scrolling="no" frameborder="0" allowtransparency="true">
         </iframe>
     </div>
-    <!--≤‡±ﬂπ„∏Ê end-->
+    <!--‰æßËæπÂπøÂëä end-->
 </body>
 </html>

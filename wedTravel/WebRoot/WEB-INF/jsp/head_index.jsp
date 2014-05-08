@@ -21,7 +21,7 @@
 <body>
 <div class="index_header">
 <div class="w_m top_con">
-    <div class="logo" onclick="location.href='index.html'" title="返回首页"></div>
+    <div class="logo" onclick="location.href='remommend.action'" title="返回首页"></div>
     <div class="search_con">
         <div class="search_box">
             <span class="left l_bg"></span>
@@ -73,28 +73,28 @@
 
         </script>
         <ul id="nav">
-            <li><a href="index.html">网站首页</a></li>
-            <li><a href="list1.html">海岛婚礼套餐</a>
+            <li><a href="recommend.action">网站首页</a></li>
+            <li><a href="list1.jsp">海岛婚礼套餐</a>
                 <ul>
                     <li class="li_t"></li>
                     <li>
-                        <a href="list1.html">东南亚地区</a>
+                        <a href="list1.jsp">东南亚地区</a>
                     </li>
                     <li>
-                        <a href="list1.html">地中海地区</a>
+                        <a href="list1.jsp">地中海地区</a>
                     </li>
                     <li class="li_b"></li>
                 </ul>
             </li>
             <li>
-                <a href="">婚礼婚纱照摄影</a>
+                <a href="list2.jsp">婚礼婚纱照摄影</a>
                 <ul>
                     <li class="li_t"></li>
                     <li>
-                        <a href="#">东南亚地区</a>
+                        <a href="list2.jsp">东南亚地区</a>
                     </li>
                     <li>
-                        <a href="#">地中海地区</a>
+                        <a href="list2.jsp">地中海地区</a>
                     </li>
                     <li class="li_b"></li>
                 </ul>
@@ -139,13 +139,13 @@
                 </ul>
             </li>
             <li>
-                <a href="">疑难答案</a>
+                <a href="help.jsp">疑难答案</a>
             </li>
             <li>
-                <a href="">公司介绍</a>
+                <a href="company.jsp">公司介绍</a>
             </li>
             <li class="no_bg">
-                <a href="">订单购物车</a>
+                <a href="order.jsp">订单购物车</a>
             </li>
         </ul>
     </div>
@@ -191,9 +191,9 @@
                                                                          src='<s:property value="imgUrl"/>'/></a></li>
                     </s:iterator>
                     <!--
-                <li><a href="list2.html"><img alt="01" class="cubeRandom" src="images/index_side1.jpg" /></a></li>
-                <li><a href="list2.html"><img alt="02" class="cubeRandom" src="images/index_side2.jpg" /></a></li>
-                <li><a href="list2.html"><img alt="03" class="cubeRandom" src="images/index_side3.jpg" /></a></li>
+                <li><a href="list2.jsp"><img alt="01" class="cubeRandom" src="images/index_side1.jpg" /></a></li>
+                <li><a href="list2.jsp"><img alt="02" class="cubeRandom" src="images/index_side2.jpg" /></a></li>
+                <li><a href="list2.jsp"><img alt="03" class="cubeRandom" src="images/index_side3.jpg" /></a></li>
                     -->
                 </ul>
             </div>
