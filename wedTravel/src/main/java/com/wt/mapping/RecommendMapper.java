@@ -1,7 +1,6 @@
 package com.wt.mapping;
 
 import com.wt.bean.table.Recommend;
-import org.springframework.stereotype.Repository;
 
 import java.util.List;
 

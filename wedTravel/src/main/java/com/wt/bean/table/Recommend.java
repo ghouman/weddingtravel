@@ -11,7 +11,7 @@ public class Recommend {
 
     private String content;
 
-    private String desc;
+    private String recommendDesc;
 
     private String imgUrl;
 
@@ -28,8 +28,6 @@ public class Recommend {
     private Integer islandId;
 
     private String islandName;
-
-    private Integer index;
 
     private Integer valid;
 
@@ -99,14 +97,6 @@ public class Recommend {
         this.content = content == null ? null : content.trim();
     }
 
-    public String getDesc() {
-        return desc;
-    }
-
-    public void setDesc(String desc) {
-        this.desc = desc == null ? null : desc.trim();
-    }
-
     public String getImgUrl() {
         return imgUrl;
     }
@@ -171,12 +161,12 @@ public class Recommend {
         this.islandName = islandName == null ? null : islandName.trim();
     }
 
-    public Integer getIndex() {
-        return index;
+    public String getRecommendDesc() {
+        return recommendDesc;
     }
 
-    public void setIndex(Integer index) {
-        this.index = index;
+    public void setRecommendDesc(String recommendDesc) {
+        this.recommendDesc = recommendDesc;
     }
 
     public Integer getValid() {
