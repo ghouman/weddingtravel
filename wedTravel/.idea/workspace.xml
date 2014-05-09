@@ -54,6 +54,7 @@
     <file path="/weddingCase_videoList.jsp" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399643375918" ignored="false" />
     <file path="/wedding_photo2.jsp" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399643470006" ignored="false" />
     <file path="/company.jsp" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399645401052" ignored="false" />
+    <file path="/.project" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399646779271" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,24 +173,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="order.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebRoot/order.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="59" selection-start="2138" selection-end="2138" vertical-scroll-proportion="-0.7096774">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="side1.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebRoot/side1.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="31.935484">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="help.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebRoot/help.jsp">
           <provider selected="true" editor-type-id="text-editor">
@@ -253,10 +236,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="weddingCase_videoList.jsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="weddingCase_videoList.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebRoot/weddingCase_videoList.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="266" column="61" selection-start="13921" selection-end="13921" vertical-scroll-proportion="0.28712872">
+            <state line="266" column="61" selection-start="13921" selection-end="13921" vertical-scroll-proportion="-2.8064516">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".project" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.project">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="19" selection-start="67" selection-end="76" vertical-scroll-proportion="0.14012739">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".classpath" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.classpath">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -275,7 +276,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/WebRoot/head_index.jsp" />
         <option value="$PROJECT_DIR$/WebRoot/head.jsp" />
         <option value="$PROJECT_DIR$/WebRoot/left.jsp" />
         <option value="$PROJECT_DIR$/WebRoot/company.jsp" />
@@ -291,6 +291,7 @@
         <option value="$PROJECT_DIR$/WebRoot/weddingCase_picList.jsp" />
         <option value="$PROJECT_DIR$/WebRoot/weddingCase_video.jsp" />
         <option value="$PROJECT_DIR$/WebRoot/weddingCase_videoList.jsp" />
+        <option value="$PROJECT_DIR$/.project" />
       </list>
     </option>
   </component>
@@ -830,7 +831,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-15" y="-2" width="1382" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -851,9 +852,9 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11794872" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21060605" sideWeight="0.6769231" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21060605" sideWeight="0.62051284" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.757265" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32307693" sideWeight="0.4909091" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3794872" sideWeight="0.4909091" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -919,20 +920,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WebRoot/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="144" selection-end="209" vertical-scroll-proportion="-4.967742">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/left.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="65" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebRoot/company.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="59" column="66" selection-start="2140" selection-end="2140" vertical-scroll-proportion="-3.1935484">
@@ -1026,7 +1013,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WebRoot/weddingCase_videoList.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="266" column="61" selection-start="13921" selection-end="13921" vertical-scroll-proportion="0.28712872">
+        <state line="266" column="61" selection-start="13921" selection-end="13921" vertical-scroll-proportion="-2.8064516">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="19" selection-start="67" selection-end="76" vertical-scroll-proportion="0.14012739">
           <folding />
         </state>
       </provider>
