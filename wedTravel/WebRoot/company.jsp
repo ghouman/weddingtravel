@@ -57,7 +57,7 @@ $(document).ready(function() {
                     让您的婚礼与海岛的风景完美结合，在您的婚礼中与众不同</h3>
             </div>
             <div class="left_con">
-                <iframe src="left.htm" scrolling="no" width="100%" height="1860" frameborder="0"></iframe>
+                <jsp:include page="left.jsp"></jsp:include>
             </div>
             <div class="main_con2">
             	<div class="list_con3">

@@ -126,7 +126,7 @@
                 </ul>
             </li>
             <li>
-                <a href="">婚礼案例</a>
+                <a href="weddingCase.jsp">婚礼案例</a>
                 <ul>
                     <li class="li_t"></li>
                     <li>
