@@ -1,0 +1,87 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   wedTravel/.idea/workspace.xml
+#	deleted:    wedTravel/WebRoot/WEB-INF/classes/-----applicationContext-security.xml
+#	deleted:    wedTravel/WebRoot/WEB-INF/classes/com/wt/action/AccountAction.class
+#	modified:   wedTravel/WebRoot/WEB-INF/classes/com/wt/bean/table/Recommend.class
+#	deleted:    wedTravel/WebRoot/WEB-INF/classes/com/wt/dao/AccountDao.class
+#	deleted:    wedTravel/WebRoot/WEB-INF/classes/com/wt/dao/RecommendDaoTest.class
+#	deleted:    wedTravel/WebRoot/WEB-INF/classes/com/wt/model/Account.class
+#	deleted:    wedTravel/WebRoot/WEB-INF/classes/com/wt/model/Recommend.class
+#	deleted:    wedTravel/WebRoot/WEB-INF/classes/com/wt/model/account-mapper.xml
+#	deleted:    wedTravel/WebRoot/WEB-INF/classes/com/wt/model/account-resultMap.xml
+#	deleted:    wedTravel/WebRoot/WEB-INF/classes/com/wt/service/AccountService.class
+#	modified:   wedTravel/WebRoot/WEB-INF/classes/com/wt/service/RecommendService.class
+#	deleted:    wedTravel/WebRoot/WEB-INF/classes/com/wt/service/TestAccountService.class
+#	deleted:    wedTravel/WebRoot/bottom.htm
+#	deleted:    wedTravel/WebRoot/company.html
+#	deleted:    wedTravel/WebRoot/head.htm
+#	deleted:    wedTravel/WebRoot/head_1.jsp
+#	deleted:    wedTravel/WebRoot/head_index.htm
+#	deleted:    wedTravel/WebRoot/help.html
+#	deleted:    wedTravel/WebRoot/index.html
+#	deleted:    wedTravel/WebRoot/index11.html
+#	deleted:    wedTravel/WebRoot/index_bak.html
+#	deleted:    wedTravel/WebRoot/left.htm
+#	deleted:    wedTravel/WebRoot/list1.html
+#	deleted:    wedTravel/WebRoot/list2_1.jsp
+#	deleted:    "wedTravel/WebRoot/list2\346\234\252\345\245\227iframe.html"
+#	deleted:    wedTravel/WebRoot/list3.html
+#	deleted:    wedTravel/WebRoot/order.html
+#	deleted:    wedTravel/classes/artifacts/wedTravel_war_exploded/WEB-INF/classes/-----applicationContext-security.xml
+#	deleted:    wedTravel/classes/artifacts/wedTravel_war_exploded/WEB-INF/classes/com/wt/action/AccountAction.class
+#	modified:   wedTravel/classes/artifacts/wedTravel_war_exploded/WEB-INF/classes/com/wt/bean/table/Recommend.class
+#	deleted:    wedTravel/classes/artifacts/wedTravel_war_exploded/WEB-INF/classes/com/wt/dao/AccountDao.class
+#	deleted:    wedTravel/classes/artifacts/wedTravel_war_exploded/WEB-INF/classes/com/wt/dao/RecommendDaoTest.class
+#	deleted:    wedTravel/classes/artifacts/wedTravel_war_exploded/WEB-INF/classes/com/wt/model/Account.class
+#	deleted:    wedTravel/classes/artifacts/wedTravel_war_exploded/WEB-INF/classes/com/wt/model/Recommend.class
+#	deleted:    wedTravel/classes/artifacts/wedTravel_war_exploded/WEB-INF/classes/com/wt/model/account-mapper.xml
+#	deleted:    wedTravel/classes/artifacts/wedTravel_war_exploded/WEB-INF/classes/com/wt/model/account-resultMap.xml
+#	deleted:    wedTravel/classes/artifacts/wedTravel_war_exploded/WEB-INF/classes/com/wt/service/AccountService.class
+#	modified:   wedTravel/classes/artifacts/wedTravel_war_exploded/WEB-INF/classes/com/wt/service/RecommendService.class
+#	deleted:    wedTravel/classes/artifacts/wedTravel_war_exploded/WEB-INF/classes/com/wt/service/TestAccountService.class
+#	deleted:    wedTravel/classes/artifacts/wedTravel_war_exploded/bottom.htm
+#	deleted:    wedTravel/classes/artifacts/wedTravel_war_exploded/company.html
+#	deleted:    wedTravel/classes/artifacts/wedTravel_war_exploded/head.htm
+#	deleted:    wedTravel/classes/artifacts/wedTravel_war_exploded/head_1.jsp
+#	deleted:    wedTravel/classes/artifacts/wedTravel_war_exploded/head_index.htm
+#	deleted:    wedTravel/classes/artifacts/wedTravel_war_exploded/help.html
+#	deleted:    wedTravel/classes/artifacts/wedTravel_war_exploded/index.html
+#	deleted:    wedTravel/classes/artifacts/wedTravel_war_exploded/index11.html
+#	deleted:    wedTravel/classes/artifacts/wedTravel_war_exploded/index_bak.html
+#	deleted:    wedTravel/classes/artifacts/wedTravel_war_exploded/left.htm
+#	deleted:    wedTravel/classes/artifacts/wedTravel_war_exploded/list1.html
+#	deleted:    wedTravel/classes/artifacts/wedTravel_war_exploded/list2_1.jsp
+#	deleted:    "wedTravel/classes/artifacts/wedTravel_war_exploded/list2\346\234\252\345\245\227iframe.html"
+#	deleted:    wedTravel/classes/artifacts/wedTravel_war_exploded/list3.html
+#	deleted:    wedTravel/classes/artifacts/wedTravel_war_exploded/order.html
+#	deleted:    wedTravel/src/main/java/com/wt/action/AccountAction.java
+#	modified:   wedTravel/src/main/java/com/wt/bean/table/Recommend.java
+#	deleted:    wedTravel/src/main/java/com/wt/dao/AccountDao.java
+#	deleted:    wedTravel/src/main/java/com/wt/dao/RecommendDaoTest.java
+#	modified:   wedTravel/src/main/java/com/wt/mapping/RecommendMapper.java
+#	deleted:    wedTravel/src/main/java/com/wt/model/Account.java
+#	deleted:    wedTravel/src/main/java/com/wt/model/Recommend.java
+#	deleted:    wedTravel/src/main/java/com/wt/service/AccountService.java
+#	modified:   wedTravel/src/main/java/com/wt/service/RecommendService.java
+#	deleted:    wedTravel/src/main/resources/-----applicationContext-security.xml
+#	deleted:    wedTravel/src/main/resources/com/wt/model/account-mapper.xml
+#	deleted:    wedTravel/src/main/resources/com/wt/model/account-resultMap.xml
+#	modified:   wedTravel/src/main/resources/test.sql
+#	deleted:    wedTravel/src/test/java/com/wt/service/TestAccountService.java
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	.gitignore
+#	wedTravel/WebRoot/WEB-INF/classes/com/wt/model/RecommendModel.class
+#	wedTravel/WebRoot/html/
+#	wedTravel/classes/artifacts/wedTravel_war_exploded/WEB-INF/classes/com/wt/model/RecommendModel.class
+#	wedTravel/classes/artifacts/wedTravel_war_exploded/html/
+#	wedTravel/src/main/java/com/wt/model/
+
