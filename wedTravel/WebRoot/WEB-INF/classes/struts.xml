@@ -33,17 +33,6 @@
 
         <constant name="struts.enable.DynamicMethodInvocation" value="false"/>
 
-	<package name="ssMyBatis" extends="struts-default">
-		<action name="account" class="com.wt.action.AccountAction">
-
-			<result name="success">index.jsp</result>
-		</action>
-	</package>
-	<package name="User" extends="json-default">  
-        <action name="user" class="com.wt.action.AccountAction">
-            <result type="json" />   
-        </action> 
-    </package>
     <package name="default" extends="struts-default">
             <action name="recommend" class="com.wt.action.RecommendAction">
                 <result name="success">/WEB-INF/jsp/index.jsp</result>

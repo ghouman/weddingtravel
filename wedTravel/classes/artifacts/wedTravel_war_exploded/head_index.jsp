@@ -87,14 +87,14 @@
                 </ul>
             </li>
             <li>
-                <a href="list2_1.jsp">婚礼婚纱照摄影</a>
+                <a href="list2.jsp">婚礼婚纱照摄影</a>
                 <ul>
                     <li class="li_t"></li>
                     <li>
-                        <a href="list2_1.jsp">东南亚地区</a>
+                        <a href="list2.jsp">东南亚地区</a>
                     </li>
                     <li>
-                        <a href="list2_1.jsp">地中海地区</a>
+                        <a href="list2.jsp">地中海地区</a>
                     </li>
                     <li class="li_b"></li>
                 </ul>

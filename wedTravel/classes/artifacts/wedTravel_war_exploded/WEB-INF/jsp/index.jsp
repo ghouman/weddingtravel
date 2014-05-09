@@ -35,12 +35,11 @@
                                     <c:if test="${l<4}">
                                         <li>
                                             <a href="" class="grey_a"><s:property value="title"/></a>
-                                        <span>
                                             <c:if test="${imgUrl!=null}">
-                                                <img src="${imgUrl}"/><s:property value="createTime"/></span>
+                                                <span><img src="${imgUrl}"/><s:property value="createTime"/></span>
                                             </c:if>
                                             <c:if test="${imgUrl==null}">
-                                                <s:property value="createTime"/></span>
+                                                <span><s:property value="createTime"/></span>
                                             </c:if>
                                         </li>
                                     </c:if>
@@ -85,13 +84,12 @@
                                     <c:if test="${l>3&&l<9}">
                                         <li>
                                             <a href="" class="grey_a"><s:property value="title"/></a>
-                                                                        <span>
                                                                             <c:if test="${imgUrl!=null}">
-                                                                                <img src="${imgUrl}"/><s:property
+                                                                                <span><img src="${imgUrl}"/><s:property
                                                                                 value="createTime"/></span>
                                             </c:if>
                                             <c:if test="${imgUrl==null}">
-                                                <s:property value="createTime"/></span>
+                                                <span><s:property value="createTime"/></span>
                                             </c:if>
                                         </li>
                                     </c:if>
