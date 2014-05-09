@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-module
   type="WEB"
-  name="Permissions"
+  name="wedTravel"
   id="myeclipse.1309145450328"
-  context-root="/Permissions"
+  context-root="/wedTravel"
   j2ee-spec="5.0"
-  archive="Permissions.war">
+  archive="wedTravel.war">
   <attributes>
     <attribute name="webrootdir" value="WebRoot" />
   </attributes>

@@ -237,8 +237,8 @@ $(document).ready(function() {
             </div>
         </div>
     </div>
-    
-    <iframe src="bottom.htm" scrolling="no" width="100%" height="240" frameborder="0"></iframe>
+
+<jsp:include page="bottom.jsp"></jsp:include>
     <!--侧边广告-->
     <div id="buoy" style="position: fixed; top: 150px;">
         <jsp:include page="side1.jsp"></jsp:include>

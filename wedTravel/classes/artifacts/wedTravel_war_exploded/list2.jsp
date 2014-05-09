@@ -548,7 +548,7 @@ function selectTag(showContent,selfObj){
             </div>
         </div>
     </div>
-    <iframe src="bottom.htm" scrolling="no" width="100%" height="240" frameborder="0"></iframe>
+<jsp:include page="bottom.jsp"></jsp:include>
     <!--侧边广告-->
     <div id="buoy" style="position: fixed; top: 150px;">
         <iframe id="cproIframe1" src="side1.jsp" width="102" height="380" align="center,center"
