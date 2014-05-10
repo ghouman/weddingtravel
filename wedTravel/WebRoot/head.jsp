@@ -12,7 +12,9 @@
     <title>内页top</title>
     <link media="all" href="css/css.css" type="text/css" rel="stylesheet"/>
     <link href="css/side1.css" rel="stylesheet"/>
+    <link href="css/bootstrap.css" rel="stylesheet"/>
     <script src="js/jquery-1.8.2.min.js"></script>
+    <script src="js/bootstrap/bootstrap.js"></script>
     <script src="js/common.js"></script>
 </head>
 <body>
@@ -160,29 +162,81 @@
 </div>
 <div class="banner">
     <div class="wrapper">
-        <div id="slideshow" class="box_skitter fn-clear">
-            <ul>
-                <li><a href="list2.jsp"><img alt="01" class="cubeRandom" src="images/index_side1.jpg"/></a></li>
-                <li><a href="list2.jsp"><img alt="02" class="cubeRandom" src="images/index_side2.jpg"/></a></li>
-                <li><a href="list2.jsp"><img alt="03" class="cubeRandom" src="images/index_side3.jpg"/></a></li>
-            </ul>
+        <div id="myCarousel" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="active item">
+                    <a href="http://www.google.com" target="blank"><img src="images/index_side1.jpg"
+                                                                        alt=""></a>
+
+                    <div class="carousel-caption">
+                        <h4>First Thumbnail label</h4>
+
+
+                                <h4>巴厘岛<span>2014/6</span></h4>
+                                <h4>2014年6月开始巴厘岛悦榕庄豪华酒店</h4>
+                                <div class="price1">￥<span>18888</span></div>
+                                <div class="price2">起/人</div>
+
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/index_side2.jpg" alt="">
+
+                    <div class="carousel-caption">
+                        <h4>Second Thumbnail label</h4>
+
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                            gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/index_side1.jpg" alt="">
+
+                    <div class="carousel-caption">
+                        <h4>Third Thumbnail label</h4>
+
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                            gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
         </div>
+        <%--<div id="slideshow" class="box_skitter fn-clear">
+            <ul>
+                <li >
+                    <input type="hidden" name="re_title" value="巴厘岛">
+                    <input type="hidden" name="re_date" value="2014/6">
+                    <input type="hidden" name="re_price" value="20000">
+                    <input type="hidden" name="re_desc" value="2014年6月巴厘岛">
+                    <a onclick="showTip(this)" href="#"><img onclick="showTip(this)" alt="01" class="cubeRandom" src="images/index_side1.jpg"/></a>
+                </li>
+                <li>
+                    <input type="hidden" name="re_title" value="巴厘岛22">
+                    <input type="hidden" name="re_date" value="2014/6">
+                    <input type="hidden" name="re_price" value="20000">
+                    <input type="hidden" name="re_desc" value="2014年6月巴厘岛22">
+                    <a onclick="showTip(this)" href="#"><img onclick="showTip(this)" alt="02" class="cubeRandom" src="images/index_side2.jpg"/></a>
+                </li>
+                <li>
+                    <input type="hidden" name="re_title" value="巴厘岛33">
+                    <input type="hidden" name="re_date" value="2014/6">
+                    <input type="hidden" name="re_price" value="20000">
+                    <input type="hidden" name="re_desc" value="2014年6月巴厘岛33">
+                    <a onclick="showTip(this)" href="#"><img onclick="showTip(this)" alt="03" class="cubeRandom" src="images/index_side3.jpg"/></a>
+                </li>
+            </ul>
+        </div>--%>
         <script type="text/javascript" src="js/side1.js"></script>
     </div>
 </div>
-<div class="new_hot" onclick="location.href='list2.html'">
+<div class="new_hot" onclick="location.href='list2.html'" style="display:none">
     <div class="hot_con">
-        <h1>
-            巴厘岛<span>2014/6</span></h1>
-
-        <h2>
-            2014年6月开始巴厘岛悦榕庄豪华酒店</h2>
-
-        <div class="price1">
-            ￥<span>18888</span></div>
-        <div class="price2">
-            起/人
-        </div>
+        <h1>巴厘岛<span>2014/6</span></h1>
+        <h2>2014年6月开始巴厘岛悦榕庄豪华酒店</h2>
+        <div class="price1">￥<span>18888</span></div>
+        <div class="price2">起/人</div>
     </div>
 </div>
 <div class="w_m page_dz page_dzs">
@@ -260,4 +314,23 @@
 </div>
 </div>
 </body>
+<script type="text/javascript">
+    function showTip(obj){
+        alert("****:"+re_title);
+        var re_title =  $(obj).find(input[name='re_title']).val();
+
+        var re_date =  $(obj).find(input[name='re_date']).val();
+        var re_price =  $(obj).find(input[name='re_price']).val();
+        var re_desc =  $(obj).find(input[name='re_desc']).val();
+        var inner_Html = "<h1>"+re_title+"<span>"+re_date+"</span></h1>" +
+                "<h2>"+re_desc+"</h2>" +
+                "<div class='price1'>￥<span>"+re_desc+"</span></div>" +
+        "<div class='price2'>起/人</div>";
+        $(".hot_con").empty();
+        $(".hot_con").append(inner_Html);
+        $(".new_hot").show();
+    }
+
+
+</script>
 </html>

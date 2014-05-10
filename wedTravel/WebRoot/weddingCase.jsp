@@ -1,20 +1,22 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <link media="all" href="css/css.css" type="text/css" rel="stylesheet" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link media="all" href="css/css.css" type="text/css" rel="stylesheet" />
     <link href="css/side1.css" rel="stylesheet" />
+
     <script language="JavaScript" src="js/jquery.js"></script>
+
     <link media="all" href="css/scroll2.css" type="text/css" rel="stylesheet">
-     <link rel="stylesheet" type="text/css" href="css/open.css">
+<link rel="stylesheet" type="text/css" href="css/open.css">
     <script src="js/scroll2.js" type="text/javascript"></script>
+
     <script src="js/productlist_roll.js" type="text/javascript"></script>
     <script src="js/main.js" type="text/javascript"></script>
-    <script src="js/html5.js" type="text/javascript"></script>
-     <script type="text/javascript" src="js/popup-main.js"></script>
- 
-	<title>婚礼案例区</title>
+     <script src="js/html5.js" type="text/javascript"></script>
+      <script type="text/javascript" src="${ctx}/js/popup-main.js"></script>
+	<title>婚礼案例区-主页</title>
 
     <script type="text/javascript">
 		
@@ -35,6 +37,7 @@ function selectTag(showContent,selfObj){
 	
 }
 $(document).ready(function() {
+		
 	 $("#popup_exit0").click(function () {
        	$("#shade0").hide();
         $("#popup0").hide();
@@ -85,10 +88,10 @@ $(document).ready(function() {
                 	<div class="titles6 yahei">
                     	<h2>最近婚礼视频影片</h2>
                         <span>
-                        	<a href="#" class="b_a">东南亚地区</a>&nbsp;|&nbsp;
-                        	<a href="#" class="b_a">亚洲地区</a>&nbsp;|&nbsp;
-                            <a href="#" class="b_a">大西洋地区</a>&nbsp;|&nbsp;
-                            <a href="#" class="b_a">地中海地区</a>&nbsp;
+                        	<a href="${ctx}/webInformation.jtml?action=showHLALVideoList" class="b_a">东南亚地区</a>&nbsp;|&nbsp;
+                        	<a href="${ctx}/webInformation.jtml?action=showHLALVideoList" class="b_a">亚洲地区</a>&nbsp;|&nbsp;
+                            <a href="${ctx}/webInformation.jtml?action=showHLALVideoList" class="b_a">大西洋地区</a>&nbsp;|&nbsp;
+                            <a href="${ctx}/webInformation.jtml?action=showHLALVideoList" class="b_a">地中海地区</a>&nbsp;
                         </span>
                     </div>
                 	<div class="film_con blue_boder">
@@ -96,19 +99,19 @@ $(document).ready(function() {
                       </div>
                     <div class="film_2">
                         	<ul>
-                            	<li onclick="location.href='weddingCase_video.jsp'">
+                            	<li onclick="location.href='${ctx}/webInformation.jtml?action=showHLALVideoInfo'">
                                 	 <div></div>
                                 	<img src="images/02.jpg"/>
                                 </li>
-                                <li onclick="location.href='weddingCase_video.jsp'">
+                                <li onclick="location.href='${ctx}/webInformation.jtml?action=showHLALVideoInfo'">
                                     <div></div>
                                 	<img src="images/02.jpg"/>
                                 </li>
-                                <li onclick="location.href='weddingCase_video.jsp'">
+                                <li onclick="location.href='${ctx}/webInformation.jtml?action=showHLALVideoInfo'">
                                     <div></div>
                                 	<img src="images/02.jpg"/>
                                 </li>
-                                <li onclick="location.href='weddingCase_video.jsp'">
+                                <li onclick="location.href='${ctx}/webInformation.jtml?action=showHLALVideoInfo'">
                                     <div></div>
                                 	<img src="images/02.jpg"/>
                                 </li>
@@ -119,59 +122,59 @@ $(document).ready(function() {
                     <div class="titles6 yahei">
                     	<h2>最新婚纱套餐（基础套餐）</h2>
                         <span>
-                        	<a href="#" class="b_a">东南亚地区</a>&nbsp;|&nbsp;
-                        	<a href="#" class="b_a">亚洲地区</a>&nbsp;|&nbsp;
-                            <a href="#" class="b_a">大西洋地区</a>&nbsp;|&nbsp;
-                            <a href="#" class="b_a">地中海地区</a>&nbsp;
+                        	<a href="${ctx}/webInformation.jtml?action=showHLALPicList" class="b_a">东南亚地区</a>&nbsp;|&nbsp;
+                        	<a href="${ctx}/webInformation.jtml?action=showHLALPicList" class="b_a">亚洲地区</a>&nbsp;|&nbsp;
+                            <a href="${ctx}/webInformation.jtml?action=showHLALPicList" class="b_a">大西洋地区</a>&nbsp;|&nbsp;
+                            <a href="${ctx}/webInformation.jtml?action=showHLALPicList" class="b_a">地中海地区</a>&nbsp;
                         </span>
                     </div>
                     <ul class="pictlist4">
                                     <li>
-                                    	<div class="pic_div yahei" onclick="location.href='weddingCase_pic.jsp'">
+                                    	<div class="pic_div yahei" onclick="location.href='${ctx}/webInformation.jtml?action=showHLALPicInfo'">
                                             <img src="images/02.jpg"/>
                                             <div>巴厘岛婚纱摄影套餐</div>
                                         </div>
                                     </li>
                                     <li>
-                                    	<div class="pic_div yahei" onclick="location.href='weddingCase_pic.jsp'">
+                                    	<div class="pic_div yahei" onclick="location.href='${ctx}/webInformation.jtml?action=showHLALPicInfo'">
                                             <img src="images/02.jpg"/>
                                             <div>巴厘岛婚纱摄影套餐</div>
                                         </div>
                                     </li>
                                     <li>
-                                    	<div class="pic_div yahei" onclick="location.href='weddingCase_pic.jsp'">
+                                    	<div class="pic_div yahei" onclick="location.href='${ctx}/webInformation.jtml?action=showHLALPicInfo'">
                                             <img src="images/02.jpg"/>
                                             <div>巴厘岛婚纱摄影套餐</div>
                                         </div>
                                     </li><li>
-                                    	<div class="pic_div yahei" onclick="location.href='weddingCase_pic.jsp'">
+                                    	<div class="pic_div yahei" onclick="location.href='${ctx}/webInformation.jtml?action=showHLALPicInfo'">
                                             <img src="images/02.jpg"/>
                                             <div>巴厘岛婚纱摄影套餐</div>
                                         </div>
                                     </li><li>
-                                    	<div class="pic_div yahei" onclick="location.href='weddingCase_pic.jsp'">
+                                    	<div class="pic_div yahei" onclick="location.href='${ctx}/webInformation.jtml?action=showHLALPicInfo'">
                                             <img src="images/02.jpg"/>
                                             <div>巴厘岛婚纱摄影套餐</div>
                                         </div>
                                     </li><li>
-                                    	<div class="pic_div yahei" onclick="location.href='weddingCase_pic.jsp'">
+                                    	<div class="pic_div yahei" onclick="location.href='${ctx}/webInformation.jtml?action=showHLALPicInfo'">
                                             <img src="images/02.jpg"/>
                                             <div>巴厘岛婚纱摄影套餐</div>
                                         </div>
                                     </li><li>
-                                    	<div class="pic_div yahei" onclick="location.href='weddingCase_pic.jsp'">
+                                    	<div class="pic_div yahei" onclick="location.href='${ctx}/webInformation.jtml?action=showHLALPicInfo'">
                                             <img src="images/02.jpg"/>
                                             <div>巴厘岛婚纱摄影套餐</div>
                                         </div>
                                     </li>
                                     <li>
-                                    	<div class="pic_div yahei" onclick="location.href='weddingCase_pic.jsp'">
+                                    	<div class="pic_div yahei" onclick="location.href='${ctx}/webInformation.jtml?action=showHLALPicInfo'">
                                             <img src="images/02.jpg"/>
                                             <div>巴厘岛婚纱摄影套餐</div>
                                         </div>
                                     </li>
                                     <li>
-                                    	<div class="pic_div yahei" onclick="location.href='weddingCase_pic.jsp'">
+                                    	<div class="pic_div yahei" onclick="location.href='${ctx}/webInformation.jtml?action=showHLALPicInfo'">
                                             <img src="images/02.jpg"/>
                                             <div>巴厘岛婚纱摄影套餐</div>
                                         </div>
@@ -183,17 +186,17 @@ $(document).ready(function() {
             </div>
         </div>
     </div>
-    
-<jsp:include page="bottom.jsp"></jsp:include>
+    <jsp:include page="bottom.jsp"></jsp:include>
     <!--侧边广告-->
-    <div id="buoy" style="position: fixed; top: 150px;">
+    <div id="buoy" style="position: fixed; top: 150px; " >
         <jsp:include page="side1.jsp"></jsp:include>
     </div>
     <!--侧边广告 end-->
      <!--弹出框start-->
+     
     <div id="shade0">
     </div>
-    <div id="popup0" class="popup">
+    <div id="popup0" class="popup" >
         <div class="center">
             <div class="content">
                 <div id="popup_drag0" class="popup_drag">
@@ -241,6 +244,7 @@ $(document).ready(function() {
             </div>
         </div>
     </div>
+   
     <!--弹出框end-->
 </body>
 </html>

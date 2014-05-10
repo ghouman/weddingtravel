@@ -82,16 +82,20 @@
                             <ul>
                                 <s:iterator value="#request.list3" status="u">
                                     <c:set value="${u.index}" var='l'></c:set>
-                                    <c:if test="${l>3&&l<9}">
+                                    <c:if test="${l>3&&l<8}">
                                         <li>
                                             <a href="" class="grey_a"><s:property value="title"/></a>
-                                                                        <span>
                                                                             <c:if test="${imgUrl!=null}">
-                                                                                <img src="${imgUrl}"/><s:property
-                                                                                value="createTime"/></span>
+                                                                                <img src="${imgUrl}"/>
+                                                                                <span >
+                                                                                    <script>
+                                                                                        unix_to_datetime(<s:property value="createTime"/>)
+                                                                                    </script>
+
+                                                                                </span>
                                             </c:if>
                                             <c:if test="${imgUrl==null}">
-                                                <s:property value="createTime"/></span>
+                                                <span><s:property value="createTime"/></span>
                                             </c:if>
                                         </li>
                                     </c:if>
@@ -165,4 +169,5 @@
 </div>
 <jsp:include page="bottom.jsp"></jsp:include>
 </body>
+
 </html>

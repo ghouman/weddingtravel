@@ -16,6 +16,12 @@
     <title>婚庆网站首页</title>
 </head>
 <body>
+<script type="text/javascript">
+    function unix_to_datetime(unix) {
+        var now = new Date(parseInt(unix) * 1000);
+        return now.toLocaleString().replace(/年|月/g, "-").replace(/日/g, " ");
+    }
+</script>
 <jsp:include page="head_index.jsp"></jsp:include>
 <div class="w_m">
     <div class="index_con_div">
@@ -81,12 +87,11 @@
                             <ul>
                                 <s:iterator value="#request.list3" status="u">
                                     <c:set value="${u.index}" var='l'></c:set>
-                                    <c:if test="${l>3&&l<9}">
+                                    <c:if test="${l>3&&l<8}">
                                         <li>
                                             <a href="" class="grey_a"><s:property value="title"/></a>
-                                                                            <c:if test="${imgUrl!=null}">
-                                                                                <span><img src="${imgUrl}"/><s:property
-                                                                                value="createTime"/></span>
+                                            <c:if test="${imgUrl!=null}">
+                                                <span><img src="${imgUrl}"/>${createTime}</span>
                                             </c:if>
                                             <c:if test="${imgUrl==null}">
                                                 <span><s:property value="createTime"/></span>
@@ -163,4 +168,6 @@
 </div>
 <jsp:include page="bottom.jsp"></jsp:include>
 </body>
+
+
 </html>
