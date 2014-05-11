@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="tomcatlib">
+    <archive path="D:/apache-tomcat-7.0.29/lib/servlet-api.jar" />
+  </library>
+  <library name="lib">
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/aopalliance-1.0.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/commons-lang-2.5.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/commons-logging-1.1.1.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/junit-3.8.1.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/log4j-1.2.13.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/mybatis-3.0.5.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/mybatis-spring-1.0.1.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/org.springframework.aop-3.0.5.RELEASE.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/org.springframework.asm-3.0.5.RELEASE.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/org.springframework.beans-3.0.5.RELEASE.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/org.springframework.context-3.0.5.RELEASE.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/org.springframework.context.support-3.0.5.RELEASE.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/org.springframework.core-3.0.5.RELEASE.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/org.springframework.expression-3.0.5.RELEASE.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/org.springframework.jdbc-3.0.5.RELEASE.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/org.springframework.transaction-3.0.5.RELEASE.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/junit-4.8.1.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/commons-fileupload-1.2.2.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/freemarker-2.3.16.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/javassist-3.11.0.GA.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/ognl-3.0.1.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/org.springframework.web-3.0.5.RELEASE.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/struts2-core-2.2.3.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/struts2-spring-plugin-2.2.3.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/xwork-core-2.2.3.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/mysql-connector-java-5.1.6-bin.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/org.springframework.orm-3.0.5.RELEASE.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/org.springframework.oxm-3.0.5.RELEASE.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/org.springframework.test-3.0.5.RELEASE.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/struts2-json-plugin-2.2.3.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/spring-security-acl-3.0.5.RELEASE.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/spring-security-aspects-3.0.5.RELEASE.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/spring-security-cas-client-3.0.5.RELEASE.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/spring-security-config-3.0.5.RELEASE.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/spring-security-core-3.0.5.RELEASE.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/spring-security-ldap-3.0.5.RELEASE.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/spring-security-openid-3.0.5.RELEASE.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/spring-security-taglibs-3.0.5.RELEASE.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/spring-security-web-3.0.5.RELEASE.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/commons-beanutils-1.7.0.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/commons-collections-3.2.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/ezmorph-1.0.3.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/json-lib-2.3-jdk15.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/commons.io_2.0.1.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/jstl.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/standard.jar" />
+  </library>
+  <library name="jee">
+    <archive path="D:/ORACLE/Middleware/javaee.jar" />
+  </library>
+</eclipse-userlibraries>
+
