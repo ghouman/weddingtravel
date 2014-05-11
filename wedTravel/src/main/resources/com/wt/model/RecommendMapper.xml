@@ -50,7 +50,7 @@
             link_obligate, price_big, price_small,  FROM_UNIXTIME(create_time, '%Y%m$%d') as create_time, create_person, upd_time, upd_person,
             type_id, type_name, view_link, recommend_index
         from recommend
-        where module_id = #{moduleId,jdbcType=INTEGER} and valid=1 order by recommend_index
+        where module_id = #{moduleId,jdbcType=INTEGER} and valid=1 order by recommend_index  limit 0,8
         </select>
     <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     delete from recommend

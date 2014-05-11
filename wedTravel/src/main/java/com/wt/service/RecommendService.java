@@ -18,7 +18,6 @@ import java.util.List;
  */
 @Repository
 public class RecommendService {
-    @Resource
     @Autowired
     private RecommendDao recommendDao;
 

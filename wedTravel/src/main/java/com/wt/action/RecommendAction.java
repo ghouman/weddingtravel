@@ -1,7 +1,9 @@
 package com.wt.action;
 
 import com.opensymphony.xwork2.ActionSupport;
+import com.wt.bean.table.FrontMenu;
 import com.wt.bean.table.Recommend;
+import com.wt.service.FrontMenuService;
 import com.wt.service.RecommendService;
 import org.apache.struts2.ServletActionContext;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,9 +18,10 @@ import java.util.List;
 @Component
 public class RecommendAction extends ActionSupport {
 
-    @Resource
     @Autowired
     private RecommendService recommendService;
+    @Autowired
+    private FrontMenuService frontMenuService;
 
     private HttpServletResponse response;
     private HttpServletRequest request;
@@ -32,10 +35,13 @@ public class RecommendAction extends ActionSupport {
         List<Recommend> list2 = recommendService.getRecomendListByModuleId(2) ;  //首页最受欢迎岛屿
         List<Recommend> list3 = recommendService.getRecomendListByModuleId(3) ;   //首页咨询内容
         List<Recommend> list4 = recommendService.getRecomendListByModuleId(4) ;   //首页套餐推荐
+
+        List<FrontMenu> listMenu = frontMenuService.getFrontMenuByModuleId(1);//主菜单
         request.setAttribute("list1",list1);
         request.setAttribute("list2",list2);
         request.setAttribute("list3",list3);
         request.setAttribute("list4",list4);
+        request.setAttribute("listMenu",listMenu);
         return SUCCESS;
 
     }

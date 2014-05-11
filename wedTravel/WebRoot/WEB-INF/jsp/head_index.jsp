@@ -73,7 +73,10 @@
 
         </script>
         <ul id="nav">
-            <li><a href="recommend.action">网站首页</a></li>
+            <s:iterator value="#request.listMenu" status="u">
+                <li><a href="recommend.action">${menuName}</a></li>
+            </s:iterator>
+            <%--<li><a href="recommend.action">网站首页</a></li>
             <li><a href="list1.jsp">海岛婚礼套餐</a>
                 <ul>
                     <li class="li_t"></li>
@@ -146,7 +149,7 @@
             </li>
             <li class="no_bg">
                 <a href="order.jsp">订单购物车</a>
-            </li>
+            </li>--%>
         </ul>
     </div>
 </div>
