@@ -47,7 +47,8 @@ function selectTag(showContent,selfObj){
                     让您的婚礼与海岛的风景完美结合，在您的婚礼中与众不同</h3>
             </div>
              <div class="left_con">
-                <iframe src="left.htm" scrolling="no" width="100%" height="1860" frameborder="0"></iframe>
+                <!--<iframe src="left.htm" scrolling="no" width="100%" height="1860" frameborder="0"></iframe>-->
+                 <jsp:include page="left.jsp"></jsp:include>
             </div>
             <div class="main_con">
                 <div class="best_con">
@@ -966,12 +967,11 @@ function selectTag(showContent,selfObj){
             </div>
         </div>
     </div>
-    <iframe src="bottom.htm" scrolling="no" width="100%" height="240" frameborder="0"></iframe>
+
+<jsp:include page="bottom.jsp"></jsp:include>
     <!--侧边广告-->
     <div id="buoy" style="position: fixed; top: 150px;">
-        <iframe id="cproIframe1" src="side1.htm" width="102" height="380" align="center,center"
-            marginwidth="0" marginheight="0" scrolling="no" frameborder="0" allowtransparency="true">
-        </iframe>
+       <jsp:include page="side1.jsp"></jsp:include>
     </div>
     <!--侧边广告 end-->
 </body>
