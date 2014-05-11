@@ -1,5 +1,6 @@
 package com.wt.bean.table;
 
+// 前台菜单表
 public class FrontMenu {
     private Integer id;
 

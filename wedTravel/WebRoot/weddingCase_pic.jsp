@@ -27,7 +27,7 @@ function selectTag(showContent,selfObj){
 	// 操作标签
 	var tag = document.getElementById("tags3").getElementsByTagName("li");
 	var taglength = tag.length;
-	for(i=0; i<taglength; i++){
+	for(var i=0; i<taglength; i++){
 		tag[i].className = "";
 	}
 	selfObj.parentNode.className = "selectTag";
