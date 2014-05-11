@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="aopalliance-1.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/aopalliance-1.0.jar!/"/>
+	</lib>
+	<lib name="commons-lang-2.5.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/commons-lang-2.5.jar!/"/>
+	</lib>
+	<lib name="commons-logging-1.1.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/commons-logging-1.1.1.jar!/"/>
+	</lib>
+	<lib name="junit-3.8.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/junit-3.8.1.jar!/"/>
+	</lib>
+	<lib name="log4j-1.2.13.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/log4j-1.2.13.jar!/"/>
+	</lib>
+	<lib name="mybatis-3.0.5.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/mybatis-3.0.5.jar!/"/>
+	</lib>
+	<lib name="mybatis-spring-1.0.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/mybatis-spring-1.0.1.jar!/"/>
+	</lib>
+	<lib name="org.springframework.aop-3.0.5.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/org.springframework.aop-3.0.5.RELEASE.jar!/"/>
+	</lib>
+	<lib name="org.springframework.asm-3.0.5.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/org.springframework.asm-3.0.5.RELEASE.jar!/"/>
+	</lib>
+	<lib name="org.springframework.beans-3.0.5.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/org.springframework.beans-3.0.5.RELEASE.jar!/"/>
+	</lib>
+	<lib name="org.springframework.context-3.0.5.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/org.springframework.context-3.0.5.RELEASE.jar!/"/>
+	</lib>
+	<lib name="org.springframework.context.support-3.0.5.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/org.springframework.context.support-3.0.5.RELEASE.jar!/"/>
+	</lib>
+	<lib name="org.springframework.core-3.0.5.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/org.springframework.core-3.0.5.RELEASE.jar!/"/>
+	</lib>
+	<lib name="org.springframework.expression-3.0.5.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/org.springframework.expression-3.0.5.RELEASE.jar!/"/>
+	</lib>
+	<lib name="org.springframework.jdbc-3.0.5.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/org.springframework.jdbc-3.0.5.RELEASE.jar!/"/>
+	</lib>
+	<lib name="org.springframework.transaction-3.0.5.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/org.springframework.transaction-3.0.5.RELEASE.jar!/"/>
+	</lib>
+	<lib name="junit-4.8.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/junit-4.8.1.jar!/"/>
+	</lib>
+	<lib name="commons-fileupload-1.2.2.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/commons-fileupload-1.2.2.jar!/"/>
+	</lib>
+	<lib name="freemarker-2.3.16.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/freemarker-2.3.16.jar!/"/>
+	</lib>
+	<lib name="javassist-3.11.0.GA.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/javassist-3.11.0.GA.jar!/"/>
+	</lib>
+	<lib name="ognl-3.0.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/ognl-3.0.1.jar!/"/>
+	</lib>
+	<lib name="org.springframework.web-3.0.5.RELEASE.jar" scope="COMPILE">
+		<srcroot url="file://D:/My Documents/.m2/repository/org/springframework/spring-web/3.0.5.RELEASE/spring-web-3.0.5.RELEASE-sources.jar"/>
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/org.springframework.web-3.0.5.RELEASE.jar!/"/>
+	</lib>
+	<lib name="struts2-core-2.2.3.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/struts2-core-2.2.3.jar!/"/>
+	</lib>
+	<lib name="struts2-spring-plugin-2.2.3.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/struts2-spring-plugin-2.2.3.jar!/"/>
+	</lib>
+	<lib name="xwork-core-2.2.3.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/xwork-core-2.2.3.jar!/"/>
+	</lib>
+	<lib name="mysql-connector-java-5.1.6-bin.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/mysql-connector-java-5.1.6-bin.jar!/"/>
+	</lib>
+	<lib name="org.springframework.orm-3.0.5.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/org.springframework.orm-3.0.5.RELEASE.jar!/"/>
+	</lib>
+	<lib name="org.springframework.oxm-3.0.5.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/org.springframework.oxm-3.0.5.RELEASE.jar!/"/>
+	</lib>
+	<lib name="org.springframework.test-3.0.5.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/org.springframework.test-3.0.5.RELEASE.jar!/"/>
+	</lib>
+	<lib name="struts2-json-plugin-2.2.3.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/struts2-json-plugin-2.2.3.jar!/"/>
+	</lib>
+	<lib name="spring-security-acl-3.0.5.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-security-acl-3.0.5.RELEASE.jar!/"/>
+	</lib>
+	<lib name="spring-security-aspects-3.0.5.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-security-aspects-3.0.5.RELEASE.jar!/"/>
+	</lib>
+	<lib name="spring-security-cas-client-3.0.5.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-security-cas-client-3.0.5.RELEASE.jar!/"/>
+	</lib>
+	<lib name="spring-security-config-3.0.5.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-security-config-3.0.5.RELEASE.jar!/"/>
+	</lib>
+	<lib name="spring-security-core-3.0.5.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-security-core-3.0.5.RELEASE.jar!/"/>
+	</lib>
+	<lib name="spring-security-ldap-3.0.5.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-security-ldap-3.0.5.RELEASE.jar!/"/>
+	</lib>
+	<lib name="spring-security-openid-3.0.5.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-security-openid-3.0.5.RELEASE.jar!/"/>
+	</lib>
+	<lib name="spring-security-taglibs-3.0.5.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-security-taglibs-3.0.5.RELEASE.jar!/"/>
+	</lib>
+	<lib name="spring-security-web-3.0.5.RELEASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-security-web-3.0.5.RELEASE.jar!/"/>
+	</lib>
+	<lib name="commons-beanutils-1.7.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/commons-beanutils-1.7.0.jar!/"/>
+	</lib>
+	<lib name="commons-collections-3.2.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/commons-collections-3.2.jar!/"/>
+	</lib>
+	<lib name="ezmorph-1.0.3.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/ezmorph-1.0.3.jar!/"/>
+	</lib>
+	<lib name="json-lib-2.3-jdk15.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/json-lib-2.3-jdk15.jar!/"/>
+	</lib>
+</component>

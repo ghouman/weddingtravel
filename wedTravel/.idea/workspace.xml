@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8189cb4-ea05-4e59-a357-500e6c3bee36" name="Default" comment="" />
+    <list default="true" id="c8189cb4-ea05-4e59-a357-500e6c3bee36" name="Default" comment="主页菜单动态实现">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wedTravel.eml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Permissions.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/../IWT/.idea/workspace.xml" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1397402597527" ignored="false" />
@@ -24,10 +28,10 @@
     <file path="/addCustomerSurvey.jsp" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399299377430" ignored="false" />
     <file path="D:/myWorkSpace/weigaoSys/WebContent/WEB-INF/jsp/weigao/updateCustomerSurvey.jsp" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399299420338" ignored="false" />
     <file path="/updateCustomerSurvey.jsp" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399299415123" ignored="false" />
-    <file path="/Recommend.java" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399638446185" ignored="false" />
+    <file path="/Recommend.java" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399776040828" ignored="false" />
     <file path="/RecommendService.java" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399474041921" ignored="false" />
     <file path="/RecommendDao.java" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399473597162" ignored="false" />
-    <file path="/RecommendAction.java" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399474145901" ignored="false" />
+    <file path="/RecommendAction.java" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399775925472" ignored="false" />
     <file path="/struts.xml" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399390835267" ignored="false" />
     <file path="/welcome.jsp" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399387979994" ignored="false" />
     <file path="E:/test_workspace/springibatis/src/com/us/jack/action/SBookAction.java" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399389913714" ignored="false" />
@@ -40,7 +44,7 @@
     <file path="E:/test_workspace/springibatis/src/com/us/jack/config/sqlMapConfig.xml" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399389913714" ignored="false" />
     <file path="E:/test_workspace/springibatis/src/com/us/jack/dao/impl/maps/SBook.xml" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399389913714" ignored="false" />
     <file path="/list1.html" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399465309578" ignored="false" />
-    <file path="/test.sql" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399471029626" ignored="false" />
+    <file path="/test.sql" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399776974450" ignored="false" />
     <file path="/RecommendMapper.java" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399473228633" ignored="false" />
     <file path="/RecommendDaoImpl.java" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399638681811" ignored="false" />
     <file path="/head.jsp" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399723218182" ignored="false" />
@@ -58,6 +62,12 @@
     <file path="/.mymetadata" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399651443914" ignored="false" />
     <file path="/RecommendMapper.xml" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399694671689" ignored="false" />
     <file path="/MainMenuDao.java" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399733913349" ignored="false" />
+    <file path="/Dummy.txt" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399785236102" ignored="false" />
+    <file path="/FrontMenuDao.java" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399775989702" ignored="false" />
+    <file path="/FrontMenuDaoImpl.java" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399775686119" ignored="false" />
+    <file path="/FrontMenuService.java" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399776139076" ignored="false" />
+    <file path="/FrontMenuMapper.java" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399784528993" ignored="false" />
+    <file path="/FrontMenuMapper.xml" changelist="c8189cb4-ea05-4e59-a357-500e6c3bee36" time="1399777812046" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,8 +82,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/wt/action/RecommendAction.java" line="2" class="RecommendAction.java" package="">
         <option name="ENABLED" value="true" />
@@ -104,6 +112,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -148,46 +158,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="head.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebRoot/head.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="27" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RecommendAction.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/action/RecommendAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="13" selection-start="510" selection-end="510" vertical-scroll-proportion="0.0">
+            <state line="46" column="5" selection-start="1746" selection-end="1746" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainMenuService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/service/MainMenuService.java">
+      <file leaf-file-name="struts.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="28" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
+            <state line="38" column="12" selection-start="1191" selection-end="1191" vertical-scroll-proportion="-6.076923">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FrontMenuDaoImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/daoImpl/FrontMenuDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="33" selection-start="659" selection-end="659" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FrontMenuMapper.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/mapping/FrontMenuMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="25" selection-start="225" selection-end="225" vertical-scroll-proportion="0.3444227">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RecommendService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/service/RecommendService.java">
+      <file leaf-file-name="FrontMenuDao.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/dao/FrontMenuDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="13" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0">
+            <state line="14" column="0" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="14.903226">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainMenuDao.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/dao/MainMenuDao.java">
+      <file leaf-file-name="head_index.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/head_index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="7" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
+            <state line="76" column="57" selection-start="3038" selection-end="3038" vertical-scroll-proportion="-6.387097">
               <folding />
             </state>
           </provider>
@@ -196,50 +231,25 @@
       <file leaf-file-name="FrontMenu.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/bean/table/FrontMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="2" column="23" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FrontMenuMapper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/mapping/FrontMenuMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FrontMenuMapper.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="FrontMenuMapper.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/com/wt/model/FrontMenuMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="32" column="82" selection-start="1864" selection-end="1874" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="side1.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebRoot/js/side1.js">
+      <file leaf-file-name="RecommendMapper.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/wt/model/RecommendMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="664" column="100" selection-start="30203" selection-end="30203" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1399218211010" expanded="false" signature="30203:30234" placeholder="..." />
-                <marker date="1399218211010" expanded="false" signature="32426:32436" placeholder="..." />
-                <marker date="1399218211010" expanded="false" signature="32527:32558" placeholder="..." />
-                <marker date="1399218211010" expanded="false" signature="151072:151165" placeholder="..." />
-                <marker date="1399218211010" expanded="false" signature="151198:151291" placeholder="..." />
-                <marker date="1399218211010" expanded="false" signature="171332:171344" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list1.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/list1.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="22" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.0">
+            <state line="52" column="102" selection-start="3638" selection-end="3638" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -252,28 +262,36 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/index.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/WebRoot/wedding_photo2.jsp" />
-        <option value="$PROJECT_DIR$/WebRoot/wedding_photo3.jsp" />
-        <option value="$PROJECT_DIR$/WebRoot/weddingCase_pic.jsp" />
-        <option value="$PROJECT_DIR$/WebRoot/weddingCase_video.jsp" />
-        <option value="$PROJECT_DIR$/WebRoot/weddingCase_videoList.jsp" />
-        <option value="$PROJECT_DIR$/WebRoot/weddingCase_picList.jsp" />
-        <option value="$PROJECT_DIR$/.mymetadata" />
-        <option value="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" />
-        <option value="$PROJECT_DIR$/WebRoot/left.jsp" />
-        <option value="$PROJECT_DIR$/WebRoot/weddingCase.jsp" />
-        <option value="$PROJECT_DIR$/WebRoot/js/util.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/wt/model/RecommendMapper.xml" />
         <option value="$PROJECT_DIR$/WebRoot/index.jsp" />
         <option value="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/index.jsp" />
         <option value="$PROJECT_DIR$/WebRoot/head.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/wt/dao/MainMenuDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wt/service/RecommendService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wt/dao/FrontMenuDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wt/daoImpl/FrontMenuDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wt/bean/table/Recommend.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wt/service/FrontMenuService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wt/action/RecommendAction.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/test.sql" />
+        <option value="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/head_index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/wt/model/RecommendMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/wt/model/FrontMenuMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/struts.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wt/mapping/FrontMenuMapper.java" />
       </list>
     </option>
   </component>
@@ -286,7 +304,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-15" />
+    <option name="x" value="-2" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -312,7 +330,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -338,7 +356,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -408,38 +425,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WedTravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wedTravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebRoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WedTravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wedTravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -704,6 +689,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -712,10 +698,10 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.29782084" />
-    <property name="options.lastSelected" value="File.Encoding" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="D:/wedTravel_workspace" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -724,9 +710,9 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -1059,10 +1045,23 @@
       <created>1397399998161</created>
       <updated>1397399998161</updated>
     </task>
+    <task id="LOCAL-00001" summary="主页菜单动态实现">
+      <created>1399778995071</created>
+      <updated>1399778995071</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add">
+      <created>1399784619708</created>
+      <updated>1399784619708</updated>
+    </task>
+    <task id="LOCAL-00003" summary="for eclipse">
+      <created>1399785245652</created>
+      <updated>1399785245652</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-15" y="0" width="1382" height="744" extended-state="0" />
+    <frame x="-2" y="0" width="1382" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1076,18 +1075,18 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25075758" sideWeight="0.12991454" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34358975" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11794872" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33333334" sideWeight="0.765812" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23418804" sideWeight="0.4909091" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28560606" sideWeight="0.6564103" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4871795" sideWeight="0.4909091" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.52307695" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26495728" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.757265" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1130,7 +1129,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="for eclipse" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1143,6 +1142,9 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="主页菜单动态实现" />
+    <MESSAGE value="add" />
+    <MESSAGE value="for eclipse" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1152,113 +1154,126 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/daoImpl/RecommendDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="60" selection-start="2995" selection-end="2995" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/head_index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="161" column="66" selection-start="5856" selection-end="5856" vertical-scroll-proportion="52.677418">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/list1.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="22" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/js/jquery_1.7.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5803" column="4" selection-start="153390" selection-end="153411" vertical-scroll-proportion="0.33333334" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/js/side1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="664" column="100" selection-start="30203" selection-end="30203" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1399218211010" expanded="false" signature="30203:30234" placeholder="..." />
-            <marker date="1399218211010" expanded="false" signature="32426:32436" placeholder="..." />
-            <marker date="1399218211010" expanded="false" signature="32527:32558" placeholder="..." />
-            <marker date="1399218211010" expanded="false" signature="151072:151165" placeholder="..." />
-            <marker date="1399218211010" expanded="false" signature="151198:151291" placeholder="..." />
-            <marker date="1399218211010" expanded="false" signature="171332:171344" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/head.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="27" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/action/RecommendAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="510" selection-end="510" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/service/MainMenuService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="28" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
+        <state line="18" column="0" selection-start="454" selection-end="465" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/service/RecommendService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0">
+        <state line="20" column="4" selection-start="464" selection-end="474" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/dao/MainMenuDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/mapping/RecommendMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="7" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
+        <state line="19" column="70" selection-start="395" selection-end="449" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/bean/table/Recommend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="23" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/service/FrontMenuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="13" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/test.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="13347" selection-end="14743" vertical-scroll-proportion="-1.5394737">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="14.903226">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/bean/table/FrontMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="2" column="23" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/mapping/FrontMenuMapper.java">
+    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/jsp/head_index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="76" column="57" selection-start="3038" selection-end="3038" vertical-scroll-proportion="-6.387097">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wt/model/RecommendMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="102" selection-start="3638" selection-end="3638" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/com/wt/model/FrontMenuMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="32" column="82" selection-start="1864" selection-end="1874" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/action/RecommendAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="5" selection-start="1746" selection-end="1746" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="12" selection-start="1191" selection-end="1191" vertical-scroll-proportion="-6.076923">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/dao/FrontMenuDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/daoImpl/FrontMenuDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="33" selection-start="659" selection-end="659" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wt/mapping/FrontMenuMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="25" selection-start="225" selection-end="225" vertical-scroll-proportion="0.3444227">
           <folding />
         </state>
       </provider>
