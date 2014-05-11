@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wt.mapping.AreaMapper">
+    <resultMap id="BaseResultMapArea" type="com.wt.bean.table.AreaBean">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+        <result column="name" property="name" jdbcType="VARCHAR"/>
+    </resultMap>
+     <resultMap id="BaseResultMapIsland" type="com.wt.bean.table.IslandBean">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+        <result column="name" property="name" jdbcType="VARCHAR"/>
+        <result column="area_id" property="areaId" jdbcType="INTEGER"/>
+        
+    </resultMap>
+     <resultMap id="BaseResultMapIslandPackage" type="com.wt.bean.table.IslandPackageBean">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+        <result column="title" property="title" jdbcType="VARCHAR"/>
+        <result column="area_id" property="areaId" jdbcType="INTEGER"/>
+        <result column="island_id" property="islandId" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <select id="selectAllArea" resultMap="BaseResultMapArea" >
+        select 
+        id,name
+        from area
+        where valid=1
+    </select>
+    
+     <select id="selectAllIsland" resultMap="BaseResultMapIsland" >
+        select 
+        id,area_id,name
+        from island
+        where valid=1
+    </select>
+   	<select id="selectIslandPackageByPackageId" resultMap="BaseResultMapIslandPackage" parameterType="java.lang.Integer">
+        select 
+        id,title,area_id,island_id
+        from island_package
+        where valid=1 and package_type = #{packageType,jdbcType=INTEGER}
+    </select>
+  
+</mapper>
