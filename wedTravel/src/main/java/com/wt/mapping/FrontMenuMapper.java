@@ -2,10 +2,16 @@ package com.wt.mapping;
 
 import com.wt.bean.table.FrontMenu;
 
-import java.util.List;
-
 public interface FrontMenuMapper {
+    int deleteByPrimaryKey(Integer id);
+
+    int insert(FrontMenu record);
+
+    int insertSelective(FrontMenu record);
+
     FrontMenu selectByPrimaryKey(Integer id);
 
-    List<FrontMenu> selectByModuleId(int moduleId);
+    int updateByPrimaryKeySelective(FrontMenu record);
+
+    int updateByPrimaryKey(FrontMenu record);
 }
