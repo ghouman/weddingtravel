@@ -8,7 +8,7 @@
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES gbk */;
+/*!40101 SET NAMES utf8 */;
 
 SET FOREIGN_KEY_CHECKS=0;
 
@@ -40,7 +40,7 @@ CREATE TABLE `area` (
 #
 # Data for the `area` table  (LIMIT 0,500)
 #
-
+set names utf8;
 INSERT INTO `area` (`id`, `name`, `valid`, `create_time`, `create_person`, `upd_time`, `upd_person`) VALUES
   (1,'东南亚地区',1,0,NULL,NULL,NULL),
   (2,'亚洲地区',1,NULL,NULL,NULL,NULL),
@@ -101,7 +101,7 @@ CREATE TABLE `front_menu` (
 
 INSERT INTO `front_menu` (`id`, `module_id`, `module_name`, `country`, `menu_name`, `menu_url`, `parent_id`, `has_child`, `valid`, `create_time`, `create_person`, `upd_time`, `upd_person`, `menu_index`) VALUES
   (1,1,'mainMenu',NULL,'网站首页','recommend.action',NULL,NULL,1,NULL,NULL,NULL,NULL,1),
-  (2,1,'mainMenu',NULL,'海岛婚礼套餐','list.jsp',NULL,NULL,1,NULL,NULL,NULL,NULL,2),
+  (2,1,'mainMenu',NULL,'海岛婚礼套餐','area.action?packageType=1',NULL,NULL,1,NULL,NULL,NULL,NULL,2),
   (3,1,'mainMenu',NULL,'婚礼婚纱摄影','recommend.action',NULL,NULL,1,NULL,NULL,NULL,NULL,3),
   (4,1,'mainMenu',NULL,'岛屿自助酒店','recommend.action',NULL,NULL,1,NULL,NULL,NULL,NULL,4),
   (5,1,'mainMenu',NULL,'婚礼蜜月自助','recommend.action',NULL,NULL,1,NULL,NULL,NULL,NULL,5),
