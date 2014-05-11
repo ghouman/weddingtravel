@@ -37,6 +37,9 @@
         <action name="recommend" class="com.wt.action.RecommendAction">
             <result name="success">/WEB-INF/jsp/index.jsp</result>
         </action>
+        <action name="area" class="com.wt.action.AreaAction">
+            <result name="success">/WEB-INF/jsp/list1.jsp</result>
+        </action>
     </package>
 
     <package name="ajax" extends="json-default">

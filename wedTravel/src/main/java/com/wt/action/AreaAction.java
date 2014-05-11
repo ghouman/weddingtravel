@@ -2,9 +2,11 @@ package com.wt.action;
 
 import com.opensymphony.xwork2.ActionSupport;
 import com.wt.bean.table.AreaBean;
+import com.wt.bean.table.FrontMenu;
 import com.wt.bean.table.IslandBean;
 import com.wt.bean.table.IslandPackageBean;
 import com.wt.service.AreaService;
+import com.wt.service.FrontMenuService;
 import org.apache.struts2.ServletActionContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -22,6 +24,8 @@ public class AreaAction extends ActionSupport {
     @Resource
     @Autowired
     private AreaService areaService;
+    @Autowired
+    private FrontMenuService frontMenuService;
 
     private HttpServletResponse response;
     private HttpServletRequest request;
@@ -35,6 +39,9 @@ public class AreaAction extends ActionSupport {
         List<AreaBean> areaList = areaService.getAreaListByAll();  //地区集合
         List<IslandBean> islandList = areaService.getIslandListByAll();//岛屿集合
         List<IslandPackageBean> islandPackageList = areaService.getIslandPackageListByPackageType(Integer.parseInt(str));//套餐集合
+
+        List<FrontMenu> listMenu = frontMenuService.getFrontMenuByModuleId(1);//主菜单
+        request.setAttribute("listMenu",listMenu);
         request.setAttribute("areaList",areaList);
         request.setAttribute("islandList",islandList);
         request.setAttribute("islandPackageList",islandPackageList);
