@@ -74,7 +74,7 @@
         </script>
         <ul id="nav">
             <s:iterator value="#request.listMenu" status="u">
-                <li><a href="recommend.action">${menuName}</a></li>
+                <li><a href="${menuUrl}">${menuName}</a></li>
             </s:iterator>
             <%--<li><a href="recommend.action">网站首页</a></li>
             <li><a href="list1.jsp">海岛婚礼套餐</a>
