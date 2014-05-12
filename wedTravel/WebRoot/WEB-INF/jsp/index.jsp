@@ -12,16 +12,13 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <link media=all href="css/css.css" type="text/css" rel="stylesheet"/>
+    <script src="js/jquery-1.8.2.min.js"></script>
+    <script src="js/page/index.js" type="text/javascript"></script>
 
     <title>婚庆网站首页</title>
 </head>
 <body>
-<script type="text/javascript">
-    function unix_to_datetime(unix) {
-        var now = new Date(parseInt(unix) * 1000);
-        return now.toLocaleString().replace(/年|月/g, "-").replace(/日/g, " ");
-    }
-</script>
+
 <jsp:include page="head_index.jsp"></jsp:include>
 <div class="w_m">
     <div class="index_con_div">
@@ -35,8 +32,8 @@
                             <img src="images/xz_nr.png"/>
                         </td>
                         <td valign="top">
-                            <ul>
-                                <s:iterator value="#request.list3" status="u">
+                            <ul id="leftInf">
+                                <%--<s:iterator value="#request.list3" status="u">
                                     <c:set value="${u.index}" var='l'></c:set>
                                     <c:if test="${l<4}">
                                         <li>
@@ -51,23 +48,8 @@
                                     </c:if>
 
                                 </s:iterator>
-                                <!--
-                                <li>
-                                    <a href="" class="grey_a">马尔代夫婚礼现场..</a>
-                                    <span><img src="images/new.png"/>14/01/22</span>
-                                </li>
-                                <li>
-                                    <a href="" class="grey_a">马尔代夫婚礼现场..</a>
-                                    <span>14/01/22</span>
-                                </li>
-                                <li>
-                                    <a href="" class="grey_a">马尔代夫婚礼现场..</a>
-                                    <span>14/01/22</span>
-                                </li>
-                                <li>
-                                    <a href="" class="grey_a">马尔代夫婚礼现场..</a>
-                                    <span>14/01/22</span>
-                                </li> -->
+
+                               --%>
                             </ul>
                         </td>
                     </tr>
@@ -84,8 +66,8 @@
                             <img src="images/xz_nr.png"/>
                         </td>
                         <td valign="top">
-                            <ul>
-                                <s:iterator value="#request.list3" status="u">
+                            <ul id="rightInf">
+                                <%--<s:iterator value="#request.list3" status="u">
                                     <c:set value="${u.index}" var='l'></c:set>
                                     <c:if test="${l>3&&l<8}">
                                         <li>
@@ -99,7 +81,7 @@
                                         </li>
                                     </c:if>
 
-                                </s:iterator>
+                                </s:iterator> --%>
                             </ul>
                         </td>
                     </tr>
@@ -168,6 +150,9 @@
 </div>
 <jsp:include page="bottom.jsp"></jsp:include>
 </body>
-
-
 </html>
+<script type="text/javascript">
+    $(function () {
+
+    })
+</script>
