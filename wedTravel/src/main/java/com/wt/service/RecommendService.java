@@ -5,6 +5,7 @@ import com.wt.bean.table.Recommend;
 import com.wt.dao.RecommendDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -16,7 +17,7 @@ import java.util.List;
  * Time: 下午11:41
  * To change this template use File | Settings | File Templates.
  */
-@Repository
+@Service
 public class RecommendService {
     @Autowired
     private RecommendDao recommendDao;

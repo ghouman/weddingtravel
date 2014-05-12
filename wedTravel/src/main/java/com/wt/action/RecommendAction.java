@@ -1,8 +1,10 @@
 package com.wt.action;
 
 import com.opensymphony.xwork2.ActionSupport;
+import com.wt.bean.table.Company;
 import com.wt.bean.table.FrontMenu;
 import com.wt.bean.table.Recommend;
+import com.wt.service.CompanyService;
 import com.wt.service.FrontMenuService;
 import com.wt.service.RecommendService;
 import net.sf.json.JSONArray;
@@ -25,6 +27,8 @@ public class RecommendAction extends ActionSupport {
     private RecommendService recommendService;
     @Autowired
     private FrontMenuService frontMenuService;
+    @Autowired
+    private CompanyService companyService;
 
     private HttpServletResponse response;
     private HttpServletRequest request;
@@ -38,12 +42,17 @@ public class RecommendAction extends ActionSupport {
         List<Recommend> list2 = recommendService.getRecomendListByModuleId(2) ;  //首页最受欢迎岛屿
 
         List<Recommend> list4 = recommendService.getRecomendListByModuleId(4) ;   //首页套餐推荐
+        List<Recommend> list5 = recommendService.getRecomendListByModuleId(5) ;   //首页友情链接
 
         List<FrontMenu> listMenu = frontMenuService.getFrontMenuByModuleId(1);//主菜单
+
+        Company company = companyService.getCompany();
         request.setAttribute("list1",list1);
         request.setAttribute("list2",list2);
         request.setAttribute("list4",list4);
+        request.setAttribute("list5",list5);
         request.setAttribute("listMenu",listMenu);
+        request.setAttribute("company",company);
         return SUCCESS;
     }
 

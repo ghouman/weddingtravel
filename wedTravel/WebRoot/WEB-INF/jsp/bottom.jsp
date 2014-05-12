@@ -1,3 +1,5 @@
+<%@ taglib prefix="s" uri="/struts-tags" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: ghm
@@ -19,16 +21,11 @@
                         友情链接</h2>
                 </div>
                 <div class="link_m">
-                    <a href="#" class="b_a">官方微博</a>&nbsp;|&nbsp;
-                    <a href="#" class="b_a">官方微博</a>&nbsp;|&nbsp;
-                    <a href="#" class="b_a">官方微博</a>&nbsp;|&nbsp;
-                    <a href="#" class="b_a">官方微博</a>&nbsp;|&nbsp;
-                    <a href="#" class="b_a">官方微博</a>&nbsp;|&nbsp;
-                    <a href="#" class="b_a">官方微博</a>&nbsp;|&nbsp;
-                    <a href="#" class="b_a">官方微博</a>&nbsp;|&nbsp;
-                    <a href="#" class="b_a">官方微博</a>&nbsp;|&nbsp;
-                    <a href="#" class="b_a">官方微博</a>&nbsp;|&nbsp;
-                    <a href="#" class="b_a">官方微博</a>&nbsp;|&nbsp;
+                    <ul>
+                    <s:iterator value="#request.list5" status="u">
+                            <li><a href="${linkUrl}" class="b_a">${title}</a>&nbsp;|&nbsp;</li>
+                    </s:iterator>
+                    </ul>
                 </div>
             </div>
             <div class="contact_con m_t30">
@@ -38,7 +35,7 @@
                 </div>
                 <div class="contact_c">
                     <h2>
-                        13564829537</h2>
+                        ${company.tel}</h2>
                     <h3>
                         全国统一客服电话</h3>
                 </div>
@@ -55,7 +52,7 @@
                     <h2>
                         联系地址</h2>
                     <h2>
-                        上海市静安区北京西路1000号</h2>
+                        ${company.address}</h2>
                 </div>
             </div>
         </div>

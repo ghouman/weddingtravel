@@ -17,6 +17,7 @@
 
     <title>婚庆网站首页</title>
 </head>
+
 <body>
 
 <jsp:include page="head_index.jsp"></jsp:include>
@@ -101,7 +102,7 @@
                             <li class="lim">
                                 <div class="lim_left" onclick="csleft()"></div>
                                 <div class="lim_m">
-                                    <img src='<s:property value="imgUrl"/>'/>
+                                    <a href="#" ><img style="position:absolute;z-index: 999" src='<s:property value="imgUrl"/>'/></a>
                                     <!--<span>塞班岛的婚礼策划</span>-->
                                 </div>
                                 <div class="lim_right" onclick="csright()"></div>
@@ -151,8 +152,9 @@
 <jsp:include page="bottom.jsp"></jsp:include>
 </body>
 </html>
-<script type="text/javascript">
-    $(function () {
 
-    })
+<script language="javascript" type="text/javascript">
+window.onload= initHover();
+//if(document.readyState=="complete"){initHover();}
+
 </script>

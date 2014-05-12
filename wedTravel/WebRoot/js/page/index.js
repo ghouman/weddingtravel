@@ -1,6 +1,33 @@
 (function () {
     initPage();
+
 })();
+
+function initHover() {
+    $(".lim").find("img").hover(function () {
+        $(this).animate({
+            width: 400,
+            height: 300,
+            padding: 0,
+            left: -100,
+            top: -38
+        }, 200).addClass("hover");
+        $(".show_pics").animate({
+            height: 200
+        });
+    }, function () {
+        $(this).animate({
+            width: 142,
+            height: 112,
+            padding: 0,
+            left: 0,
+            top: 0
+        }, 200).removeClass("hover");
+        $(".show_pics").animate({
+            height: 120
+        });
+    });
+}
 
 function initPage() {
     //initPic();
@@ -17,23 +44,23 @@ function showInformationList() {
             var html_inLeft = "";
             var html_inRight = "";
             var len = data.length;
-            if(len>4){
-                for(var i=0;i<4;i++){
-                    html_inLeft+='<li><a href="" class="grey_a">'+data[i].title+'</a><span><img src="'+data[i].imgUrl+'"/><s:property value="createTime"/></li>';
+            if (len > 4) {
+                for (var i = 0; i < 4; i++) {
+                    html_inLeft += '<li><a href="" class="grey_a">' + data[i].title + '</a><span><img src="' + data[i].imgUrl + '"/><s:property value="createTime"/></li>';
                 }
             } else {
-                for(var i=0;i<len;i++){
-                    html_inLeft+='<li><a href="" class="grey_a">'+data[i].title+'</a><span><img src="'+data[i].imgUrl+'"/><s:property value="createTime"/></li>';
+                for (var i = 0; i < len; i++) {
+                    html_inLeft += '<li><a href="" class="grey_a">' + data[i].title + '</a><span><img src="' + data[i].imgUrl + '"/><s:property value="createTime"/></li>';
                 }
             }
             $("#leftInf").append(html_inLeft);
-            if(len>4&&len<8){
-                for(var i=4;i<data.length;i++){
-                    html_inRight+='<li><a href="" class="grey_a">'+data[i].title+'</a><span><img src="'+data[i].imgUrl+'"/><s:property value="createTime"/></li>';
+            if (len > 4 && len < 8) {
+                for (var i = 4; i < data.length; i++) {
+                    html_inRight += '<li><a href="" class="grey_a">' + data[i].title + '</a><span><img src="' + data[i].imgUrl + '"/><s:property value="createTime"/></li>';
                 }
-            } else if(len>7){
-                for(var i=4;i<8;i++){
-                    html_inRight+='<li><a href="" class="grey_a">'+data[i].title+'</a><span><img src="'+data[i].imgUrl+'"/><s:property value="createTime"/></li>';
+            } else if (len > 7) {
+                for (var i = 4; i < 8; i++) {
+                    html_inRight += '<li><a href="" class="grey_a">' + data[i].title + '</a><span><img src="' + data[i].imgUrl + '"/><s:property value="createTime"/></li>';
                 }
             }
             $("#rightInf").append(html_inRight);
