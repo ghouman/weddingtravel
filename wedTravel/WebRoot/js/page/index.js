@@ -31,13 +31,14 @@ function initHover() {
 
 function initPage() {
     //initPic();
-    showInformationList();
+    showInformationList(3);
 }
 
 function showInformationList() {
     $.ajax({
         type: "post",
         url: "jsonAjax.json",
+        data: {moduleId:3},
         dataType: "json",
         success: function (data) {
 
