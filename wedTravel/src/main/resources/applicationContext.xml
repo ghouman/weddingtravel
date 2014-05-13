@@ -67,5 +67,35 @@
     <!-- enable autowire -->
     <context:annotation-config/>
 
+    <!-- SET default mail properties -->
+        <bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+            <property name="host" value="smtp.163.com"/>
+            <property name="protocol" value="smtp" />
+            <!-- 465 for Gamil -->
+            <property name="port" value="25"/>
+            <property name="username" value="gonghouman@163.com"/>
+            <property name="password" value="871119"/>
+            <property name="javaMailProperties">
+                <props>
+                    <prop key="mail.transport.protocol">smtp</prop>
+                    <prop key="mail.smtp.auth">true</prop>
+                    <!-- true for Gamil -->
+                    <prop key="mail.smtp.starttls.enable">false</prop>
+                    <prop key="mail.debug">true</prop>
+                </props>
+            </property>
+        </bean>
 
+        <!--Asyn send Eamil-->
+        <bean id="taskExecutor" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
+           <property name="corePoolSize" value="10"/>
+           <property name="maxPoolSize" value="30"/>
+        </bean>
+
+        <!-- You can have some pre-configured messagess also which are ready to send -->
+        <bean id="preConfiguredMessage" class="org.springframework.mail.SimpleMailMessage">
+            <property name="to" value="360697589@qq.com"></property>
+            <property name="from" value="gonghouman@163.com"></property>
+            <property name="subject" value="Test email from 163."/>
+        </bean>
 </beans>
