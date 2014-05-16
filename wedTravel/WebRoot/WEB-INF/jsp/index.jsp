@@ -13,6 +13,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <link media=all href="css/css.css" type="text/css" rel="stylesheet"/>
     <script src="js/jquery-1.8.2.min.js"></script>
+    <script src="js/page/common.js"></script>
     <script src="js/page/index.js" type="text/javascript"></script>
 
     <title>婚庆网站首页</title>

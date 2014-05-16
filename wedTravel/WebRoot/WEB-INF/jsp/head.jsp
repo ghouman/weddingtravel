@@ -1,3 +1,4 @@
+<%@ taglib prefix="s" uri="/struts-tags" %>
 <%--
   Created by IntelliJ IDEA.
   User: ghm
@@ -16,6 +17,8 @@
     <script src="js/jquery-1.8.2.min.js"></script>
     <script src="js/bootstrap/bootstrap.js"></script>
     <script src="js/common.js"></script>
+    <script src="js/page/common.js"></script>
+    <script src="js/page/head.js"></script>
 </head>
 <body>
 <div class="header">
@@ -83,127 +86,24 @@
         </script>
 
         <ul id="nav">
-            <li><a href="recommend.action">网站首页</a></li>
-            <li><a href="list1.jsp">海岛婚礼套餐</a>
-                <ul>
-                    <li class="li_t"></li>
-                    <li>
-                        <a href="list1.jsp">东南亚地区</a>
-                    </li>
-                    <li>
-                        <a href="list1.jsp">地中海地区</a>
-                    </li>
-                    <li class="li_b"></li>
-                </ul>
-            </li>
-            <li>
-                <a href="list2.jsp">婚礼婚纱照摄影</a>
-                <ul>
-                    <li class="li_t"></li>
-                    <li>
-                        <a href="list2.jsp">东南亚地区</a>
-                    </li>
-                    <li>
-                        <a href="list2.jsp">地中海地区</a>
-                    </li>
-                    <li class="li_b"></li>
-                </ul>
-            </li>
-            <li>
-                <a href="">岛屿自助酒店</a>
-                <ul>
-                    <li class="li_t"></li>
-                    <li>
-                        <a href="#">东南亚地区</a>
-                    </li>
-                    <li>
-                        <a href="#">地中海地区</a>
-                    </li>
-                    <li class="li_b"></li>
-                </ul>
-            </li>
-            <li>
-                <a href="">婚礼蜜月自助</a>
-                <ul>
-                    <li class="li_t"></li>
-                    <li>
-                        <a href="#">东南亚地区</a>
-                    </li>
-                    <li>
-                        <a href="#">地中海地区</a>
-                    </li>
-                    <li class="li_b"></li>
-                </ul>
-            </li>
-            <li>
-                <a href="weddingCase.jsp">婚礼案例</a>
-                <ul>
-                    <li class="li_t"></li>
-                    <li>
-                        <a href="#">东南亚地区</a>
-                    </li>
-                    <li>
-                        <a href="#">地中海地区</a>
-                    </li>
-                    <li class="li_b"></li>
-                </ul>
-            </li>
-            <li>
-                <a href="help.jsp">疑难答案</a>
-            </li>
-            <li>
-                <a href="company.jsp">公司介绍</a>
-            </li>
-            <li class="no_bg">
-                <a href="order.jsp">订单购物车</a>
-            </li>
+
         </ul>
     </div>
 </div>
 <div class="banner">
     <div class="wrapper">
-        <div id="myCarousel" class="carousel slide">
+        <%--<div id="myCarousel" class="carousel slide">
             <div class="carousel-inner">
-                <div class="active item">
-                    <a href="http://www.google.com" target="blank"><img src="images/index_side1.jpg"
-                                                                        alt=""></a>
-
-                    <div class="carousel-caption">
-                        <h4>First Thumbnail label</h4>
-
-
-                                <h4>巴厘岛<span>2014/6</span></h4>
-                                <h4>2014年6月开始巴厘岛悦榕庄豪华酒店</h4>
-                                <div class="price1">￥<span>18888</span></div>
-                                <div class="price2">起/人</div>
-
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="images/index_side2.jpg" alt="">
-
-                    <div class="carousel-caption">
-                        <h4>Second Thumbnail label</h4>
-
-                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
-                            gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="images/index_side1.jpg" alt="">
-
-                    <div class="carousel-caption">
-                        <h4>Third Thumbnail label</h4>
-
-                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
-                            gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    </div>
-                </div>
+                <s:iterator value="#request.listRecommend1">
+                    <div class="active item">
+                                        <a href="${linkUrl}" target="blank"><img src="${imgUrl}" alt=""></a>
+                                    </div>
+                </s:iterator>
             </div>
             <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
             <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
-        </div>
-        <%--<div id="slideshow" class="box_skitter fn-clear">
+        </div>   --%>
+        <div id="slideshow" class="box_skitter fn-clear">
             <ul>
                 <li >
                     <input type="hidden" name="re_title" value="巴厘岛">
@@ -227,7 +127,7 @@
                     <a onclick="showTip(this)" href="#"><img onclick="showTip(this)" alt="03" class="cubeRandom" src="images/index_side3.jpg"/></a>
                 </li>
             </ul>
-        </div>--%>
+        </div>
         <script type="text/javascript" src="js/side1.js"></script>
     </div>
 </div>

@@ -4329,6 +4329,9 @@
 jQuery.easing.jswing = jQuery.easing.swing;
 jQuery.extend(jQuery.easing, {
     def: "easeOutQuad", swing: function (e, f, a, h, g) {
+        if(jQuery.easing.def=="undefined"||jQuery.easing.def==undefined){
+            jQuery.easing.def = "easeOutQuad";
+        }
         return jQuery.easing[jQuery.easing.def](e, f, a, h, g)
     }, easeInQuad: function (e, f, a, h, g) {
         return h * (f /= g) * f + a

@@ -63,6 +63,7 @@ public class RecommendAction extends ActionSupport {
 
     public String ajaxGet() throws Exception {
         response = ServletActionContext.getResponse();
+        request = ServletActionContext.getRequest();
         int moduleId = Integer.parseInt(request.getParameter("moduleId"));
         List<Recommend> list = recommendService.getRecomendListByModuleId(moduleId);   //首页咨询内容
         String jsonStr = "";
@@ -73,6 +74,56 @@ public class RecommendAction extends ActionSupport {
            jsonStr = jsonStr.substring(1, jsonStr.length());*/
         // list转JSONArray
         JSONArray jsArr = JSONArray.fromObject(list);
+        jsonStr = jsArr.toString();
+        try {
+            response.getWriter().println(jsonStr);
+            response.getWriter().flush();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                response.getWriter().close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        return "success";
+    }
+
+    //获取主菜单
+    public String ajaxGetMenu() throws Exception {
+        response = ServletActionContext.getResponse();
+        List<FrontMenu> listMenu = frontMenuService.getFrontMenuByModuleId(1);//主菜单
+        String jsonStr = "";
+               /*for (Recommend recommend : list3) {
+                   JSONObject jo = JSONObject.fromObject(recommend);
+                   jsonStr += "," + jo.toString();
+               }
+               jsonStr = jsonStr.substring(1, jsonStr.length());*/
+        // list转JSONArray
+        JSONArray jsArr = JSONArray.fromObject(listMenu);
+        jsonStr = jsArr.toString();
+        try {
+            response.getWriter().println(jsonStr);
+            response.getWriter().flush();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                response.getWriter().close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        return "success";
+    }
+
+     //获取公司信息
+    public String ajaxGetCompany() throws Exception {
+        response = ServletActionContext.getResponse();
+        Company company = companyService.getCompany();
+        String jsonStr = "";
+        JSONArray jsArr = JSONArray.fromObject(company);
         jsonStr = jsArr.toString();
         try {
             response.getWriter().println(jsonStr);

@@ -13,7 +13,7 @@ function initHover() {
             top: -38
         }, 200).addClass("hover");
         $(".show_pics").animate({
-            height: 200
+            height: 220
         });
     }, function () {
         $(this).animate({
@@ -32,16 +32,16 @@ function initHover() {
 function initPage() {
     //initPic();
     showInformationList(3);
+    getMenu(1);
 }
 
 function showInformationList() {
     $.ajax({
         type: "post",
-        url: "jsonAjax.json",
+        url: "ajaxGet_Ajax.json",
         data: {moduleId:3},
         dataType: "json",
         success: function (data) {
-
             var html_inLeft = "";
             var html_inRight = "";
             var len = data.length;
@@ -72,6 +72,8 @@ function showInformationList() {
         }
     });
 }
+
+
 
 function initPic() {
     var picSrcList = [];

@@ -43,7 +43,7 @@
     </package>
 
     <package name="ajax" extends="json-default">
-        <action name="jsonAjax" class="com.wt.action.RecommendAction"  method="ajaxGet">
+        <action name="*_Ajax" class="com.wt.action.RecommendAction"  method="{1}">
             <!-- 将返回类型设置为json -->
             <result type="json"></result>
         </action>

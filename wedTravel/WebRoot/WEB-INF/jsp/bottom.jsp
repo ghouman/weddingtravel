@@ -35,7 +35,7 @@
                 </div>
                 <div class="contact_c">
                     <h2>
-                        ${company.tel}</h2>
+                        <span id="tel">${company.tel}</span></h2>
                     <h3>
                         全国统一客服电话</h3>
                 </div>
@@ -52,7 +52,7 @@
                     <h2>
                         联系地址</h2>
                     <h2>
-                        ${company.address}</h2>
+                        <span id="address">${company.address}</span></h2>
                 </div>
             </div>
         </div>
