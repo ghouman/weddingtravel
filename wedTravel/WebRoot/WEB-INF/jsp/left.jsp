@@ -22,7 +22,7 @@
 </script>
 </head>
 
-<body class="left_body">
+<body class="">
 	<div class="left_cons">
                 <div class="titles3 mlsy">
                 </div>
