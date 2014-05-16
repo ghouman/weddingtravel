@@ -8,10 +8,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title></title>
-</head>
+
 <body>
 <div class="bottom m_t20">
         <div class="w_m">
@@ -22,9 +19,9 @@
                 </div>
                 <div class="link_m">
                     <ul>
-                    <s:iterator value="#request.list5" status="u">
+                   <%-- <s:iterator value="#request.list5" status="u">
                             <li><a href="${linkUrl}" class="b_a">${title}</a>&nbsp;|&nbsp;</li>
-                    </s:iterator>
+                    </s:iterator>--%>
                     </ul>
                 </div>
             </div>
@@ -35,7 +32,7 @@
                 </div>
                 <div class="contact_c">
                     <h2>
-                        <span id="tel">${company.tel}</span></h2>
+                        <span id="tel"></span></h2>
                     <h3>
                         全国统一客服电话</h3>
                 </div>
@@ -52,10 +49,11 @@
                     <h2>
                         联系地址</h2>
                     <h2>
-                        <span id="address">${company.address}</span></h2>
+                        <span id="address"></span></h2>
                 </div>
             </div>
         </div>
     </div>
 </body>
 </html>
+<script src="js/page/bottom.js" type="text/javascript"></script>

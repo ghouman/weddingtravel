@@ -47,5 +47,9 @@
             <!-- 将返回类型设置为json -->
             <result type="json"></result>
         </action>
+        <action name="*_AjaxArea" class="com.wt.action.AreaAction"  method="{1}">
+                    <!-- 将返回类型设置为json -->
+                    <result type="json"></result>
+                </action>
     </package>
 </struts>

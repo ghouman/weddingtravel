@@ -5,6 +5,7 @@ import com.wt.bean.table.*;
 import com.wt.service.AreaService;
 import com.wt.service.FrontMenuService;
 import com.wt.service.RecommendService;
+import net.sf.json.JSONArray;
 import org.apache.struts2.ServletActionContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -13,6 +14,7 @@ import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import java.io.IOException;
 import java.util.List;
 
 @SuppressWarnings("serial")
@@ -48,7 +50,26 @@ public class AreaAction extends ActionSupport {
         request.setAttribute("islandPackageList",islandPackageList);
         request.setAttribute("listRecommend1",listRecommend1);
         return SUCCESS;
-
+    }
+    //获取区域
+    public String ajaxGetArea() throws Exception {
+        response = ServletActionContext.getResponse();
+        List<AreaBean> areaList = areaService.getAreaListByAll();  //地区集合
+        JSONArray jsArr = JSONArray.fromObject(areaList);
+        String jsonStr = jsArr.toString();
+        try {
+            response.getWriter().println(jsonStr);
+            response.getWriter().flush();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                response.getWriter().close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        return "success";
     }
 
     public HttpServletResponse getResponse() {
