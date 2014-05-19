@@ -154,6 +154,24 @@
                 </div>
                 <div class="content fwbj_con">
                     <ul>
+                        <c:forEach items="${recommendListHL}" var="hltc">
+                            <li onclick="">
+                                <dl>
+                                    <dt>
+                                        <img src="${hltc.smallImgUrl}" /></dt>
+                                    <dd>
+                                        <h3>
+                                                ${hltc.title}>>></h3>
+                                        <h2>
+                                                ${hltc.price}</h2>
+                                        <h5>
+                                            起</h5>
+                                    </dd>
+                                </dl>
+                            </li>
+                        </c:forEach>
+
+<!--
                         <li onclick="">
                             <dl>
                                 <dt>
@@ -182,20 +200,7 @@
                                 </dd>
                             </dl>
                         </li>
-                        <li onclick="">
-                            <dl>
-                                <dt>
-                                    <img src="../images/01.jpg" /></dt>
-                                <dd>
-                                    <h3>
-                                        海上殿堂>>></h3>
-                                    <h2>
-                                        69989</h2>
-                                    <h5>
-                                        起</h5>
-                                </dd>
-                            </dl>
-                        </li>
+                        -->
                     </ul>
                    
                 </div>
@@ -203,6 +208,15 @@
                 </div>
                 <div class="content zp_con">
                     <ul>
+                        <c:forEach items="${recommendListSY}" var="sytc" >
+                            <li onclick="">
+                                <img src="${sytc.smallImgUrl}" />
+                                <p>
+                                    TIME：${sytc.createTime}</p>
+                                <h2>${sytc.title}</h2>
+                            </li>
+                        </c:forEach>
+        <!--
                         <li onclick="">
                             <img src="../images/01.jpg" />
                             <p>
@@ -210,25 +224,25 @@
                             <h2>
                                 巴里岛摄影</h2>
                         </li>
-                        <li onclick="">
-                            <img src="../images/01.jpg" />
-                            <p>
-                                TIME：2014-5-20</p>
-                            <h2>
-                                巴里岛摄影</h2>
-                        </li>
+                        -->
                     </ul>
+
                 </div>
                 <div class="titles3 zx">
                 </div>
                 <div class="content zx_con">
                     <ul>
+                        <c:forEach items="${recommendListZX}" var="zx">
+                            <li><a href="" class="blue_a">${zx.title}</a></li>
+                        </c:forEach>
+                        <!--
                         <li><a href="" class="blue_a">巴厘岛悦榕庄婚礼套餐</a></li>
                         <li><a href="" class="blue_a">巴厘岛悦榕庄婚礼套餐</a></li>
                         <li><a href="" class="blue_a">巴厘岛悦榕庄婚礼套餐</a></li>
                         <li><a href="" class="blue_a">巴厘岛悦榕庄婚礼套餐</a></li>
                         <li><a href="" class="blue_a">巴厘岛悦榕庄婚礼套餐</a></li>
                         <li><a href="" class="blue_a">巴厘岛悦榕庄婚礼套餐</a></li>
+                        -->
                     </ul>
                 </div>
                 <div class="titles3 lxwm">

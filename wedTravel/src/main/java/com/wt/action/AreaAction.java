@@ -1,11 +1,12 @@
 package com.wt.action;
 
 import com.opensymphony.xwork2.ActionSupport;
-import com.wt.bean.table.*;
+import com.wt.bean.table.AreaBean;
+import com.wt.bean.table.FrontMenu;
+import com.wt.bean.table.IslandBean;
+import com.wt.bean.table.IslandPackageBean;
 import com.wt.service.AreaService;
 import com.wt.service.FrontMenuService;
-import com.wt.service.RecommendService;
-import net.sf.json.JSONArray;
 import org.apache.struts2.ServletActionContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -14,7 +15,6 @@ import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import java.io.IOException;
 import java.util.List;
 
 @SuppressWarnings("serial")
@@ -26,8 +26,6 @@ public class AreaAction extends ActionSupport {
     private AreaService areaService;
     @Autowired
     private FrontMenuService frontMenuService;
-    @Autowired
-    private RecommendService recommendService;
 
     private HttpServletResponse response;
     private HttpServletRequest request;
@@ -43,33 +41,12 @@ public class AreaAction extends ActionSupport {
         List<IslandPackageBean> islandPackageList = areaService.getIslandPackageListByPackageType(Integer.parseInt(str));//套餐集合
 
         List<FrontMenu> listMenu = frontMenuService.getFrontMenuByModuleId(1);//主菜单
-        List<Recommend> listRecommend1 = recommendService.getRecomendListByModuleId(1);  //首页主推产品
         request.setAttribute("listMenu",listMenu);
         request.setAttribute("areaList",areaList);
         request.setAttribute("islandList",islandList);
         request.setAttribute("islandPackageList",islandPackageList);
-        request.setAttribute("listRecommend1",listRecommend1);
         return SUCCESS;
-    }
-    //获取区域
-    public String ajaxGetArea() throws Exception {
-        response = ServletActionContext.getResponse();
-        List<AreaBean> areaList = areaService.getAreaListByAll();  //地区集合
-        JSONArray jsArr = JSONArray.fromObject(areaList);
-        String jsonStr = jsArr.toString();
-        try {
-            response.getWriter().println(jsonStr);
-            response.getWriter().flush();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
-            try {
-                response.getWriter().close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
-        return "success";
+
     }
 
     //获取区域的国家
