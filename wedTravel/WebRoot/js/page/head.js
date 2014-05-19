@@ -1,35 +1,42 @@
 $(function () {
     initHead();
     //initRecommendPic();
+    $("#popup_exit0").click(function () {
+    		hideDZ();
+     });
 })
 
 function initHead() {
-    var data = WED.menu;
-    if (data != null && data != undefined) {
-        initMenu(data);
-    } else {
+    initMenu();
+    initArea();
+}
+
+function initMenu() {
+    var obj = WED.menu;
+    var html_menu = "";
+    if (obj == null || obj == undefined || obj == "undefined") {
         $.ajax({
             type: "post",
             url: "ajaxGetMenu_Ajax.json",
             data: {moduleId: 1},
             dataType: "json",
             success: function (data) {
-                WED.menu = data;
-                initMenu(data);
+                for (var i = 0; i < data.length; i++) {
+                    html_menu += '<li><a href="' + data[i].menuUrl + '">' + data[i].menuName + '</a></li>';
+                }
+                $("#nav").append(html_menu);
             },
             error: function (XMLHttpRequest, textStatus, errorThrown) {
                 alert(errorThrown);
             }
         });
+    } else {
+        for (var i = 0; i < obj.length; i++) {
+            html_menu += '<li><a href="' + obj[i].menuUrl + '">' + obj[i].menuName + '</a></li>';
+        }
+        $("#nav").append(html_menu);
     }
-}
 
-function initMenu(obj) {
-    var html_menu = "";
-    for (var i = 0; i < obj.length; i++) {
-        html_menu += '<li><a href="' + obj[i].menuUrl + '">' + obj[i].menuName + '</a></li>';
-    }
-    $("#nav").append(html_menu);
 }
 
 function initRecommendPic() {

@@ -65,7 +65,9 @@ function popup_show(id) {
     var popupWidth = $("#popup"+id).width();
     var popupHeight = $("#popup"+id).height();
     element.style.left = document.documentElement.scrollLeft + (document.documentElement.clientWidth - popupWidth) / 2 + "px";
-    element.style.top = document.documentElement.scrollTop + (document.documentElement.clientHeight - popupHeight) / 2 + "px";
+    var topHeight =  document.documentElement.scrollTop + (document.documentElement.clientHeight - popupHeight);
+    topHeight =  topHeight>0?topHeight:-topHeight;
+    element.style.top = 250+topHeight / 2 + "px";
     drag_element['target'] = 'popup'+id;
     drag_element.onmousedown = popup_mousedown;
     exit_element.onclick = popup_exit;

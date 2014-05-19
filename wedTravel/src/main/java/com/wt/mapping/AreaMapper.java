@@ -9,4 +9,5 @@ public interface AreaMapper {
     public List<AreaBean> selectAllArea();
     public List<IslandBean> selectAllIsland();
     public List<IslandPackageBean> selectIslandPackageByPackageId(Integer packageType);
+    List<IslandBean> selectCountryByAreaId(int areaId);
 }

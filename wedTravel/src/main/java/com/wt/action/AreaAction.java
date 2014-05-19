@@ -72,6 +72,28 @@ public class AreaAction extends ActionSupport {
         return "success";
     }
 
+    //获取区域的国家
+    public void ajaxGetCountry() throws Exception {
+        request =  ServletActionContext.getRequest();
+        response = ServletActionContext.getResponse();
+        int areaId = request.getParameter("areaId")==null?0:Integer.parseInt(request.getParameter("areaId"));
+        List<IslandBean> countryList = areaService.getCountryByAreaId(areaId);  //地区集合
+        JSONArray jsArr = JSONArray.fromObject(countryList);
+        String jsonStr = jsArr.toString();
+        try {
+            response.getWriter().println(jsonStr);
+            response.getWriter().flush();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                response.getWriter().close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
     public HttpServletResponse getResponse() {
         return response;
     }

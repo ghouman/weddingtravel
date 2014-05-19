@@ -16,6 +16,8 @@
     <script src="js/jquery-1.8.2.min.js"></script>
     <script src="js/common.js"></script>
     <script src="js/page/common.js"></script>
+    <script src="js/popup-main.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/open.css">
 </head>
 <body>
 <div class="index_header">
@@ -212,57 +214,114 @@
             <ul>
                 <li>
                     <h5>您希望去的</h5>
-
-                    <h2>婚礼国家
-                        <select name="">
-                            <option value="0">请选择</option>
-                        </select>
+                    <h2>婚礼地区
+                        <select onchange="initCountry(this.value)" name="area" id="area" style="width: 70px;">
+                                                    <option  value="0">请选择</option>
+                                                </select>
                     </h2>
                 </li>
                 <li>
                     <h5>您希望去的</h5>
 
-                    <h2>婚礼地区
-                        <select name="">
-                            <option value="0">请选择</option>
+                    <h2>婚礼国家
+                        <select name="country" id="country" style="width: 70px;">
+                            <option value="">请选择</option>
                         </select>
                     </h2>
                 </li>
+
                 <li>
                     <h5>您从国内的</h5>
 
                     <h2>何地出发
-                        <select name="">
-                            <option value="0">请选择</option>
-                        </select>
+                        <select name="" id="where" style="width: 70px;">
+                                                    <option value="0">请选择</option>
+                                                    <option value="北京">北京</option>
+                                                    <option value="上海">上海</option>
+                                                    <option value="广州">广州</option>
+                                                    <option value="深圳">深圳</option>
+                                                    <option value="南京">南京</option>
+                                                    <option value="杭州">南京</option>
+                                                    <option value="其他">其他</option>
+                                                </select>
                     </h2>
                 </li>
                 <li>
                     <h5>您筹备的</h5>
 
                     <h2>婚礼预算
-                        <select name="">
-                            <option value="0">请选择</option>
-                        </select>
+                        <input type="text" id="ys_money" style="width: 60px;">
                     </h2>
                 </li>
                 <li>
                     <h5>您预计的</h5>
 
                     <h2>婚礼人数
-                        <select name="">
-                            <option value="0">请选择</option>
-                        </select>
+                        <input type="text" id="wd_personNum" style="width: 60px;">
                     </h2>
                 </li>
                 <li class="ok_li">
-                    <input name="" type="button" value="确定" class="index_ok_btn"/>
+                    <input name="" type="button" value="确定" class="index_ok_btn" onclick="showDZ()"/>
                 </li>
             </ul>
         </div>
     </div>
 </div>
 </div>
+<!--发送客服邮件页-->
+<div id="shade0">
+   </div>
+<div id="popup0" class="popup">
+        <div class="center">
+            <div class="content">
+                <div id="popup_drag0" class="popup_drag">
+                    <div class="title"></div>
+                    <div class="popup_exit" id="popup_exit0" alt="关闭" title="关闭" >
+                    </div>
+                </div>
+                <div class="content1">
+                    <div class="mainlist" id="mainlist">
+                       <div class="order_form">
+                       		<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                              <tr>
+                                <th>新人姓名</th>
+                                <td><input name="" id="userName" type="text" class="input in_360"/>&nbsp;&nbsp;(必填)</td>
+                              </tr>
+                              <tr>
+                                <th>手机号码</th>
+                                <td><input name="" id="userPhone" type="text" class="input in_360"/>&nbsp;&nbsp;(必填)</td>
+                              </tr>
+                              <tr>
+                                <th>腾讯QQ</th>
+                                <td><input name="" id="userQQ" type="text" class="input in_360"/>&nbsp;&nbsp;(必填)</td>
+                              </tr>
+                              <tr>
+                                <th>邮箱</th>
+                                <td><input name="" id="userEmail" type="text" class="input in_360"/>&nbsp;&nbsp;(必填)</td>
+                              </tr>
+                              <tr>
+                                <th valign="top">咨询内容</th>
+                                <td>
+                                	<textarea name="" id="userContent" cols="" rows="" class="textarea in_360 area_200"></textarea>
+                                </td>
+                              </tr>
+                               <tr>
+                                   <td colspan="2" class="tool_td">
+                                      <input name="" type="button" id="send" value="发   送" style="width: 70px" class="send_btn" onclick="sendMail();"/>
+                                     <input name="" type="button" id="return" value="返   回" style="width: 70px" class="send_btn" onclick="hideDZ();"/></td>
+                               	</tr>
+                          </table>
+                       </div>
+                    </div>
+                    <div style="clear: both;">
+                    </div>
+                    <div class="erro">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
+<script type="text/javascript" src="js/common/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="js/side1.js"></script>

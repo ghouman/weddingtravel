@@ -13,7 +13,10 @@ import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
 import org.apache.struts2.ServletActionContext;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
+import org.springframework.mail.SimpleMailMessage;
 import org.springframework.stereotype.Component;
+import org.springframework.web.context.support.WebApplicationContextUtils;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
@@ -142,12 +145,18 @@ public class RecommendAction extends ActionSupport {
 
     public String ajaxSendMail() {
         //这是要异步发送邮件
+        request = ServletActionContext.getRequest();
+        String subject = request.getParameter("subject");
+        String content = request.getParameter("content");
         ApplicationEmail email = new ApplicationEmail();
-        email.setAddressee("360697589@qq.com");
-        email.setSubject("测试邮件有一份");
-        email.setContent("这个是内容html内容");
+
+        ApplicationContext ctx = WebApplicationContextUtils.getWebApplicationContext(ServletActionContext.getServletContext());
+        SimpleMailMessage preConfiguredMessage =  (SimpleMailMessage) ctx.getBean("preConfiguredMessage");
+        email.setAddressee(preConfiguredMessage.getTo()[0]);
+        email.setSubject(subject);
+        email.setContent(content);
         mailer.sendMailByAsynchronousMode(email);
-        return "success";
+        return null;
     }
 
     public Recommend getRecommend() {

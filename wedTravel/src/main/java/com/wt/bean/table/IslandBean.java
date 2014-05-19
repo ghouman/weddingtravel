@@ -10,7 +10,17 @@ public class IslandBean {
     private Integer id;
     private Integer areaId;//地区id
     private String name;//岛屿名称
-	public Integer getId() {
+    private String country;
+
+    public String getCountry() {
+        return country;
+    }
+
+    public void setCountry(String country) {
+        this.country = country;
+    }
+
+    public Integer getId() {
 		return id;
 	}
 	public void setId(Integer id) {

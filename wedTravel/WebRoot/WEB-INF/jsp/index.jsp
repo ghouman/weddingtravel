@@ -30,8 +30,8 @@
             <div class="con_div zx_con_div">
                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
                     <tr>
-                        <td width="160" valign="middle">
-                            <img src="images/xz_nr.png"/>
+                        <td width="160" valign="middle" id="leftDZ">
+                            <img  src="images/xz_nr.png"/>
                         </td>
                         <td valign="top">
                             <ul id="leftInf">
@@ -64,7 +64,7 @@
             <div class="con_div zx_con_div">
                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
                     <tr>
-                        <td width="160" valign="middle">
+                        <td width="160" valign="middle" id="rightDZ">
                             <img src="images/xz_nr.png"/>
                         </td>
                         <td valign="top">

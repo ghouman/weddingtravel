@@ -37,5 +37,10 @@
         from island_package
         where valid=1 and package_type = #{packageType,jdbcType=INTEGER}
     </select>
-  
+    <select id="selectCountryByAreaId" resultMap="BaseResultMapIsland" >
+        select
+        area_id,country
+        from island
+        where valid=1 and area_Id=#{areaId} group by country
+    </select>
 </mapper>

@@ -7,6 +7,7 @@
 <link href="css/side1.css" rel="stylesheet" />
 <script src="js/jquery-1.8.2.min.js"></script>
 <script src="js/common.js"></script>
+    <script src="js/common/jquery.easing.1.3.js"></script>
 </head>
 
 <body>

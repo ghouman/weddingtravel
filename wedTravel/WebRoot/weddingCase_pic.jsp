@@ -15,7 +15,7 @@
      <script type="text/javascript" src="js/popup-main.js"></script>
      <script src="js/jquery.min.js"></script>
 <script src="js/jquery.quicksand.js"></script>
-<script src="js/jquery.easing.js"></script>
+<script src="js/common/jquery.easing.js"></script>
 <script src="js/lanrenzhijia.js"></script>
 <script src="js/jquery.prettyPhoto.js"></script>
 <link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />

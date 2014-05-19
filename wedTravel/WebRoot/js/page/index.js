@@ -1,7 +1,20 @@
 (function () {
     initPage();
-
+    initArea();
+    $("#popup_exit0").click(function () {
+       		hideDZ();
+        });
 })();
+
+function showLeftZXPic(obj){
+    $("#leftDZ").empty();
+    $("#leftDZ").append('<img src="'+$(obj).attr("imgUrl")+'"/>');
+}
+
+function showRightZXPic(obj){
+    $("#rightDZ").empty();
+    $("#rightDZ").append('<img src="'+$(obj).attr("imgUrl")+'"/>');
+}
 
 function initHover() {
     $(".lim").find("img").hover(function () {
@@ -47,21 +60,21 @@ function showInformationList() {
             var len = data.length;
             if (len > 4) {
                 for (var i = 0; i < 4; i++) {
-                    html_inLeft += '<li><a href="" class="grey_a">' + data[i].title + '</a><span><img src="' + data[i].imgUrl + '"/><s:property value="createTime"/></li>';
+                    html_inLeft += '<li><a href="" class="grey_a" onmouseover="showLeftZXPic(this)" imgUrl="'+data[i].bigImgUrl+'">' + data[i].title + '</a><span><img src="' + data[i].imgUrl + '"/><s:property value="createTime"/></li>';
                 }
             } else {
                 for (var i = 0; i < len; i++) {
-                    html_inLeft += '<li><a href="" class="grey_a">' + data[i].title + '</a><span><img src="' + data[i].imgUrl + '"/><s:property value="createTime"/></li>';
+                    html_inLeft += '<li><a href="" class="grey_a" onmouseover="showLeftZXPic(this)"  imgUrl="'+data[i].bigImgUrl+'">' + data[i].title + '</a><span><img src="' + data[i].imgUrl + '"/><s:property value="createTime"/></li>';
                 }
             }
             $("#leftInf").append(html_inLeft);
             if (len > 4 && len < 8) {
                 for (var i = 4; i < data.length; i++) {
-                    html_inRight += '<li><a href="" class="grey_a">' + data[i].title + '</a><span><img src="' + data[i].imgUrl + '"/><s:property value="createTime"/></li>';
+                    html_inRight += '<li><a href="" class="grey_a" onmouseover="showRightZXPic(this)" imgUrl="'+data[i].bigImgUrl+'">' + data[i].title + '</a><span><img src="' + data[i].imgUrl + '"/><s:property value="createTime"/></li>';
                 }
             } else if (len > 7) {
                 for (var i = 4; i < 8; i++) {
-                    html_inRight += '<li><a href="" class="grey_a">' + data[i].title + '</a><span><img src="' + data[i].imgUrl + '"/><s:property value="createTime"/></li>';
+                    html_inRight += '<li><a href="" class="grey_a" onmouseover="showRightZXPic(this)" imgUrl="'+data[i].bigImgUrl+'">' + data[i].title + '</a><span><img src="' + data[i].imgUrl + '"/><s:property value="createTime"/></li>';
                 }
             }
             $("#rightInf").append(html_inRight);

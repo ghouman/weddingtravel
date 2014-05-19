@@ -30,8 +30,8 @@ function selectTag(showContent,selfObj){
 		j.style.display = "none";
 	}
 	document.getElementById(showContent).style.display = "block";
-	
-	
+
+
 }
     </script>
 
@@ -153,17 +153,17 @@ function selectTag(showContent,selfObj){
 											scrollPic_03.scrollContId   = "tag_scroll0"; //内容容器ID
 											scrollPic_03.arrLeftId      = "btn_l0";//左箭头ID
 											scrollPic_03.arrRightId     = "btn_r0"; //右箭头ID
-											
+
 											scrollPic_03.frameWidth     = 700;//显示框宽度
 											scrollPic_03.pageWidth      = 175; //翻页宽度
-											
+
 											scrollPic_03.speed          = 10; //移动速度(单位毫秒，越小越快)
 											scrollPic_03.space          = 10; //每次移动像素(单位px，越大越快)
 											scrollPic_03.autoPlay       = true; //自动播放
 											scrollPic_03.autoPlayTime   = 3; //自动播放间隔时间(秒)
-											
+
 											scrollPic_03.initialize(); //初始化
-																		
+
 													//--><!]]>
                                         </script>
 
@@ -239,17 +239,17 @@ function selectTag(showContent,selfObj){
 											scrollPic_03.scrollContId   = "tag_scroll1"; //内容容器ID
 											scrollPic_03.arrLeftId      = "btn_l1";//左箭头ID
 											scrollPic_03.arrRightId     = "btn_r1"; //右箭头ID
-											
+
 											scrollPic_03.frameWidth     = 700;//显示框宽度
 											scrollPic_03.pageWidth      = 175; //翻页宽度
-											
+
 											scrollPic_03.speed          = 10; //移动速度(单位毫秒，越小越快)
 											scrollPic_03.space          = 10; //每次移动像素(单位px，越大越快)
 											scrollPic_03.autoPlay       = true; //自动播放
 											scrollPic_03.autoPlayTime   = 3; //自动播放间隔时间(秒)
-											
+
 											scrollPic_03.initialize(); //初始化
-																		
+
 													//--><!]]>
                                         </script>
 
@@ -325,17 +325,17 @@ function selectTag(showContent,selfObj){
 											scrollPic_03.scrollContId   = "tag_scroll2"; //内容容器ID
 											scrollPic_03.arrLeftId      = "btn_l2";//左箭头ID
 											scrollPic_03.arrRightId     = "btn_r2"; //右箭头ID
-											
+
 											scrollPic_03.frameWidth     = 700;//显示框宽度
 											scrollPic_03.pageWidth      = 175; //翻页宽度
-											
+
 											scrollPic_03.speed          = 10; //移动速度(单位毫秒，越小越快)
 											scrollPic_03.space          = 10; //每次移动像素(单位px，越大越快)
 											scrollPic_03.autoPlay       = true; //自动播放
 											scrollPic_03.autoPlayTime   = 3; //自动播放间隔时间(秒)
-											
+
 											scrollPic_03.initialize(); //初始化
-																		
+
 													//--><!]]>
                                         </script>
 
@@ -411,17 +411,17 @@ function selectTag(showContent,selfObj){
 											scrollPic_03.scrollContId   = "tag_scroll3"; //内容容器ID
 											scrollPic_03.arrLeftId      = "btn_l3";//左箭头ID
 											scrollPic_03.arrRightId     = "btn_r3"; //右箭头ID
-											
+
 											scrollPic_03.frameWidth     = 700;//显示框宽度
 											scrollPic_03.pageWidth      = 175; //翻页宽度
-											
+
 											scrollPic_03.speed          = 10; //移动速度(单位毫秒，越小越快)
 											scrollPic_03.space          = 10; //每次移动像素(单位px，越大越快)
 											scrollPic_03.autoPlay       = true; //自动播放
 											scrollPic_03.autoPlayTime   = 3; //自动播放间隔时间(秒)
-											
+
 											scrollPic_03.initialize(); //初始化
-																		
+
 													//--><!]]>
                                         </script>
 
@@ -497,17 +497,17 @@ function selectTag(showContent,selfObj){
 											scrollPic_03.scrollContId   = "tag_scroll4"; //内容容器ID
 											scrollPic_03.arrLeftId      = "btn_l4";//左箭头ID
 											scrollPic_03.arrRightId     = "btn_r4"; //右箭头ID
-											
+
 											scrollPic_03.frameWidth     = 700;//显示框宽度
 											scrollPic_03.pageWidth      = 175; //翻页宽度
-											
+
 											scrollPic_03.speed          = 10; //移动速度(单位毫秒，越小越快)
 											scrollPic_03.space          = 10; //每次移动像素(单位px，越大越快)
 											scrollPic_03.autoPlay       = true; //自动播放
 											scrollPic_03.autoPlayTime   = 3; //自动播放间隔时间(秒)
-											
+
 											scrollPic_03.initialize(); //初始化
-																		
+
 													//--><!]]>
                                         </script>
 
@@ -583,17 +583,17 @@ function selectTag(showContent,selfObj){
 											scrollPic_03.scrollContId   = "tag_scroll5"; //内容容器ID
 											scrollPic_03.arrLeftId      = "btn_l5";//左箭头ID
 											scrollPic_03.arrRightId     = "btn_r5"; //右箭头ID
-											
+
 											scrollPic_03.frameWidth     = 700;//显示框宽度
 											scrollPic_03.pageWidth      = 175; //翻页宽度
-											
+
 											scrollPic_03.speed          = 10; //移动速度(单位毫秒，越小越快)
 											scrollPic_03.space          = 10; //每次移动像素(单位px，越大越快)
 											scrollPic_03.autoPlay       = true; //自动播放
 											scrollPic_03.autoPlayTime   = 3; //自动播放间隔时间(秒)
-											
+
 											scrollPic_03.initialize(); //初始化
-																		
+
 													//--><!]]>
                                         </script>
 
@@ -680,17 +680,17 @@ function selectTag(showContent,selfObj){
 											scrollPic_03.scrollContId   = "area_scroll1"; //内容容器ID
 											scrollPic_03.arrLeftId      = "area_btn_l1";//左箭头ID
 											scrollPic_03.arrRightId     = "area_btn_r1"; //右箭头ID
-											
+
 											scrollPic_03.frameWidth     = 261;//显示框宽度
 											scrollPic_03.pageWidth      = 87; //翻页宽度
-											
+
 											scrollPic_03.speed          = 10; //移动速度(单位毫秒，越小越快)
 											scrollPic_03.space          = 10; //每次移动像素(单位px，越大越快)
 											scrollPic_03.autoPlay       = false; //自动播放
 											scrollPic_03.autoPlayTime   = 3; //自动播放间隔时间(秒)
-											
+
 											scrollPic_03.initialize(); //初始化
-																		
+
 													//--><!]]>
                             </script>
 
@@ -765,17 +765,17 @@ function selectTag(showContent,selfObj){
 											scrollPic_03.scrollContId   = "area_scroll2"; //内容容器ID
 											scrollPic_03.arrLeftId      = "area_btn_l2";//左箭头ID
 											scrollPic_03.arrRightId     = "area_btn_r2"; //右箭头ID
-											
+
 											scrollPic_03.frameWidth     = 261;//显示框宽度
 											scrollPic_03.pageWidth      = 87; //翻页宽度
-											
+
 											scrollPic_03.speed          = 10; //移动速度(单位毫秒，越小越快)
 											scrollPic_03.space          = 10; //每次移动像素(单位px，越大越快)
 											scrollPic_03.autoPlay       = false; //自动播放
 											scrollPic_03.autoPlayTime   = 3; //自动播放间隔时间(秒)
-											
+
 											scrollPic_03.initialize(); //初始化
-																		
+
 													//--><!]]>
                             </script>
 
@@ -850,17 +850,17 @@ function selectTag(showContent,selfObj){
 											scrollPic_03.scrollContId   = "area_scroll3"; //内容容器ID
 											scrollPic_03.arrLeftId      = "area_btn_l3";//左箭头ID
 											scrollPic_03.arrRightId     = "area_btn_r3"; //右箭头ID
-											
+
 											scrollPic_03.frameWidth     = 261;//显示框宽度
 											scrollPic_03.pageWidth      = 87; //翻页宽度
-											
+
 											scrollPic_03.speed          = 10; //移动速度(单位毫秒，越小越快)
 											scrollPic_03.space          = 10; //每次移动像素(单位px，越大越快)
 											scrollPic_03.autoPlay       = false; //自动播放
 											scrollPic_03.autoPlayTime   = 3; //自动播放间隔时间(秒)
-											
+
 											scrollPic_03.initialize(); //初始化
-																		
+
 													//--><!]]>
                             </script>
 
@@ -935,17 +935,17 @@ function selectTag(showContent,selfObj){
 											scrollPic_03.scrollContId   = "area_scroll4"; //内容容器ID
 											scrollPic_03.arrLeftId      = "area_btn_l4";//左箭头ID
 											scrollPic_03.arrRightId     = "area_btn_r4"; //右箭头ID
-											
+
 											scrollPic_03.frameWidth     = 261;//显示框宽度
 											scrollPic_03.pageWidth      = 87; //翻页宽度
-											
+
 											scrollPic_03.speed          = 10; //移动速度(单位毫秒，越小越快)
 											scrollPic_03.space          = 10; //每次移动像素(单位px，越大越快)
 											scrollPic_03.autoPlay       = false; //自动播放
 											scrollPic_03.autoPlayTime   = 3; //自动播放间隔时间(秒)
-											
+
 											scrollPic_03.initialize(); //初始化
-																		
+
 													//--><!]]>
                             </script>
 

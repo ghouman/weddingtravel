@@ -31,4 +31,7 @@ public class AreaDaoImpl {
     public List<IslandPackageBean> getIslandByPackageType(Integer packageType){
     	return areaMapper.selectIslandPackageByPackageId(packageType);
     }
+    public List<IslandBean> getCountryByAreaId(int areaId) {
+        return areaMapper.selectCountryByAreaId(areaId);
+    }
 }

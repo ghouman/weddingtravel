@@ -31,7 +31,7 @@
 
     <!-- 是否开启动态方法调用-->
 
-    <constant name="struts.enable.DynamicMethodInvocation" value="false"/>
+    <constant name="struts.enable.DynamicMethodInvocation" value="true"/>
 
     <package name="default" extends="struts-default">
         <action name="recommend" class="com.wt.action.RecommendAction">
