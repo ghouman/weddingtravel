@@ -51,6 +51,27 @@ public class AreaAction extends ActionSupport {
 
     }
 
+     //获取区域
+    public String ajaxGetArea() throws Exception {
+        response = ServletActionContext.getResponse();
+        List<AreaBean> areaList = areaService.getAreaListByAll();  //地区集合
+        JSONArray jsArr = JSONArray.fromObject(areaList);
+        String jsonStr = jsArr.toString();
+        try {
+            response.getWriter().println(jsonStr);
+            response.getWriter().flush();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                response.getWriter().close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        return "success";
+    }
+
     //获取区域的国家
     public void ajaxGetCountry() throws Exception {
         request =  ServletActionContext.getRequest();
