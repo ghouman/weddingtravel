@@ -3427,6 +3427,6 @@
 })(jQuery);
 (function () {
    jQuery.noConflict();
-   jQuery('#slideshow').skitter({ width: 980, height: 318, animation: 'random', structure: '<a href="#" class="prev_button">prev</a>' + '<a href="#" class="next_button">next</a>' + '<span class="info_slide"></span>' + '<div class="container_skitter">' + '<div class="image">' + '<a target="_blank" href="/"><img class="image_main" /></a>' + '<div class="label_skitter"></div>' + '</div>' + '</div>', velocity: 1.3, interval: 3500, thumb_width: '70px', thumb_height: '40px', caption: 'bottom', caption_width: '250', navigation: 1, fullscreen: false })
+   jQuery('#slideshow').skitter({ width: 980, height: 318, animation: 'random', structure: '<a href="#" class="prev_button">prev</a>' + '<a href="#" class="next_button">next</a>' + '<span class="info_slide"></span>' + '<div class="container_skitter">' + '<div class="image">' + '<a target="_blank" href="/"><img class="image_main" /></a>' + '<div class="label_skitter"></div>' + '</div>' + '</div>', velocity: 1.3, interval: 3500, thumb_width: '70px', thumb_height: '40px', caption: 'bottom', caption_width: '250', navigation: 1, fullscreen: false,numbers: false })
 })();
 

@@ -93,33 +93,6 @@
 	<lib name="struts2-json-plugin-2.2.3.jar" scope="COMPILE">
 		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/struts2-json-plugin-2.2.3.jar!/"/>
 	</lib>
-	<lib name="spring-security-acl-3.0.5.RELEASE.jar" scope="COMPILE">
-		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-security-acl-3.0.5.RELEASE.jar!/"/>
-	</lib>
-	<lib name="spring-security-aspects-3.0.5.RELEASE.jar" scope="COMPILE">
-		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-security-aspects-3.0.5.RELEASE.jar!/"/>
-	</lib>
-	<lib name="spring-security-cas-client-3.0.5.RELEASE.jar" scope="COMPILE">
-		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-security-cas-client-3.0.5.RELEASE.jar!/"/>
-	</lib>
-	<lib name="spring-security-config-3.0.5.RELEASE.jar" scope="COMPILE">
-		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-security-config-3.0.5.RELEASE.jar!/"/>
-	</lib>
-	<lib name="spring-security-core-3.0.5.RELEASE.jar" scope="COMPILE">
-		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-security-core-3.0.5.RELEASE.jar!/"/>
-	</lib>
-	<lib name="spring-security-ldap-3.0.5.RELEASE.jar" scope="COMPILE">
-		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-security-ldap-3.0.5.RELEASE.jar!/"/>
-	</lib>
-	<lib name="spring-security-openid-3.0.5.RELEASE.jar" scope="COMPILE">
-		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-security-openid-3.0.5.RELEASE.jar!/"/>
-	</lib>
-	<lib name="spring-security-taglibs-3.0.5.RELEASE.jar" scope="COMPILE">
-		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-security-taglibs-3.0.5.RELEASE.jar!/"/>
-	</lib>
-	<lib name="spring-security-web-3.0.5.RELEASE.jar" scope="COMPILE">
-		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-security-web-3.0.5.RELEASE.jar!/"/>
-	</lib>
 	<lib name="commons-beanutils-1.7.0.jar" scope="COMPILE">
 		<relative-module-cls project-related="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/commons-beanutils-1.7.0.jar!/"/>
 	</lib>

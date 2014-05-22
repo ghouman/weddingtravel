@@ -19,6 +19,7 @@
     <script src="js/page/common.js"></script>
     <script src="js/page/head.js"></script>
     <script src="js/popup-main.js"></script>
+
 </head>
 <body>
 <div class="header">
@@ -68,30 +69,7 @@
         <div class="wrapper">
             <div id="slideshow" class="box_skitter fn-clear">
                 <ul>
-                    <li>
-                        <input type="hidden" name="re_title" value="巴厘岛">
-                        <input type="hidden" name="re_date" value="2014/6">
-                        <input type="hidden" name="re_price" value="20000">
-                        <input type="hidden" name="re_desc" value="2014年6月巴厘岛11">
-                        <a onclick="showTip(this)" href="#"><img onclick="showTip(this)" alt="01" class="cubeRandom"
-                                                                 src="images/index_side1.jpg"/></a>
-                    </li>
-                    <li>
-                        <input type="hidden" name="re_title" value="巴厘岛22">
-                        <input type="hidden" name="re_date" value="2014/6">
-                        <input type="hidden" name="re_price" value="20000">
-                        <input type="hidden" name="re_desc" value="2014年6月巴厘岛22">
-                        <a onclick="showTip(this)" href="#"><img onclick="showTip(this)" alt="02" class="cubeRandom"
-                                                                 src="images/index_side2.jpg"/></a>
-                    </li>
-                    <li>
-                        <input type="hidden" name="re_title" value="巴厘岛33">
-                        <input type="hidden" name="re_date" value="2014/6">
-                        <input type="hidden" name="re_price" value="20000">
-                        <input type="hidden" name="re_desc" value="2014年6月巴厘岛33">
-                        <a onclick="showTip(this)" href="#"><img onclick="showTip(this)" alt="03" class="cubeRandom"
-                                                                 src="images/index_side3.jpg"/></a>
-                    </li>
+
                 </ul>
             </div>
         </div>
@@ -241,44 +219,7 @@
 <script type="text/javascript" src="js/common/jquery.skitter.js"></script>
 <script type="text/javascript">
     $(function () {
-        menuFix();
-        jQuery.noConflict();
-        jQuery('#slideshow').skitter({ width: 980, height: 318, animation: 'random', structure: '<a href="#" class="prev_button">prev</a>' + '<a href="#" class="next_button">next</a>' + '<span class="info_slide" style="display: none"></span>' + '<div class="container_skitter">' + '<div class="image">' + '<a target="_blank" href="/"><img class="image_main" /></a>' + '<div class="label_skitter"></div>' + '</div>' + '</div>', velocity: 1.3, interval: 3500, thumb_width: '70px', thumb_height: '40px', caption: 'bottom', caption_width: '250', navigation: 1, fullscreen: false,
-            imageSwitched: function (image_i, self) {
-                initNewHot(image_i);
-            }
-        });
-        initNewHot(0);
+        initRecommendPic();
     });
-    function initNewHot(i){
-        var obj = $("#slideshow");
-        var retitle = obj.find('input[name="re_title"]')[i].value;
-        var redate = obj.find('input[name="re_date"]')[i].value;
-        var reprice = obj.find('input[name="re_price"]')[i].value;
-        var redesc = obj.find('input[name="re_desc"]')[i].value;
-        var hotHtml = '<div class="hot_con"><h1>'+retitle+'<span>'+redate+'</span></h1><h2>'+redesc+'</h2><div class="price1">￥<span>'+reprice+'</span></div><div class="price2">起/人</div></div>'
-        //$(".new_hot").slideUp();
-        $(".new_hot").empty();
-        $(".new_hot").append(hotHtml);
-        //$(".new_hot").slideDown();
-    }
-    function menuFix() {
-        var sfEls = document.getElementById("nav").getElementsByTagName("li");
-        for (var i = 0; i < sfEls.length; i++) {
-            sfEls[i].onmouseover = function () {
-                this.className += (this.className.length > 0 ? " " : "") + "sfhover";
-            }
-            sfEls[i].onMouseDown = function () {
-                this.className += (this.className.length > 0 ? " " : "") + "sfhover";
-            }
-            sfEls[i].onMouseUp = function () {
-                this.className += (this.className.length > 0 ? " " : "") + "sfhover";
-            }
-            sfEls[i].onmouseout = function () {
-                this.className = this.className.replace(new RegExp("( ?|^)sfhover\\b"),
 
-                        "");
-            }
-        }
-    }
 </script>

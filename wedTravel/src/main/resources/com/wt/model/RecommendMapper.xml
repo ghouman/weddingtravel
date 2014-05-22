@@ -7,7 +7,6 @@
         <result column="module_recommend_desc" property="modulerecommend_desc" jdbcType="VARCHAR"/>
         <result column="title" property="title" jdbcType="VARCHAR"/>
         <result column="content" property="content" jdbcType="VARCHAR"/>
-        <result column="recommend_desc" property="recommend_desc" jdbcType="VARCHAR"/>
         <result column="img_url" property="imgUrl" jdbcType="VARCHAR"/>
         <result column="link_url" property="linkUrl" jdbcType="VARCHAR"/>
         <result column="price" property="price" jdbcType="VARCHAR"/>
@@ -30,6 +29,7 @@
         <result column="type_name" property="typeName" jdbcType="VARCHAR"/>
         <result column="view_link" property="viewLink" jdbcType="VARCHAR"/>
         <result column="recommend_index" property="recommendIndex" jdbcType="INTEGER"/>
+        <result column="recommend_desc" property="recommendDesc" jdbcType="VARCHAR"/>
     </resultMap>
     <sql id="Base_Column_List">
     id, module_id, module_recommend_desc, title, content,  img_url, link_url, price, tel,
@@ -48,7 +48,7 @@
         id, module_id,  title, content,  img_url, link_url, price, tel,
             area_id, area_name, island_id, island_name,  valid, big_img_url, small_img_url,
             link_obligate, price_big, price_small,  FROM_UNIXTIME(create_time, '%Y%m$%d') as create_time, create_person, upd_time, upd_person,
-            type_id, type_name, view_link, recommend_index
+            type_id, type_name, view_link, recommend_index,recommend_desc
         from recommend
         where module_id = #{moduleId,jdbcType=INTEGER} and valid=1 order by recommend_index  limit 0,8
         </select>

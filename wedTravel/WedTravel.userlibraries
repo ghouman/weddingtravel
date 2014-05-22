@@ -50,6 +50,7 @@
     <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/commons.io_2.0.1.jar" />
     <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/jstl.jar" />
     <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/standard.jar" />
+    <archive path="D:/git/weddingtravel/wedTravel/WebRoot/WEB-INF/lib/javax.mail.jar" />
   </library>
   <library name="jee">
     <archive path="D:/ORACLE/Middleware/javaee.jar" />
